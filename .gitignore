@@ -3,6 +3,7 @@ __pycache__/
 *.pyc
 .ipynb_checkpoints/
 outputs/
-data/raw/
+data/raw/*
+!data/raw/seed_urls.txt
 data/processed/
 .DS_Store
