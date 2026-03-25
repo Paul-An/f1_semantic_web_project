@@ -1,0 +1,12 @@
+KB Statistics
+=============
+Total triples     : 42219
+Unique entities   : 7642
+Unique predicates : 24
+Unique objects    : 8125
+
+Sources
+-------
+Initial graph     : 2441 triples
+Alignment         : 949 triples
+Wikidata expansion: 38829 triples

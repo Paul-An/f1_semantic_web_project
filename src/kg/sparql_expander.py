@@ -26,6 +26,16 @@ ALLOWED_PREDICATES = {
     "http://www.wikidata.org/prop/direct/P582",  # end time
     "http://www.wikidata.org/prop/direct/P159",  # headquarters location
     "http://www.wikidata.org/prop/direct/P571",  # inception
+    "http://www.wikidata.org/prop/direct/P276",  # location
+    "http://www.wikidata.org/prop/direct/P641",  # sport
+    # ajouts pour les Grand Prix
+    "http://www.wikidata.org/prop/direct/P585",  # point in time
+    "http://www.wikidata.org/prop/direct/P625",  # coordinate location
+    "http://www.wikidata.org/prop/direct/P710",  # participant
+    "http://www.wikidata.org/prop/direct/P1448", # official name
+    "http://www.wikidata.org/prop/direct/P2283", # uses
+    "http://www.wikidata.org/prop/direct/P3157", # number of laps
+    "http://www.wikidata.org/prop/direct/P3450", # sports discipline competed in
 }
 
 
@@ -87,8 +97,8 @@ def expand_f1_season(season_year: str, limit: int = 1000) -> list[tuple]:
     """
     query = f"""
     SELECT ?race ?p ?o WHERE {{
-      ?race wdt:P31 wd:Q941966 .
-      ?race wdt:P585 ?date .
+      ?race wdt:P31 wd:Q9102 .
+      ?race wdt:P580 ?date .
       FILTER(YEAR(?date) = {season_year})
       ?race ?p ?o .
       FILTER(STRSTARTS(STR(?p), "http://www.wikidata.org/prop/direct/"))
@@ -142,18 +152,48 @@ def triples_to_rdf_graph(raw_triples: list[tuple]) -> Graph:
     return graph
 
 
+def expand_by_team(team_qid: str, limit: int = 500) -> list[tuple]:
+    """
+    Expansion 2-hop : récupère tous les drivers d'une équipe
+    et leurs propriétés.
+    """
+    query = f"""
+    SELECT ?s ?p ?o WHERE {{
+      ?s wdt:P54 wd:{team_qid} .
+      ?s ?p ?o .
+      FILTER(STRSTARTS(STR(?p), "http://www.wikidata.org/prop/direct/"))
+    }}
+    LIMIT {limit}
+    """
+
+    bindings = _run_sparql(query)
+    triples = []
+
+    for row in bindings:
+        subj     = row.get("s", {}).get("value", "")
+        pred     = row.get("p", {}).get("value", "")
+        obj_info = row.get("o", {})
+        obj_val  = obj_info.get("value", "")
+        obj_type = obj_info.get("type", "")
+
+        if not subj or pred not in ALLOWED_PREDICATES:
+            continue
+
+        if obj_type == "uri":
+            triples.append((subj, pred, ("uri", obj_val)))
+        elif obj_type == "literal":
+            lang     = obj_info.get("xml:lang")
+            datatype = obj_info.get("datatype")
+            triples.append((subj, pred, ("literal", obj_val, lang, datatype)))
+
+    return triples
+
 def expand_all(
     qids: list[str],
-    season_years: list[str] | None = None,
+    team_qids: list[str] | None = None,
     one_hop_limit: int = 200,
-    season_limit: int = 1000,
     delay: float = 1.0,
 ) -> Graph:
-    """
-    Pipeline d'expansion complet :
-    1. Expansion 1-hop pour chaque QID aligné
-    2. Expansion par saison F1
-    """
     merged = Graph()
 
     print(f"[sparql_expander] Expansion 1-hop pour {len(qids)} entités...")
@@ -161,15 +201,15 @@ def expand_all(
         raw = expand_one_hop(qid, limit=one_hop_limit)
         merged += triples_to_rdf_graph(raw)
         if (i + 1) % 50 == 0:
-            print(f"  {i+1}/{len(qids)} entités traitées — {len(merged)} triples")
+            print(f"  {i+1}/{len(qids)} entités — {len(merged)} triples")
         time.sleep(delay)
 
-    if season_years:
-        print(f"\n[sparql_expander] Expansion par saison: {season_years}")
-        for year in season_years:
-            raw = expand_f1_season(year, limit=season_limit)
+    if team_qids:
+        print(f"\n[sparql_expander] Expansion 2-hop par équipe...")
+        for qid in team_qids:
+            raw = expand_by_team(qid, limit=500)
             merged += triples_to_rdf_graph(raw)
-            print(f"  Saison {year} → {len(raw)} triples (total: {len(merged)})")
+            print(f"  {qid} → {len(raw)} triples (total: {len(merged)})")
             time.sleep(delay)
 
     print(f"\n[sparql_expander] Terminé. Total: {len(merged)} triples")

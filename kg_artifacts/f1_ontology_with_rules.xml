@@ -1,0 +1,4633 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xml:base="http://example.org/f1/ontology/"
+         xmlns:swrl="http://www.w3.org/2003/11/swrl#"
+         xmlns="http://example.org/f1/ontology/">
+
+<owl:Ontology rdf:about="http://example.org/f1/ontology">
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Formula 1 Knowledge Graph Ontology</rdfs:label>
+</owl:Ontology>
+
+<owl:ObjectProperty rdf:about="isPartOfSeason">
+  <rdfs:domain rdf:resource="GrandPrix"/>
+  <rdfs:range rdf:resource="Season"/>
+  <owl:equivalentProperty rdf:resource="http://www.wikidata.org/prop/direct/P361"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">is part of season</rdfs:label>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="wonConstructorsChampionshipIn">
+  <rdfs:domain rdf:resource="Team"/>
+  <rdfs:range rdf:resource="Season"/>
+  <owl:equivalentProperty rdf:resource="http://www.wikidata.org/prop/direct/P2522"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">won Constructors Championship in</rdfs:label>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="wonGrandPrix">
+  <rdfs:domain rdf:resource="Driver"/>
+  <rdfs:range rdf:resource="GrandPrix"/>
+  <owl:equivalentProperty rdf:resource="http://www.wikidata.org/prop/direct/P1346"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">won Grand Prix</rdfs:label>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="competedInSeason">
+  <rdfs:domain rdf:resource="Driver"/>
+  <rdfs:range rdf:resource="Season"/>
+</owl:ObjectProperty>
+
+<owl:DatatypeProperty rdf:about="alignmentConfidence">
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alignment confidence</rdfs:label>
+</owl:DatatypeProperty>
+
+<owl:Class rdf:about="Driver">
+  <owl:equivalentClass rdf:resource="http://www.wikidata.org/entity/Q10843402"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Driver</rdfs:label>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Formula 1 racing driver.</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="GrandPrix">
+  <owl:equivalentClass rdf:resource="http://www.wikidata.org/entity/Q9102"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Grand Prix</rdfs:label>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Formula 1 Grand Prix race event.</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="TeamOrOrganization">
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Team or Organization</rdfs:label>
+</owl:Class>
+
+<owl:Class rdf:about="Season">
+  <owl:equivalentClass rdf:resource="http://www.wikidata.org/entity/Q1539532"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Season</rdfs:label>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Formula 1 championship season.</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="Team">
+  <rdfs:subClassOf rdf:resource="TeamOrOrganization"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Team</rdfs:label>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Formula 1 constructor / team.</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="CountryOrPlace">
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Country or Place</rdfs:label>
+</owl:Class>
+
+<owl:NamedIndividual rdf:about="Lewis_Hamilton">
+  <rdf:type rdf:resource="Driver"/>
+  <wonGrandPrix rdf:resource="British_Grand_Prix_2024"/>
+  <competedInSeason rdf:resource="2024"/>
+  <wonGrandPrix rdf:resource="Malaysian_Grand_Prix"/>
+  <wonGrandPrix rdf:resource="Japanese_Grand_Prix"/>
+  <wonGrandPrix rdf:resource="Abu_Dhabi_Grand_Prix"/>
+  <competedInSeason rdf:resource="2017"/>
+  <competedInSeason rdf:resource="2018"/>
+  <competedInSeason rdf:resource="2022"/>
+  <competedInSeason rdf:resource="2023"/>
+  <competedInSeason rdf:resource="2016"/>
+  <competedInSeason rdf:resource="2025"/>
+  <competedInSeason rdf:resource="2009"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Max_Verstappen">
+  <rdf:type rdf:resource="Driver"/>
+  <wonGrandPrix rdf:resource="Belgian_Grand_Prix"/>
+  <wonGrandPrix rdf:resource="Spanish_Grand_Prix"/>
+  <wonGrandPrix rdf:resource="Abu_Dhabi_Grand_Prix"/>
+  <competedInSeason rdf:resource="2007"/>
+  <competedInSeason rdf:resource="2010"/>
+  <competedInSeason rdf:resource="1968"/>
+  <competedInSeason rdf:resource="1974"/>
+  <competedInSeason rdf:resource="2023"/>
+  <competedInSeason rdf:resource="1997"/>
+  <competedInSeason rdf:resource="1998"/>
+  <competedInSeason rdf:resource="2021"/>
+  <competedInSeason rdf:resource="2024"/>
+  <competedInSeason rdf:resource="1963"/>
+  <competedInSeason rdf:resource="2003"/>
+  <competedInSeason rdf:resource="1961"/>
+  <competedInSeason rdf:resource="1950"/>
+  <competedInSeason rdf:resource="2016"/>
+  <competedInSeason rdf:resource="2019"/>
+  <competedInSeason rdf:resource="2022"/>
+  <competedInSeason rdf:resource="2025"/>
+  <competedInSeason rdf:resource="2017"/>
+  <competedInSeason rdf:resource="2009"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Charles_Leclerc">
+  <rdf:type rdf:resource="Driver"/>
+  <wonGrandPrix rdf:resource="Monaco_Grand_Prix_2024"/>
+  <competedInSeason rdf:resource="2024"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Monaco_Grand_Prix_2024">
+  <rdf:type rdf:resource="GrandPrix"/>
+  <isPartOfSeason rdf:resource="2024"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="British_Grand_Prix_2024">
+  <rdf:type rdf:resource="GrandPrix"/>
+  <isPartOfSeason rdf:resource="2024"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="2024">
+  <rdf:type rdf:resource="Season"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="2023">
+  <rdf:type rdf:resource="Season"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Eifel_Grand_Prix">
+  <rdf:type rdf:resource="GrandPrix"/>
+  <isPartOfSeason rdf:resource="2020"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="2020">
+  <rdf:type rdf:resource="Season"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Denny_Hulme_Mike_Hailwood">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Audi_Sport_ABT_Schaeffler">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Frederik_Vesti_-_Junior_Drivers">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="David_Coulthard">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Sao_Paulo">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Portuguese_Grand_Prix">
+  <rdf:type rdf:resource="GrandPrix"/>
+  <isPartOfSeason rdf:resource="2021"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Caesars_Palace_Grand_Prix">
+  <rdf:type rdf:resource="GrandPrix"/>
+  <isPartOfSeason rdf:resource="1982"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Derek_Bell">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Juan_Pablo_Montoya">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Max_Verstappen_Official_Site">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Duell_von_Max_Verstappen">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Read_Motorsport">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Miguel_Molina">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Lewis_Hamilton_Handed_Special_Award">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Motor_Sport_Magazine">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Hamilton_Verstappen">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Alfa_Corse">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Eraldo_Sculati">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Race_Highlights">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Vitantonio_Liuzzi">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="1988">
+  <rdf:type rdf:resource="Season"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="1931">
+  <rdf:type rdf:resource="Season"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="James_Baldwin">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Formule_Renault">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Stefano_Domenicali">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Mario_Kart">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Michael_Schumacher22">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="1975">
+  <rdf:type rdf:resource="Season"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Alberto_Massimino">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Nico_Rosberg">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Franz_Tost_">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="F1_Briefings">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Sifan_Hassan">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Stefan_Johansson">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Max_Emilian_Verstappen">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Opmeer_Dani">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="McLaren_Automotive">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Giorgio_Pantano">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Hungarian_Grand_Prix">
+  <rdf:type rdf:resource="GrandPrix"/>
+  <isPartOfSeason rdf:resource="2020"/>
+  <isPartOfSeason rdf:resource="2007"/>
+  <isPartOfSeason rdf:resource="2015"/>
+  <isPartOfSeason rdf:resource="2023"/>
+  <isPartOfSeason rdf:resource="2019"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="1951">
+  <rdf:type rdf:resource="Season"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="1991">
+  <rdf:type rdf:resource="Season"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Abu_Dhabi_Grand_Prix_Vuse">
+  <rdf:type rdf:resource="GrandPrix"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Formula_E_McLaren">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Autosport_Awards">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Pierre_Levegh">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="1952">
+  <rdf:type rdf:resource="Season"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Daniel_Serra">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Max_Mini_Max">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Richard_Mille">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Antonio_Brivio">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Giuseppe_Campari">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Alberto_Ascari">
+  <rdf:type rdf:resource="Driver"/>
+  <wonGrandPrix rdf:resource="Grand_Prix"/>
+  <competedInSeason rdf:resource="1952"/>
+  <competedInSeason rdf:resource="2006"/>
+  <competedInSeason rdf:resource="1988"/>
+  <competedInSeason rdf:resource="1968"/>
+  <competedInSeason rdf:resource="2019"/>
+  <competedInSeason rdf:resource="1931"/>
+  <competedInSeason rdf:resource="2024"/>
+  <competedInSeason rdf:resource="2022"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Austrian_Grand_Prix148">
+  <rdf:type rdf:resource="GrandPrix"/>
+  <isPartOfSeason rdf:resource="2022"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Mark_Temple">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Alan_Jones">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="F1_Fanatic">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Leigh_Diffey">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="James_Allen">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Guild_Publishing">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Australian_Grand_Prix_Information">
+  <rdf:type rdf:resource="GrandPrix"/>
+  <isPartOfSeason rdf:resource="2024"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Joseph_Harker">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Michael_Schumacher532_Notes">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Nicole_Scherzinger">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Mini_Max_class14">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="US_Grand_Prix">
+  <rdf:type rdf:resource="GrandPrix"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="British_Grand_Prix">
+  <rdf:type rdf:resource="GrandPrix"/>
+  <isPartOfSeason rdf:resource="1970"/>
+  <isPartOfSeason rdf:resource="2014"/>
+  <isPartOfSeason rdf:resource="2026"/>
+  <isPartOfSeason rdf:resource="2021"/>
+  <isPartOfSeason rdf:resource="2024"/>
+  <isPartOfSeason rdf:resource="2022"/>
+  <isPartOfSeason rdf:resource="1950"/>
+  <isPartOfSeason rdf:resource="2008"/>
+  <isPartOfSeason rdf:resource="1954"/>
+  <isPartOfSeason rdf:resource="2023"/>
+  <isPartOfSeason rdf:resource="2019"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="John_Watson_Patrick_Tambay">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Michael_Masi">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="1974">
+  <rdf:type rdf:resource="Season"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Chris_Lulham">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="2002">
+  <rdf:type rdf:resource="Season"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Yardley_London">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="BBC_Panorama">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="1972">
+  <rdf:type rdf:resource="Season"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Matt_Dickinson">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="The_Grand_Prix_Cars">
+  <rdf:type rdf:resource="GrandPrix"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Team_X44">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Rob_Burrow">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Andrea_Margutti_Trophy_-_OKJclarification">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Dominant_Dennis">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Canadian_Grand_Prix">
+  <rdf:type rdf:resource="GrandPrix"/>
+  <isPartOfSeason rdf:resource="2018"/>
+  <isPartOfSeason rdf:resource="2010"/>
+  <isPartOfSeason rdf:resource="2023"/>
+  <isPartOfSeason rdf:resource="2019"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Gianmaria_Bruni">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="McLaren_Racing_-_2023">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Milton_Keynes">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Karl_Kling">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Valtteri_Bottas">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="De_Vries">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Ali_G">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="1976">
+  <rdf:type rdf:resource="Season"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Sainz_Jr">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="2001">
+  <rdf:type rdf:resource="Season"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Monaco_Grand_Prix_Qualifying_Recap">
+  <rdf:type rdf:resource="GrandPrix"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Carlos_Sainz_Jr">
+  <rdf:type rdf:resource="Driver"/>
+  <wonGrandPrix rdf:resource="Dutch_Grand_Prix"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="1938">
+  <rdf:type rdf:resource="Season"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Formula_1_Qatar_Airways_Austrian_Grand_Prix_2024">
+  <rdf:type rdf:resource="GrandPrix"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Monaco_Grand_Prix_Entry_List">
+  <rdf:type rdf:resource="GrandPrix"/>
+  <isPartOfSeason rdf:resource="2023"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Mike_Coughlan">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Steve_Matchett">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Verstappen_Info_Page">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Comic_Relief402">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="John_Watson_Niki_Lauda">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="McLaren_MP44">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="F1_Turkish_Grand_Prix_Drive">
+  <rdf:type rdf:resource="GrandPrix"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Kaspersky_Lab">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Will_Buxton">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="1964">
+  <rdf:type rdf:resource="Season"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="McLaren_Formula_E_Team">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Bahrain_Grand_Prix_Lewis_Hamilton">
+  <rdf:type rdf:resource="GrandPrix"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Valtteri_Bottas157_Verstappen">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="1933">
+  <rdf:type rdf:resource="Season"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Grand_Prix157168">
+  <rdf:type rdf:resource="GrandPrix"/>
+  <isPartOfSeason rdf:resource="2026"/>
+  <isPartOfSeason rdf:resource="1957"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Williams_Racing">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Toto_Wolff">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="British_Grand_Prix_victory160161">
+  <rdf:type rdf:resource="GrandPrix"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Michael_Schumacher">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Jack_Doohan">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Chinese_Grand_Prix_Race_Highlights">
+  <rdf:type rdf:resource="GrandPrix"/>
+  <isPartOfSeason rdf:resource="2018"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Helmut_Marko">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Jim_Hall">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Brendon_Leigh_Patryk_Krutyi">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Hawthorn_Trophy">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="1958">
+  <rdf:type rdf:resource="Season"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Mercedes">
+  <rdf:type rdf:resource="Team"/>
+  <wonConstructorsChampionshipIn rdf:resource="2009"/>
+  <wonConstructorsChampionshipIn rdf:resource="1959"/>
+  <wonConstructorsChampionshipIn rdf:resource="2020"/>
+  <wonConstructorsChampionshipIn rdf:resource="2021"/>
+  <wonConstructorsChampionshipIn rdf:resource="1934"/>
+  <wonConstructorsChampionshipIn rdf:resource="2022"/>
+  <wonConstructorsChampionshipIn rdf:resource="2016"/>
+  <wonConstructorsChampionshipIn rdf:resource="1958"/>
+  <wonConstructorsChampionshipIn rdf:resource="1955"/>
+  <wonConstructorsChampionshipIn rdf:resource="1983"/>
+  <wonConstructorsChampionshipIn rdf:resource="1995"/>
+  <wonConstructorsChampionshipIn rdf:resource="1962"/>
+  <wonConstructorsChampionshipIn rdf:resource="2015"/>
+  <wonConstructorsChampionshipIn rdf:resource="2025"/>
+  <wonConstructorsChampionshipIn rdf:resource="2019"/>
+  <wonConstructorsChampionshipIn rdf:resource="1981"/>
+  <wonConstructorsChampionshipIn rdf:resource="2023"/>
+  <wonConstructorsChampionshipIn rdf:resource="2017"/>
+  <wonConstructorsChampionshipIn rdf:resource="2014"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Marc_Marquez">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Singapore_Grand_Prix">
+  <rdf:type rdf:resource="GrandPrix"/>
+  <isPartOfSeason rdf:resource="2018"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Teammate_Ricciardo">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Emily_McNally">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Adrian_Newey">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Giles_Richards">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Richie_Ginther">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Kimberley_Grand_Prix_Data">
+  <rdf:type rdf:resource="GrandPrix"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Peter_Gethin_Jackie_Oliver">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Jackie_Oliver">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Daniel_Juncadella">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="George_Kurtz">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Stephen_South">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="1977">
+  <rdf:type rdf:resource="Season"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Laureus_Sport">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="McLaren39_Hulme">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Miami_Grand_Prix_onwards5859_Other">
+  <rdf:type rdf:resource="GrandPrix"/>
+  <isPartOfSeason rdf:resource="2021"/>
+  <isPartOfSeason rdf:resource="2024"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Andretti_Autosport">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="2018">
+  <rdf:type rdf:resource="Season"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="James_Key">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="McLaren_United">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Loic_Serra">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Victoria_Jane_Verstappen">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Mark_Blundell">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="McLaren_F1">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Rode_Duivel">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Saudi_Arabian_Grand_Prix">
+  <rdf:type rdf:resource="GrandPrix"/>
+  <isPartOfSeason rdf:resource="2023"/>
+  <isPartOfSeason rdf:resource="2021"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Michael_Schumacher_Nico_Rosberg">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="1994">
+  <rdf:type rdf:resource="Season"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Henry_1999">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="1969">
+  <rdf:type rdf:resource="Season"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Quick_Guide">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Stirling_Moss">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Ross_Brawn">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Reg_Parnell">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Petronas_Formula">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Martin_Brundle">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Honorary_Fellows">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="F1_Racing">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Collantine_Publishing">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Daniel_Bereznay_Istvan_Puki_Jake_Benham">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Emilia-Romagna_Grand_Prix">
+  <rdf:type rdf:resource="GrandPrix"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Neil_Houldey">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Monte_Carlo">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Formula_3_Grand_Prix_Circuto_de_Guia">
+  <rdf:type rdf:resource="GrandPrix"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Niki_Lauda">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Yuanpu_Cui">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Liam_Lawson">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Breonna_Taylor">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Vauxhall_Cavalier">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Mexico_City_Grand_Prix">
+  <rdf:type rdf:resource="GrandPrix"/>
+  <isPartOfSeason rdf:resource="2023"/>
+  <isPartOfSeason rdf:resource="2021"/>
+  <isPartOfSeason rdf:resource="2022"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Virgin_Media">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Austrian_Grand_Prix">
+  <rdf:type rdf:resource="GrandPrix"/>
+  <isPartOfSeason rdf:resource="2019"/>
+  <isPartOfSeason rdf:resource="2023"/>
+  <isPartOfSeason rdf:resource="2017"/>
+  <isPartOfSeason rdf:resource="2024"/>
+  <isPartOfSeason rdf:resource="2022"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Team_Redline">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Williams_F1">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Pex_Racing">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Antonio_Giovinazzi">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Sara_Moonves">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="1970">
+  <rdf:type rdf:resource="Season"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Denny_Hulme_Bruce_McLaren">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Sao_Paulo_Grand_Prix">
+  <rdf:type rdf:resource="GrandPrix"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Michael_Andretti_Mika">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="John_Watson_Alain">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Tyre_Press">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Daniel_Berezmay">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Gerald_Donaldson">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Alexander_Albon">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Wolfgang_von_Trips">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Fox_Sport">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="George_Follmer">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Alexander_Rossi">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="F1_Canadian_Grand_Prix">
+  <rdf:type rdf:resource="GrandPrix"/>
+  <isPartOfSeason rdf:resource="2019"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Mini_Max">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Giancarlo_Baghetti">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="1996">
+  <rdf:type rdf:resource="Season"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Grand_Prix">
+  <rdf:type rdf:resource="GrandPrix"/>
+  <isPartOfSeason rdf:resource="1952"/>
+  <isPartOfSeason rdf:resource="2006"/>
+  <isPartOfSeason rdf:resource="1988"/>
+  <isPartOfSeason rdf:resource="1968"/>
+  <isPartOfSeason rdf:resource="2019"/>
+  <isPartOfSeason rdf:resource="1931"/>
+  <isPartOfSeason rdf:resource="2024"/>
+  <isPartOfSeason rdf:resource="2022"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Agencia_Cubana_de_Noticias">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Peter_Revson_Jody_Scheckter">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Joe_Saward">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="McLaren_Cars">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Kaia_Gerber">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Cristina_Gutierrez">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Martin_Whitmarsh">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Visa_Cash_App_RB_Formula">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Verstappen_Racing">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="European_Grand_Prix">
+  <rdf:type rdf:resource="GrandPrix"/>
+  <isPartOfSeason rdf:resource="2003"/>
+  <isPartOfSeason rdf:resource="2010"/>
+  <isPartOfSeason rdf:resource="1997"/>
+  <isPartOfSeason rdf:resource="1998"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Austrian_Grand_Prix_Entry">
+  <rdf:type rdf:resource="GrandPrix"/>
+  <isPartOfSeason rdf:resource="1970"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Liam_Lawson52">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="WGSBN_Bulletin">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Stoffel_Vandoorne">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Azerbaijan_Grand_Prix">
+  <rdf:type rdf:resource="GrandPrix"/>
+  <isPartOfSeason rdf:resource="2019"/>
+  <isPartOfSeason rdf:resource="2017"/>
+  <isPartOfSeason rdf:resource="2018"/>
+  <isPartOfSeason rdf:resource="2021"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="1937">
+  <rdf:type rdf:resource="Season"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="McLaren_M23">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Nigel_Mansell">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Christian_Aid">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Eddie_Jordan">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="F1_Chronicle">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Ed_Hardy">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Bruno_Senna">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Lewis_Hamilton_Named">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Grand_Prix_Motor">
+  <rdf:type rdf:resource="GrandPrix"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="1971">
+  <rdf:type rdf:resource="Season"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Eifel_Grand_Prix_2020">
+  <rdf:type rdf:resource="GrandPrix"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Kelly_Piquet">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Scuderia_Toro_Rosso">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Sacha_Fenestraz">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Lewis_Hamilton_Lewis_Hamilton">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Jolyon_Palmer">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Chris_Amon">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Charles_Leclerc171_Hamilton">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="1983">
+  <rdf:type rdf:resource="Season"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="James_Galloway">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Ferrari">
+  <rdf:type rdf:resource="Team"/>
+  <wonConstructorsChampionshipIn rdf:resource="1982"/>
+  <wonConstructorsChampionshipIn rdf:resource="2014"/>
+  <wonConstructorsChampionshipIn rdf:resource="2026"/>
+  <wonConstructorsChampionshipIn rdf:resource="2018"/>
+  <wonConstructorsChampionshipIn rdf:resource="2020"/>
+  <wonConstructorsChampionshipIn rdf:resource="2021"/>
+  <wonConstructorsChampionshipIn rdf:resource="2012"/>
+  <wonConstructorsChampionshipIn rdf:resource="1979"/>
+  <wonConstructorsChampionshipIn rdf:resource="1961"/>
+  <wonConstructorsChampionshipIn rdf:resource="1973"/>
+  <wonConstructorsChampionshipIn rdf:resource="2022"/>
+  <wonConstructorsChampionshipIn rdf:resource="1967"/>
+  <wonConstructorsChampionshipIn rdf:resource="1950"/>
+  <wonConstructorsChampionshipIn rdf:resource="2016"/>
+  <wonConstructorsChampionshipIn rdf:resource="1976"/>
+  <wonConstructorsChampionshipIn rdf:resource="2007"/>
+  <wonConstructorsChampionshipIn rdf:resource="2008"/>
+  <wonConstructorsChampionshipIn rdf:resource="1958"/>
+  <wonConstructorsChampionshipIn rdf:resource="1966"/>
+  <wonConstructorsChampionshipIn rdf:resource="1983"/>
+  <wonConstructorsChampionshipIn rdf:resource="1991"/>
+  <wonConstructorsChampionshipIn rdf:resource="2023"/>
+  <wonConstructorsChampionshipIn rdf:resource="2025"/>
+  <wonConstructorsChampionshipIn rdf:resource="2019"/>
+  <wonConstructorsChampionshipIn rdf:resource="1964"/>
+  <wonConstructorsChampionshipIn rdf:resource="1977"/>
+  <wonConstructorsChampionshipIn rdf:resource="2017"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Antonio_Fuoco2728">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="McLaren_Livery">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="1973">
+  <rdf:type rdf:resource="Season"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Enzo_Ferrari">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Door_al_dat_karten">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Complete_Extreme">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Lando_Norris">
+  <rdf:type rdf:resource="Driver"/>
+  <wonGrandPrix rdf:resource="Abu_Dhabi_Grand_Prix"/>
+  <competedInSeason rdf:resource="2022"/>
+  <competedInSeason rdf:resource="2016"/>
+  <competedInSeason rdf:resource="2023"/>
+  <competedInSeason rdf:resource="2025"/>
+  <competedInSeason rdf:resource="2017"/>
+  <competedInSeason rdf:resource="2009"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Evening_Standard">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="CNN_Sport">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Williams">
+  <rdf:type rdf:resource="Team"/>
+  <wonConstructorsChampionshipIn rdf:resource="2008"/>
+  <wonConstructorsChampionshipIn rdf:resource="2023"/>
+  <wonConstructorsChampionshipIn rdf:resource="1999"/>
+  <wonConstructorsChampionshipIn rdf:resource="1998"/>
+  <wonConstructorsChampionshipIn rdf:resource="2022"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Dutch">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="David_Tremayne">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="1929">
+  <rdf:type rdf:resource="Season"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Luke_Browning">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="John_Watson_Andrea_de_Cesaris">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Mary_McGee">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Max_Verstappen_Onboard">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Circuito_di_Garda">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Formula_1_News">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="F1_Grand_Prix">
+  <rdf:type rdf:resource="GrandPrix"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Richard_S">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Bono_Huis_Enzo">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Daniel_Ricciardo334_Marko">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Aston_Martin_F1com">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="John_Watson">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Magneti_Marelli">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Save_the_Children">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Leonardo_DiCaprio">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Ayrton_Senna">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Australian_Grand_Prix43">
+  <rdf:type rdf:resource="GrandPrix"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Andrew_Benson">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="McLaren_Artura">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Daniel_Guinchard">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Sebastian_Vettel">
+  <rdf:type rdf:resource="Driver"/>
+  <wonGrandPrix rdf:resource="Grand_Prix"/>
+  <competedInSeason rdf:resource="1952"/>
+  <competedInSeason rdf:resource="2006"/>
+  <competedInSeason rdf:resource="1988"/>
+  <competedInSeason rdf:resource="1968"/>
+  <competedInSeason rdf:resource="2019"/>
+  <competedInSeason rdf:resource="1931"/>
+  <competedInSeason rdf:resource="2024"/>
+  <competedInSeason rdf:resource="2022"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Race_Fans">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Rosbergs207_Buxton">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="AF_Corse">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="1955">
+  <rdf:type rdf:resource="Season"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Sakhir">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Jean_Todt">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="M2647_Hunt">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Alpine_F1">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Nelson_Piquet">
+  <rdf:type rdf:resource="Driver"/>
+  <wonGrandPrix rdf:resource="ART_Grand_Prix"/>
+  <competedInSeason rdf:resource="2006"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="1939">
+  <rdf:type rdf:resource="Season"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Azerbaijan">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Lewis_Hamilton_Urges">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="F1_Oversteer">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="McLaren_1-2">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="2009">
+  <rdf:type rdf:resource="Season"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Phillip_Morris">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="George_Russell">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Spanish_Grand_Prix">
+  <rdf:type rdf:resource="GrandPrix"/>
+  <isPartOfSeason rdf:resource="2021"/>
+  <isPartOfSeason rdf:resource="2024"/>
+  <isPartOfSeason rdf:resource="2016"/>
+  <isPartOfSeason rdf:resource="2019"/>
+  <isPartOfSeason rdf:resource="2023"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Stoffel_Vandoorne_Fernando_Alonso">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Will_Contest_NLS2">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Cavallino_Rampante">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="F1_Bahrain_Grand_Prix">
+  <rdf:type rdf:resource="GrandPrix"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Rubens_Barrichello">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="2005">
+  <rdf:type rdf:resource="Season"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Alex_Albon">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="1999">
+  <rdf:type rdf:resource="Season"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Max_Verstappen_Max_Verstappen">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Verstappen_second305_After">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Opmeer_Dani_Moreno">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Maiden_Win">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Simon_Pagenaud">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Rudolf_Caracciola">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Moreno_Jake_Benham">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Guardian_Newspapers">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Steve_Nichols">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Aston_Martin">
+  <rdf:type rdf:resource="Team"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="2027">
+  <rdf:type rdf:resource="Season"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Andre_Figueiredo">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Perez_16th131">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Luke_Slater">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Presse_Stuttgart">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Takashi_Murakami">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Daniel_Abt">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="ART_Grand_Prix">
+  <rdf:type rdf:resource="GrandPrix"/>
+  <isPartOfSeason rdf:resource="2006"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Formula_1_Grand_Prix_de_Monaco">
+  <rdf:type rdf:resource="GrandPrix"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Perez_finished154">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Andrea_de_Adamich">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Peter_Gethin_Dan_Gurney_Andrea_de_Adamich_Nanni_Galli">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Mercedes-Benz_Grand_Prix">
+  <rdf:type rdf:resource="GrandPrix"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="McLaren_M12">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Christian_Lundgaard">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Top_Gear">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Bruno_Giacomelli">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Thomas_Maher">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Hungarian_Grand_Prix_2023">
+  <rdf:type rdf:resource="GrandPrix"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Sportman_van">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Gary_Anderson">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Arrow_Schmidt_Peterson">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Max_Verstappen198">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Daniel_Ricciardo_Lando_Norris">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Kimi_Antonelli">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="1989">
+  <rdf:type rdf:resource="Season"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Felix_Rosenqvist">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="1945">
+  <rdf:type rdf:resource="Season"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="2008">
+  <rdf:type rdf:resource="Season"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Peter_Gethin">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Patrick_Tambay">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Indy_Cars">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="James_Barclay">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Pier_Guidi">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Michael_Andretti">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Jim_Holden">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="1935">
+  <rdf:type rdf:resource="Season"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Grand_Prix366">
+  <rdf:type rdf:resource="GrandPrix"/>
+  <isPartOfSeason rdf:resource="1966"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Wilson_Hughes_Lucas">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Mike_Elliott">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Romain_Grosjean">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Felipe_Massa">
+  <rdf:type rdf:resource="Driver"/>
+  <wonGrandPrix rdf:resource="British_Grand_Prix"/>
+  <competedInSeason rdf:resource="1970"/>
+  <competedInSeason rdf:resource="2014"/>
+  <competedInSeason rdf:resource="2026"/>
+  <competedInSeason rdf:resource="2021"/>
+  <competedInSeason rdf:resource="2024"/>
+  <competedInSeason rdf:resource="2022"/>
+  <competedInSeason rdf:resource="1950"/>
+  <competedInSeason rdf:resource="2008"/>
+  <competedInSeason rdf:resource="1954"/>
+  <competedInSeason rdf:resource="2023"/>
+  <competedInSeason rdf:resource="2019"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Paul_Aron">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Emma_Gilmour">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="French_Grand_Prix_2019">
+  <rdf:type rdf:resource="GrandPrix"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="1953">
+  <rdf:type rdf:resource="Season"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="1997">
+  <rdf:type rdf:resource="Season"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="The_Marshall_Pruett_Podcast">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Virgin_Books">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Spanish_Grand_Prix_Entry_List_Corrected">
+  <rdf:type rdf:resource="GrandPrix"/>
+  <isPartOfSeason rdf:resource="2024"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Peter_Prodomou">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Anthony_Kumpen">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Lewis_Hamilton102103">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Max_Verstappen_Will">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Spanish_Grand_Prix_2020">
+  <rdf:type rdf:resource="GrandPrix"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Verstappen_Bahrain">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="India_Grand_Prix">
+  <rdf:type rdf:resource="GrandPrix"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Christian_Horner">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="John_Elkann">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Dick_Dastardly">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Jaar_2016">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Jos_Verstappen">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Abu_Dhabi_Grand_Prix_2019">
+  <rdf:type rdf:resource="GrandPrix"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Lewis_Hamilton_Jenson_Button">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Visa_Cash_App_RB">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Monaco_Grand_Prix_-_Qualifying_Report">
+  <rdf:type rdf:resource="GrandPrix"/>
+  <isPartOfSeason rdf:resource="2024"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="1943">
+  <rdf:type rdf:resource="Season"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="2012">
+  <rdf:type rdf:resource="Season"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="The_Chinese_Grand_Prix">
+  <rdf:type rdf:resource="GrandPrix"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Kavin_Garside">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Alex_Lloyd">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Racing_Sport_Cars">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="George_Lucas">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Pierre_Gasly">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Hajime_Sorayama">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="1978">
+  <rdf:type rdf:resource="Season"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Eddie_Irvine">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Audi">
+  <rdf:type rdf:resource="Team"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Singapore_Grand_Prix_2019">
+  <rdf:type rdf:resource="GrandPrix"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Formula_1_Rolex_Belgian_Grand_Prix_2024">
+  <rdf:type rdf:resource="GrandPrix"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Verstappen_Crash">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Formula_A">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Azerbaijan_Grand_Prix_Entry_List">
+  <rdf:type rdf:resource="GrandPrix"/>
+  <isPartOfSeason rdf:resource="2023"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Bahrain_Grand_Prix">
+  <rdf:type rdf:resource="GrandPrix"/>
+  <isPartOfSeason rdf:resource="2012"/>
+  <isPartOfSeason rdf:resource="2013"/>
+  <isPartOfSeason rdf:resource="2024"/>
+  <isPartOfSeason rdf:resource="2005"/>
+  <isPartOfSeason rdf:resource="2017"/>
+  <isPartOfSeason rdf:resource="2014"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Bari_Broumand">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Willy_T_Ribbs522_References">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Sophie_Kumpen">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Martin_Whitmarsh110">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Hockenheim_European_F3">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Monegasque_Charles_Leclerc">
+  <rdf:type rdf:resource="Driver"/>
+  <wonGrandPrix rdf:resource="Austrian_Grand_Prix"/>
+  <competedInSeason rdf:resource="2019"/>
+  <competedInSeason rdf:resource="2023"/>
+  <competedInSeason rdf:resource="2017"/>
+  <competedInSeason rdf:resource="2024"/>
+  <competedInSeason rdf:resource="2022"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Phil_Hill">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Formula_3_Euro_Series">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Alessandro_Pier_Guidi">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Extreme_E_17">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Austrian_Grand_Prix_F1_Sprint">
+  <rdf:type rdf:resource="GrandPrix"/>
+  <isPartOfSeason rdf:resource="2023"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Mattias_Ekstrom">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Tommy_Hilfiger">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Verstappen_Sim_Racing">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Igora_Drive">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="1968">
+  <rdf:type rdf:resource="Season"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Williams_Mercedes">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Paul_Weaver">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Belgian_Twitch">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Pedro_de_la_Rosa">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Taylor_Barnard">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Michael_Schumacher_F1">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="1990">
+  <rdf:type rdf:resource="Season"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Times_Newspapers">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="John_Blake_Publishing">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Daniele_Audetto">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Anthony_Hamilton">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Gran_Turismo">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Spanish_Grand_Prix_P1_Classification">
+  <rdf:type rdf:resource="GrandPrix"/>
+  <isPartOfSeason rdf:resource="2024"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Spanish_Grand_Prix_Race_Highlights">
+  <rdf:type rdf:resource="GrandPrix"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Proud_Alonso">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Rookie_Piastri">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Andrea_de_Cesaris5354">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Stats_F1">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Toro_Rosso">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Malaysian_Grand_Prix">
+  <rdf:type rdf:resource="GrandPrix"/>
+  <isPartOfSeason rdf:resource="2017"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="2004">
+  <rdf:type rdf:resource="Season"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="The_Sao_Paulo_Grand_Prix">
+  <rdf:type rdf:resource="GrandPrix"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="John_Hogan">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Autodrom_Igora_Drive">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Jim_Ratcliffe">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Retaining_Norris">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Verstappen_Max">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Andrea_Kimi_Antonelli">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Franz_Tost">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Motor_Sport">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="1981">
+  <rdf:type rdf:resource="Season"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Roberto_Nosetto">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="McLaren">
+  <rdf:type rdf:resource="Team"/>
+  <wonConstructorsChampionshipIn rdf:resource="2015"/>
+  <wonConstructorsChampionshipIn rdf:resource="2025"/>
+  <wonConstructorsChampionshipIn rdf:resource="2019"/>
+  <wonConstructorsChampionshipIn rdf:resource="2023"/>
+  <wonConstructorsChampionshipIn rdf:resource="2004"/>
+  <wonConstructorsChampionshipIn rdf:resource="1977"/>
+  <wonConstructorsChampionshipIn rdf:resource="2017"/>
+  <wonConstructorsChampionshipIn rdf:resource="2014"/>
+  <wonConstructorsChampionshipIn rdf:resource="2026"/>
+  <wonConstructorsChampionshipIn rdf:resource="2009"/>
+  <wonConstructorsChampionshipIn rdf:resource="1998"/>
+  <wonConstructorsChampionshipIn rdf:resource="2012"/>
+  <wonConstructorsChampionshipIn rdf:resource="1980"/>
+  <wonConstructorsChampionshipIn rdf:resource="2011"/>
+  <wonConstructorsChampionshipIn rdf:resource="2013"/>
+  <wonConstructorsChampionshipIn rdf:resource="2020"/>
+  <wonConstructorsChampionshipIn rdf:resource="2021"/>
+  <wonConstructorsChampionshipIn rdf:resource="2024"/>
+  <wonConstructorsChampionshipIn rdf:resource="1985"/>
+  <wonConstructorsChampionshipIn rdf:resource="1967"/>
+  <wonConstructorsChampionshipIn rdf:resource="2022"/>
+  <wonConstructorsChampionshipIn rdf:resource="1969"/>
+  <wonConstructorsChampionshipIn rdf:resource="2007"/>
+  <wonConstructorsChampionshipIn rdf:resource="1971"/>
+  <wonConstructorsChampionshipIn rdf:resource="2008"/>
+  <wonConstructorsChampionshipIn rdf:resource="1983"/>
+  <wonConstructorsChampionshipIn rdf:resource="1995"/>
+  <wonConstructorsChampionshipIn rdf:resource="2027"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="South_African_Grand_Prix">
+  <rdf:type rdf:resource="GrandPrix"/>
+  <isPartOfSeason rdf:resource="1982"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Charlie_Whiting">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Peter_Windsor">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Andrew_Lawrence">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="1960">
+  <rdf:type rdf:resource="Season"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Article_324c_The_Grand_Prix">
+  <rdf:type rdf:resource="GrandPrix"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Carmen_Larbalestier">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="1966">
+  <rdf:type rdf:resource="Season"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="2000">
+  <rdf:type rdf:resource="Season"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Toni_Vilander">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Carrera_Panamericana">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Carl_Williams">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Sergio_Perez">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Daniel_Shields">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="F1_COVID_vaccination">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Christopher_Haase">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="James_Hunt">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Atlas_F1">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Juan_Manuel_Fangio">
+  <rdf:type rdf:resource="Driver"/>
+  <wonGrandPrix rdf:resource="Grand_Prix157168"/>
+  <wonGrandPrix rdf:resource="French_Grand_Prix"/>
+  <competedInSeason rdf:resource="2026"/>
+  <competedInSeason rdf:resource="1957"/>
+  <competedInSeason rdf:resource="1955"/>
+  <competedInSeason rdf:resource="2010"/>
+  <competedInSeason rdf:resource="1954"/>
+  <competedInSeason rdf:resource="2018"/>
+  <competedInSeason rdf:resource="2021"/>
+  <competedInSeason rdf:resource="1961"/>
+  <competedInSeason rdf:resource="1950"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Monaco_Grand_Prix_Post-Race_Press_Conference_Transcript">
+  <rdf:type rdf:resource="GrandPrix"/>
+  <isPartOfSeason rdf:resource="2024"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Steffi_Graf">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="1961">
+  <rdf:type rdf:resource="Season"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="2025">
+  <rdf:type rdf:resource="Season"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Mick_Schumacher">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="McLaren_Hypercar">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="San_Marino_Grand_Prix">
+  <rdf:type rdf:resource="GrandPrix"/>
+  <isPartOfSeason rdf:resource="1982"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Frikadelli_Racing">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Dani_Moreno">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Formula_1_Grand_Prix_de_Monaco_2024">
+  <rdf:type rdf:resource="GrandPrix"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="James_Hunt_Patrick">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Kevin_Magnussen">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="F1_Fanaticcouk">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Nolan_Siegel_7">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Dempsey_Parr">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="1948">
+  <rdf:type rdf:resource="Season"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="1956">
+  <rdf:type rdf:resource="Season"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Belgian_Grand_Prix">
+  <rdf:type rdf:resource="GrandPrix"/>
+  <isPartOfSeason rdf:resource="2007"/>
+  <isPartOfSeason rdf:resource="2010"/>
+  <isPartOfSeason rdf:resource="1968"/>
+  <isPartOfSeason rdf:resource="1974"/>
+  <isPartOfSeason rdf:resource="2023"/>
+  <isPartOfSeason rdf:resource="1997"/>
+  <isPartOfSeason rdf:resource="1998"/>
+  <isPartOfSeason rdf:resource="2021"/>
+  <isPartOfSeason rdf:resource="2024"/>
+  <isPartOfSeason rdf:resource="1963"/>
+  <isPartOfSeason rdf:resource="2003"/>
+  <isPartOfSeason rdf:resource="1961"/>
+  <isPartOfSeason rdf:resource="1950"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Miami_Grand_Prix_Entry_List">
+  <rdf:type rdf:resource="GrandPrix"/>
+  <isPartOfSeason rdf:resource="2023"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="1934">
+  <rdf:type rdf:resource="Season"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="BBC_Sport">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Kimi_Raikkonen">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Alfredo_Caniato">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Mauro_Forghieri">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Lionel_Messi">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Qualifying_Highlights">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="F1_British_Grand_Prix">
+  <rdf:type rdf:resource="GrandPrix"/>
+  <isPartOfSeason rdf:resource="2019"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Cadillac">
+  <rdf:type rdf:resource="Team"/>
+  <wonConstructorsChampionshipIn rdf:resource="2026"/>
+  <wonConstructorsChampionshipIn rdf:resource="1950"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Arrow_Schmidt_Peterson_Motorsports">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Emilia_Romagna_Grand_Prix">
+  <rdf:type rdf:resource="GrandPrix"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Formula_E_2">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Johnnie_Walker">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="1892">
+  <rdf:type rdf:resource="Season"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Jeffrey_Katzenberg_">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Mark_Hughes">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Giuseppe_Farina">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="McLaren_Mastercard_Formula_1_Team">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Nick_Heidfeld">
+  <rdf:type rdf:resource="Driver"/>
+  <wonGrandPrix rdf:resource="British_Grand_Prix"/>
+  <competedInSeason rdf:resource="1970"/>
+  <competedInSeason rdf:resource="2014"/>
+  <competedInSeason rdf:resource="2026"/>
+  <competedInSeason rdf:resource="2021"/>
+  <competedInSeason rdf:resource="2024"/>
+  <competedInSeason rdf:resource="2022"/>
+  <competedInSeason rdf:resource="1950"/>
+  <competedInSeason rdf:resource="2008"/>
+  <competedInSeason rdf:resource="1954"/>
+  <competedInSeason rdf:resource="2023"/>
+  <competedInSeason rdf:resource="2019"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Jean-Eric_Vergne">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="McLaren_Honda">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="1940">
+  <rdf:type rdf:resource="Season"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Mercedes-Benz_Grand_Prix_Ltd">
+  <rdf:type rdf:resource="GrandPrix"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Daniel_Ricciardo">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Neil_Houdly">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="1932">
+  <rdf:type rdf:resource="Season"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Sao_Paulo_ePrix">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Mario_Tadini">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Spanish_Grand_Prix_Entry_List">
+  <rdf:type rdf:resource="GrandPrix"/>
+  <isPartOfSeason rdf:resource="2023"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="McLaren_Formula">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Peter_Revson">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Pernod_Ricard">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Lewis_Hamilton_Meets">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Motorcycle_Mary">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Didier_Pironi">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Sainte_Devote">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Robin_Herd">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="John_Watson216">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Azerbaijan_Grands">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Onboard_Pole_Lap">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Axalta_Racing">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Verstappen_Racing_Mercedes-AMG_Powers">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="2030">
+  <rdf:type rdf:resource="Season"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="-_van_de_Burgt">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Ronnie_Peterson">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="2007">
+  <rdf:type rdf:resource="Season"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Franco_Lini">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Nico_Rosberg_Lewis_Hamilton">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Yuki_Tsunoda">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="2010">
+  <rdf:type rdf:resource="Season"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Huis_Enzo">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Kevin_Magnussen_Jenson_Button">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="French_Grand_Prix">
+  <rdf:type rdf:resource="GrandPrix"/>
+  <isPartOfSeason rdf:resource="1955"/>
+  <isPartOfSeason rdf:resource="2010"/>
+  <isPartOfSeason rdf:resource="1954"/>
+  <isPartOfSeason rdf:resource="2018"/>
+  <isPartOfSeason rdf:resource="2021"/>
+  <isPartOfSeason rdf:resource="1961"/>
+  <isPartOfSeason rdf:resource="1950"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Thierry_Vermeulen">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Roger_Penske">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Mark_Webber">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Dawn_Apollo_Films">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="1947">
+  <rdf:type rdf:resource="Season"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Team_Penske">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Kim_Kardashian">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Verstappen_Regulation">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Graham_Hill">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Paddy_Lowe">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Jenson_Button">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="LeBron_Dominate">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Tom_Ilube">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Schmidt_Peterson_Motorsports">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Marriott_Bonvoy99">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="McLaren_Racing_-_McLaren_Racing">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Estrella_Galicia">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="James_Elson">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Greg_Stuart">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="400th_Grand_Prix">
+  <rdf:type rdf:resource="GrandPrix"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Louis_Chiron">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="1959">
+  <rdf:type rdf:resource="Season"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Winward_Racing">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="1984">
+  <rdf:type rdf:resource="Season"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="1982">
+  <rdf:type rdf:resource="Season"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="The_Bruce_McLaren_Movie">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Keith_Collantine">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Formula_E_29_July_2024">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="F1_Japanese_Grand_Prix">
+  <rdf:type rdf:resource="GrandPrix"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="2013">
+  <rdf:type rdf:resource="Season"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Mohammed_Ben_Sulayem">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Lucas_Blakeley">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Nicklas_Nielsen">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Mercedes-Benz_Grand_Prix_Limited">
+  <rdf:type rdf:resource="GrandPrix"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="2003">
+  <rdf:type rdf:resource="Season"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Jock_Clear">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Timmy_Mayer">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Nico_Hulkenberg">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="CNA_Lifestyle">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Comic_Relief">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Daniil_Kvyat">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Logan_Sargeant">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Oscar_Piastri">
+  <rdf:type rdf:resource="Driver"/>
+  <wonGrandPrix rdf:resource="Austrian_Grand_Prix"/>
+  <competedInSeason rdf:resource="2019"/>
+  <competedInSeason rdf:resource="2023"/>
+  <competedInSeason rdf:resource="2017"/>
+  <competedInSeason rdf:resource="2024"/>
+  <competedInSeason rdf:resource="2022"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="McLaren_Racing_Unveil">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Gilles_Villeneuve">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Belfast_Telegraph">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Mika_Hakkinen">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="United_States_Grand_Prix_West">
+  <rdf:type rdf:resource="GrandPrix"/>
+  <isPartOfSeason rdf:resource="1961"/>
+  <isPartOfSeason rdf:resource="1958"/>
+  <isPartOfSeason rdf:resource="1982"/>
+  <isPartOfSeason rdf:resource="1979"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Appendix_2">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Teddy_Mayer">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="1965">
+  <rdf:type rdf:resource="Season"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Romolo_Tavoni">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Kick_Sauber">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Vitaly_Petrov">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Marco_Piccinini">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Brian_Barnhart">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Norbert_Haug">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="McLaren_Formula_1">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Qatar_Grand_Prix_Preview">
+  <rdf:type rdf:resource="GrandPrix"/>
+  <isPartOfSeason rdf:resource="2023"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Spa_Francorchamps_Grand_Prix">
+  <rdf:type rdf:resource="GrandPrix"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Eric_Boullier">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Ross_Brawn21">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Lewis_Hamilton_">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Japanese_Grand_Prix">
+  <rdf:type rdf:resource="GrandPrix"/>
+  <isPartOfSeason rdf:resource="2018"/>
+  <isPartOfSeason rdf:resource="2022"/>
+  <isPartOfSeason rdf:resource="2023"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Jake_Hughes">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Daniel_Bereznay">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Juan_Pablo_Montoya222">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="James_Hunt_Jochen_Mass">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Ron_Dennis">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Jody_Scheckter">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Vodafone_McLaren">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Tuscan_Grand_Prix">
+  <rdf:type rdf:resource="GrandPrix"/>
+  <isPartOfSeason rdf:resource="2020"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Algemeen_Dagblad">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Jacques_Villeneuve">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="1998">
+  <rdf:type rdf:resource="Season"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Australian_Grand_Prix">
+  <rdf:type rdf:resource="GrandPrix"/>
+  <isPartOfSeason rdf:resource="2003"/>
+  <isPartOfSeason rdf:resource="2016"/>
+  <isPartOfSeason rdf:resource="2010"/>
+  <isPartOfSeason rdf:resource="2025"/>
+  <isPartOfSeason rdf:resource="1997"/>
+  <isPartOfSeason rdf:resource="2023"/>
+  <isPartOfSeason rdf:resource="2017"/>
+  <isPartOfSeason rdf:resource="1998"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Johnny_Rutherford">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Dan_Gurney">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Monoposto_Tipo_B">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Kessel_Racing">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Jules_Gounon">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="William_Esler">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Heikki_Kovalainen">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Carlo_Maria_Pintacuda">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Gopal_Srivastava">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Jenson_Button_Lewis_Hamilton">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Keke_Rosberg">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Denny_Hulme_Peter_Revson_Brian_Redman">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Brad_Pitt">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Hawthorn_Memorial_Trophy">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="1985">
+  <rdf:type rdf:resource="Season"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Max_Verstappen_">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Las_Vegas_Grand_Prix">
+  <rdf:type rdf:resource="GrandPrix"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Sprint_Qualifying">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Lewis_Hamilton-Nico_Rosberg">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Russian_Grand_Prix">
+  <rdf:type rdf:resource="GrandPrix"/>
+  <isPartOfSeason rdf:resource="2015"/>
+  <isPartOfSeason rdf:resource="2023"/>
+  <isPartOfSeason rdf:resource="2025"/>
+  <isPartOfSeason rdf:resource="2019"/>
+  <isPartOfSeason rdf:resource="2021"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Appendix_1_-_">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Brawn">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Vogue_Business">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="2026">
+  <rdf:type rdf:resource="Season"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Italian_Grand_Prix">
+  <rdf:type rdf:resource="GrandPrix"/>
+  <isPartOfSeason rdf:resource="1964"/>
+  <isPartOfSeason rdf:resource="1982"/>
+  <isPartOfSeason rdf:resource="1979"/>
+  <isPartOfSeason rdf:resource="1950"/>
+  <isPartOfSeason rdf:resource="1961"/>
+  <isPartOfSeason rdf:resource="1948"/>
+  <isPartOfSeason rdf:resource="1958"/>
+  <isPartOfSeason rdf:resource="1966"/>
+  <isPartOfSeason rdf:resource="1965"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Super_Max">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Josef_Kaufmann_Racing">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Checo_Perez">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Dick_Dastardly357">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Brands_Hatch">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Mexican_Grand_Prix">
+  <rdf:type rdf:resource="GrandPrix"/>
+  <isPartOfSeason rdf:resource="1965"/>
+  <isPartOfSeason rdf:resource="1966"/>
+  <isPartOfSeason rdf:resource="2019"/>
+  <isPartOfSeason rdf:resource="1964"/>
+  <isPartOfSeason rdf:resource="2018"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Motorsport_Network">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Zak_Brown">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Max_Verstappen_niet">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="McLaren_Racing_Limited">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Scuderia_Ferrari">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Mario_Andretti">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Phil_Hanson">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="F1_Bahrain_Grand_Prix_Max_Verstappen">
+  <rdf:type rdf:resource="GrandPrix"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="1954">
+  <rdf:type rdf:resource="Season"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Alfa_Romeo">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Timo_Glock">
+  <rdf:type rdf:resource="Driver"/>
+  <wonGrandPrix rdf:resource="Brazilian_Grand_Prix"/>
+  <competedInSeason rdf:resource="2012"/>
+  <competedInSeason rdf:resource="1973"/>
+  <competedInSeason rdf:resource="2016"/>
+  <competedInSeason rdf:resource="2019"/>
+  <competedInSeason rdf:resource="2018"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Guy_Moll">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="1986">
+  <rdf:type rdf:resource="Season"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Lewis_Hamilton_Unveiled">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Formula_Rapida">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Clay_Regazzoni">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="2019">
+  <rdf:type rdf:resource="Season"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Guanyu_Zhou">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="1993">
+  <rdf:type rdf:resource="Season"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Joseph_Kosinski">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Spark_Odyssey">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Jordan_Grand_Prix">
+  <rdf:type rdf:resource="GrandPrix"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="2011">
+  <rdf:type rdf:resource="Season"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Jochen_Mass">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Petronas_Global">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Pedro_de_la_Rosa_Alexander_Wurz">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Johnny_Herbert">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="2015">
+  <rdf:type rdf:resource="Season"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Murray_Walker">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Modelo_Kelly_Piquet">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Mark_Donohue">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Michael_Schumacher502503_Orders">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Portuguese_Grand_Prix_Race_Highlights">
+  <rdf:type rdf:resource="GrandPrix"/>
+  <isPartOfSeason rdf:resource="2020"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Ferrari_Formula_1_Car">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Alpine">
+  <rdf:type rdf:resource="Team"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Mercedes_Grand_Prix">
+  <rdf:type rdf:resource="GrandPrix"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Robert_Kubica">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Michael_Gove">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Peugeot_Sport">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Jack_Brabham">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Formula_Scout">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="German_Grand_Prix_Race_Highlights">
+  <rdf:type rdf:resource="GrandPrix"/>
+  <isPartOfSeason rdf:resource="2019"/>
+  <isPartOfSeason rdf:resource="2018"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Neue_Zurcher_Zeitung">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Red_Bull_Racing">
+  <rdf:type rdf:resource="Team"/>
+  <wonConstructorsChampionshipIn rdf:resource="2014"/>
+  <wonConstructorsChampionshipIn rdf:resource="2012"/>
+  <wonConstructorsChampionshipIn rdf:resource="2008"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="1957">
+  <rdf:type rdf:resource="Season"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Azerbaijan_Grand_Prix_Entry_List_Corrected">
+  <rdf:type rdf:resource="GrandPrix"/>
+  <isPartOfSeason rdf:resource="2024"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Formula_2">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Tamara_Molinaro">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Gary_Rose">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="The_French_Grand_Prix">
+  <rdf:type rdf:resource="GrandPrix"/>
+  <isPartOfSeason rdf:resource="2023"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Karting_Hamilton">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Lorenz_Frey-Hilti">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Hart_van_Nederland">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="1962">
+  <rdf:type rdf:resource="Season"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Extreme_E_6">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="German_Grand_Prix">
+  <rdf:type rdf:resource="GrandPrix"/>
+  <isPartOfSeason rdf:resource="2019"/>
+  <isPartOfSeason rdf:resource="1997"/>
+  <isPartOfSeason rdf:resource="2014"/>
+  <isPartOfSeason rdf:resource="2018"/>
+  <isPartOfSeason rdf:resource="1998"/>
+  <isPartOfSeason rdf:resource="2003"/>
+  <isPartOfSeason rdf:resource="2008"/>
+  <isPartOfSeason rdf:resource="1939"/>
+  <isPartOfSeason rdf:resource="2010"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Martina_Navratilova">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="John_Blake_Publishing_Ltd">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Jim_Clark">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Chinese_Grand_Prix_Ricciardo">
+  <rdf:type rdf:resource="GrandPrix"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="1979">
+  <rdf:type rdf:resource="Season"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="McLaren_McLaren_Racing_Limited">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="F1_History">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Come_Ledogar">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="1987">
+  <rdf:type rdf:resource="Season"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Andreas_Seidl">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Monaco_Grand_Prix_Max_Verstappen">
+  <rdf:type rdf:resource="GrandPrix"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Driver_Database">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="United_States_Grand_Prix">
+  <rdf:type rdf:resource="GrandPrix"/>
+  <isPartOfSeason rdf:resource="1964"/>
+  <isPartOfSeason rdf:resource="2021"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="1949">
+  <rdf:type rdf:resource="Season"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="1944">
+  <rdf:type rdf:resource="Season"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="2006">
+  <rdf:type rdf:resource="Season"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="1995">
+  <rdf:type rdf:resource="Season"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="The_Grand_Prix">
+  <rdf:type rdf:resource="GrandPrix"/>
+  <isPartOfSeason rdf:resource="2024"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Richard_Williams">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Chase_Carey">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="James_Calado">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Rene_Berger">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Hawthorn_Memorial">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="1351">
+  <rdf:type rdf:resource="Season"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Sam_Bird">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Luigi_Bazzi">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Mexican_Grand_Prix_Race_Highlights">
+  <rdf:type rdf:resource="GrandPrix"/>
+  <isPartOfSeason rdf:resource="2018"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Brendon_Leigh">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Winnie_Harlow">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Austria_2023_-_Championship">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="1963">
+  <rdf:type rdf:resource="Season"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="David_Malukas">
+  <rdf:type rdf:resource="Driver"/>
+  <wonGrandPrix rdf:resource="Monaco_Grand_Prix"/>
+  <competedInSeason rdf:resource="2017"/>
+  <competedInSeason rdf:resource="2018"/>
+  <competedInSeason rdf:resource="1984"/>
+  <competedInSeason rdf:resource="2012"/>
+  <competedInSeason rdf:resource="2024"/>
+  <competedInSeason rdf:resource="2022"/>
+  <competedInSeason rdf:resource="2016"/>
+  <competedInSeason rdf:resource="1965"/>
+  <competedInSeason rdf:resource="1966"/>
+  <competedInSeason rdf:resource="1995"/>
+  <competedInSeason rdf:resource="2015"/>
+  <competedInSeason rdf:resource="1974"/>
+  <competedInSeason rdf:resource="2023"/>
+  <competedInSeason rdf:resource="2019"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Hearst_Autos">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Ethan_Jeff-Hall">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Arrow_McLaren_Rounds">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Peter_Whitehead">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="1967">
+  <rdf:type rdf:resource="Season"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Fernando_Alonso">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Gerhard_Berger">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Dale_Coyne_Racing227228">
+  <rdf:type rdf:resource="Driver"/>
+  <wonGrandPrix rdf:resource="Monaco_Grand_Prix"/>
+  <competedInSeason rdf:resource="2017"/>
+  <competedInSeason rdf:resource="2018"/>
+  <competedInSeason rdf:resource="1984"/>
+  <competedInSeason rdf:resource="2012"/>
+  <competedInSeason rdf:resource="2024"/>
+  <competedInSeason rdf:resource="2022"/>
+  <competedInSeason rdf:resource="2016"/>
+  <competedInSeason rdf:resource="1965"/>
+  <competedInSeason rdf:resource="1966"/>
+  <competedInSeason rdf:resource="1995"/>
+  <competedInSeason rdf:resource="2015"/>
+  <competedInSeason rdf:resource="1974"/>
+  <competedInSeason rdf:resource="2023"/>
+  <competedInSeason rdf:resource="2019"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Formula_E_Gen3">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Japanese_Grand_Prix_2014">
+  <rdf:type rdf:resource="GrandPrix"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Jackie_Stewart">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Yifei_Ye">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Pascal_Wehrlein">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="John_Barnard">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="The_Austrian_Grand_Prix">
+  <rdf:type rdf:resource="GrandPrix"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Brazilian_Grand_Prix">
+  <rdf:type rdf:resource="GrandPrix"/>
+  <isPartOfSeason rdf:resource="2012"/>
+  <isPartOfSeason rdf:resource="1973"/>
+  <isPartOfSeason rdf:resource="2016"/>
+  <isPartOfSeason rdf:resource="2019"/>
+  <isPartOfSeason rdf:resource="2018"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Claudio_Lombardi">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Lance_Stroll">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Peter_Schetty">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="George_Floyd">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Formula_1_Hungarian_Grand_Prix_2024">
+  <rdf:type rdf:resource="GrandPrix"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Lewis_Hamilton_George_Russell_Valtteri_Bottas">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="My_Story">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Haas_F1_Team">
+  <rdf:type rdf:resource="Team"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Mike_Hawthorn">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="1980">
+  <rdf:type rdf:resource="Season"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="2016">
+  <rdf:type rdf:resource="Season"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Mike_Hailwood">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Alfred_Neubauer">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="John_Surtees">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Raymond_Sommer">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Nederlandse_WK-leider">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Belgian_Grand_Prix_2020">
+  <rdf:type rdf:resource="GrandPrix"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Carlos_Reutemann">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="McLaren_MP4x">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Complete_Macau_Grand_Prix">
+  <rdf:type rdf:resource="GrandPrix"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Formula_E_and_Extreme">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Tyrrell_Racing">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Denny_Hulme">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Dennis_Olsen">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Ayrton_Senna_Alain">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Martin_Whitmarsh310311">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Benedetto_Vigna">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Champions_Denny_Hulme">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Dutch_Grand_Prix">
+  <rdf:type rdf:resource="GrandPrix"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Lewis_Hamilton_Biography">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Formula_1">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Taylor_Kiel">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Rainer_W">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Carlos_Sainz">
+  <rdf:type rdf:resource="Driver"/>
+  <wonGrandPrix rdf:resource="Austrian_Grand_Prix"/>
+  <competedInSeason rdf:resource="2019"/>
+  <competedInSeason rdf:resource="2023"/>
+  <competedInSeason rdf:resource="2017"/>
+  <competedInSeason rdf:resource="2024"/>
+  <competedInSeason rdf:resource="2022"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Al_Hashmi">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Bruce_McLaren">
+  <rdf:type rdf:resource="Driver"/>
+  <wonGrandPrix rdf:resource="Belgian_Grand_Prix"/>
+  <competedInSeason rdf:resource="2007"/>
+  <competedInSeason rdf:resource="2010"/>
+  <competedInSeason rdf:resource="1968"/>
+  <competedInSeason rdf:resource="1974"/>
+  <competedInSeason rdf:resource="2023"/>
+  <competedInSeason rdf:resource="1997"/>
+  <competedInSeason rdf:resource="1998"/>
+  <competedInSeason rdf:resource="2021"/>
+  <competedInSeason rdf:resource="2024"/>
+  <competedInSeason rdf:resource="1963"/>
+  <competedInSeason rdf:resource="2003"/>
+  <competedInSeason rdf:resource="1961"/>
+  <competedInSeason rdf:resource="1950"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Scott_Mitchell">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Peter_Prodromou">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Bruno_Giacomelli_Gilles_Villeneuve">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Miami_Grand_Prix">
+  <rdf:type rdf:resource="GrandPrix"/>
+  <isPartOfSeason rdf:resource="2024"/>
+  <isPartOfSeason rdf:resource="2023"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Formula_Renault">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Kevin_Magnussen160_Compared">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Formula_1_stewards">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="David_Coulthard_Mika_Hakkinen">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Qatar_Grand_Prix">
+  <rdf:type rdf:resource="GrandPrix"/>
+  <isPartOfSeason rdf:resource="2023"/>
+  <isPartOfSeason rdf:resource="2024"/>
+  <isPartOfSeason rdf:resource="2022"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Russian_Grand_Prix_2020">
+  <rdf:type rdf:resource="GrandPrix"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Variante_Tamburello">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Max_Verstappen-Kimi_Raikkonen">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="2014">
+  <rdf:type rdf:resource="Season"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Franz_Hermann">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Dario_Mitidieri">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Tom_Cruise">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="The_Hungarian_Grand_Prix">
+  <rdf:type rdf:resource="GrandPrix"/>
+  <isPartOfSeason rdf:resource="2021"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Max_Verstappen_Joins_Team_Redline">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Abu_Dhabi_Grand_Prix">
+  <rdf:type rdf:resource="GrandPrix"/>
+  <isPartOfSeason rdf:resource="2022"/>
+  <isPartOfSeason rdf:resource="2016"/>
+  <isPartOfSeason rdf:resource="2023"/>
+  <isPartOfSeason rdf:resource="2025"/>
+  <isPartOfSeason rdf:resource="2017"/>
+  <isPartOfSeason rdf:resource="2009"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Nanni_Galli">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Zhou_Guanyu">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Gil_de_Ferran">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="DAVID_MALU">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Centre_Woking">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Turkish_Grand_Prix">
+  <rdf:type rdf:resource="GrandPrix"/>
+  <isPartOfSeason rdf:resource="2021"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Velo_Brands">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Museo_Francesco_Baracca">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Emerson_Fittipaldi">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Gordon_Murray">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Mexican_Grand_Prix_Qualifying_Highlights">
+  <rdf:type rdf:resource="GrandPrix"/>
+  <isPartOfSeason rdf:resource="2018"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="James_Vowles">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Gavin_Ward224">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Arthur_Leclerc">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="1000th_Grand_Prix">
+  <rdf:type rdf:resource="GrandPrix"/>
+  <isPartOfSeason rdf:resource="2020"/>
+  <isPartOfSeason rdf:resource="2026"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Formula_Three">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Patricio_OWard_Ryo_Hirakawa">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Lorenzo_Bandini">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="F1_Australian_Grand_Prix">
+  <rdf:type rdf:resource="GrandPrix"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Giancarlo_Fisichella">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="McLaren_Racing">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Bryant_Gumbel">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Residence_Hamilton">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Fred_Smith">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Charles_Leclerc71">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Lewis_Hamilton_George_Russell">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Valterri_Bottas">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Mansour_Ojjeh">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Opmeer_Jake_Benham">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Barcelona-Catalunya_Grand_Prix">
+  <rdf:type rdf:resource="GrandPrix"/>
+  <isPartOfSeason rdf:resource="1991"/>
+  <isPartOfSeason rdf:resource="2026"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Harry_King">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Music_Hamilton">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Karlie_Kloss">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="The_United_States_Grand_Prix">
+  <rdf:type rdf:resource="GrandPrix"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Noud_Bemelen">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="The_Miami_Grand_Prix">
+  <rdf:type rdf:resource="GrandPrix"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Formula_3_Macau_Grand_Prix_2014">
+  <rdf:type rdf:resource="GrandPrix"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Austrian_Grand_Prix_Race_Highlights">
+  <rdf:type rdf:resource="GrandPrix"/>
+  <isPartOfSeason rdf:resource="2018"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Formel_1">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Eugenio_Dragoni">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="2022">
+  <rdf:type rdf:resource="Season"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Lewis_Hamilton_Launches_Film_">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Chinese_Grand_Prix_2026">
+  <rdf:type rdf:resource="GrandPrix"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Verstappen_fourth">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Hungarian_Grand_Prix_2015">
+  <rdf:type rdf:resource="GrandPrix"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Max_Verstappen_Stole_the_Show">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="McLaren_Electric_Racing231_Extreme">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="1992">
+  <rdf:type rdf:resource="Season"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="David_Hobbs">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Mino_Amorotti">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Arrow_McLaren">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Lewis_Hamilton_Archived">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Circuito_de_Jerez">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Max_al">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Jordan_Sponsor_Bumped">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Wilson_Hughes">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Kick_Sauber_F1">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Di_Grassi">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Olivier_Gendebien">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Chinese_Grand_Prix">
+  <rdf:type rdf:resource="GrandPrix"/>
+  <isPartOfSeason rdf:resource="2024"/>
+  <isPartOfSeason rdf:resource="2012"/>
+  <isPartOfSeason rdf:resource="2007"/>
+  <isPartOfSeason rdf:resource="2025"/>
+  <isPartOfSeason rdf:resource="2019"/>
+  <isPartOfSeason rdf:resource="2023"/>
+  <isPartOfSeason rdf:resource="2018"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Al_Hamad">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Mike_Seymour">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="James_Allison">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Oliver_Bearman">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="1950">
+  <rdf:type rdf:resource="Season"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="David_Sanchez">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="McLaren_During">
+  <rdf:type rdf:resource="Driver"/>
+  <wonGrandPrix rdf:resource="Brazilian_Grand_Prix"/>
+  <competedInSeason rdf:resource="2012"/>
+  <competedInSeason rdf:resource="1973"/>
+  <competedInSeason rdf:resource="2016"/>
+  <competedInSeason rdf:resource="2019"/>
+  <competedInSeason rdf:resource="2018"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="The_Italian_Grand_Prix_at_Monza">
+  <rdf:type rdf:resource="GrandPrix"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Jacky_Ickx">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Tutto_McLaren">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Risi_Competizione">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Achille_Varzi">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Ola_Kallenius">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Formula_1_Max_Verstappen">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="West_McLaren">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Gordon_Coppuck">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Hans_Herrmann">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Lewis_Hamilton_Valtteri_Bottas">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Nicholas_Latifi">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Grand_Prix16">
+  <rdf:type rdf:resource="GrandPrix"/>
+  <isPartOfSeason rdf:resource="1965"/>
+  <isPartOfSeason rdf:resource="1966"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Antonio_Fuoco">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Lewis_Carl_Davidson_Hamilton">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="2017">
+  <rdf:type rdf:resource="Season"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="McLaren_Racing_-_McLaren">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Max_Verstappen_Zooms_Past_Lewis_Hamilton">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="The_Emilia_Romagna_Grand_Prix">
+  <rdf:type rdf:resource="GrandPrix"/>
+  <isPartOfSeason rdf:resource="2024"/>
+  <isPartOfSeason rdf:resource="2019"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Felipe_Nasr">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Klaas_Prinsloo">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Incognitio_Max_Verstappen">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Federico_Giberti">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Mexican_Grand_Prix_2019">
+  <rdf:type rdf:resource="GrandPrix"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Qatar_Grand_Prix_Facts_and_Stats">
+  <rdf:type rdf:resource="GrandPrix"/>
+  <isPartOfSeason rdf:resource="2023"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Monaco_Grand_Prix_Race_8">
+  <rdf:type rdf:resource="GrandPrix"/>
+  <isPartOfSeason rdf:resource="2024"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="McLaren_Mercedes">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Sebastian_Vettel_Hamilton">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Luca_di_Montezemolo">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Lewis_Hamilton_Heikki_Kovalainen">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="British_Grand_Prix_2019">
+  <rdf:type rdf:resource="GrandPrix"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Masashi_Yamamoto">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Mexican_Grand_Prix_2018">
+  <rdf:type rdf:resource="GrandPrix"/>
+  <isPartOfSeason rdf:resource="2018"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Bonito_Olli">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="McLaren_Racing_-_Gulf">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Elliott_becoming_Chief_Technical_Officer">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Van_Amersfoort">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Aston_Martin_F1">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Luna_Fluxa">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Steijn_Schothorst">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="2021">
+  <rdf:type rdf:resource="Season"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Samuel_L_Jackson">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Irish_Examiner">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Sprint_Shootout">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Andrea_Stella">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Rob_Marshall">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="John_Dagys_Media">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="McLaren_Formula_1_Team">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Bonito_Allert_van_der_Wal">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Brendon_Leigh_Bono">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Carlos_Sainz_Jr87">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="McLaren_Racing_-_N">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="McLaren_Formula_1_Car">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="The_Azerbaijan_Grand_Prix">
+  <rdf:type rdf:resource="GrandPrix"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Monaco_Grand_Prix">
+  <rdf:type rdf:resource="GrandPrix"/>
+  <isPartOfSeason rdf:resource="2017"/>
+  <isPartOfSeason rdf:resource="2018"/>
+  <isPartOfSeason rdf:resource="1984"/>
+  <isPartOfSeason rdf:resource="2012"/>
+  <isPartOfSeason rdf:resource="2024"/>
+  <isPartOfSeason rdf:resource="2022"/>
+  <isPartOfSeason rdf:resource="2016"/>
+  <isPartOfSeason rdf:resource="1965"/>
+  <isPartOfSeason rdf:resource="1966"/>
+  <isPartOfSeason rdf:resource="1995"/>
+  <isPartOfSeason rdf:resource="2015"/>
+  <isPartOfSeason rdf:resource="1974"/>
+  <isPartOfSeason rdf:resource="2023"/>
+  <isPartOfSeason rdf:resource="2019"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Tuscan_Grand_Prix_Race_Highlights">
+  <rdf:type rdf:resource="GrandPrix"/>
+  <isPartOfSeason rdf:resource="2020"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Avio_Costruzioni_Ferrari">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Charles_Cooper">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Brazilian_Grand_Prix_Race_Highlights">
+  <rdf:type rdf:resource="GrandPrix"/>
+  <isPartOfSeason rdf:resource="2019"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Martin_Vantage_AMR_GT3_Evo">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Formula_One_-_Formula">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="Formula_Spy">
+  <rdf:type rdf:resource="Driver"/>
+</owl:NamedIndividual>
+
+<rdf:Description rdf:about="http://example.org/f1/entity/Oscar_Piastri">
+  <competedInSeason rdf:resource="http://example.org/f1/entity/2017"/>
+  <competedInSeason rdf:resource="http://example.org/f1/entity/2019"/>
+  <competedInSeason rdf:resource="http://example.org/f1/entity/2022"/>
+  <competedInSeason rdf:resource="http://example.org/f1/entity/2023"/>
+  <competedInSeason rdf:resource="http://example.org/f1/entity/2024"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.org/f1/entity/Juan_Manuel_Fangio">
+  <competedInSeason rdf:resource="http://example.org/f1/entity/1950"/>
+  <competedInSeason rdf:resource="http://example.org/f1/entity/1954"/>
+  <competedInSeason rdf:resource="http://example.org/f1/entity/1955"/>
+  <competedInSeason rdf:resource="http://example.org/f1/entity/1961"/>
+  <competedInSeason rdf:resource="http://example.org/f1/entity/2010"/>
+  <competedInSeason rdf:resource="http://example.org/f1/entity/2018"/>
+  <competedInSeason rdf:resource="http://example.org/f1/entity/2021"/>
+  <competedInSeason rdf:resource="http://example.org/f1/entity/1957"/>
+  <competedInSeason rdf:resource="http://example.org/f1/entity/2026"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.org/f1/entity/Alberto_Ascari">
+  <competedInSeason rdf:resource="http://example.org/f1/entity/1931"/>
+  <competedInSeason rdf:resource="http://example.org/f1/entity/1952"/>
+  <competedInSeason rdf:resource="http://example.org/f1/entity/1968"/>
+  <competedInSeason rdf:resource="http://example.org/f1/entity/1988"/>
+  <competedInSeason rdf:resource="http://example.org/f1/entity/2006"/>
+  <competedInSeason rdf:resource="http://example.org/f1/entity/2019"/>
+  <competedInSeason rdf:resource="http://example.org/f1/entity/2022"/>
+  <competedInSeason rdf:resource="http://example.org/f1/entity/2024"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.org/f1/entity/Dale_Coyne_Racing227228">
+  <competedInSeason rdf:resource="http://example.org/f1/entity/1965"/>
+  <competedInSeason rdf:resource="http://example.org/f1/entity/1966"/>
+  <competedInSeason rdf:resource="http://example.org/f1/entity/1974"/>
+  <competedInSeason rdf:resource="http://example.org/f1/entity/1984"/>
+  <competedInSeason rdf:resource="http://example.org/f1/entity/1995"/>
+  <competedInSeason rdf:resource="http://example.org/f1/entity/2012"/>
+  <competedInSeason rdf:resource="http://example.org/f1/entity/2015"/>
+  <competedInSeason rdf:resource="http://example.org/f1/entity/2016"/>
+  <competedInSeason rdf:resource="http://example.org/f1/entity/2017"/>
+  <competedInSeason rdf:resource="http://example.org/f1/entity/2018"/>
+  <competedInSeason rdf:resource="http://example.org/f1/entity/2019"/>
+  <competedInSeason rdf:resource="http://example.org/f1/entity/2022"/>
+  <competedInSeason rdf:resource="http://example.org/f1/entity/2023"/>
+  <competedInSeason rdf:resource="http://example.org/f1/entity/2024"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.org/f1/entity/Nelson_Piquet">
+  <competedInSeason rdf:resource="http://example.org/f1/entity/2006"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.org/f1/entity/Timo_Glock">
+  <competedInSeason rdf:resource="http://example.org/f1/entity/1973"/>
+  <competedInSeason rdf:resource="http://example.org/f1/entity/2012"/>
+  <competedInSeason rdf:resource="http://example.org/f1/entity/2016"/>
+  <competedInSeason rdf:resource="http://example.org/f1/entity/2018"/>
+  <competedInSeason rdf:resource="http://example.org/f1/entity/2019"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.org/f1/entity/David_Malukas">
+  <competedInSeason rdf:resource="http://example.org/f1/entity/1965"/>
+  <competedInSeason rdf:resource="http://example.org/f1/entity/1966"/>
+  <competedInSeason rdf:resource="http://example.org/f1/entity/1974"/>
+  <competedInSeason rdf:resource="http://example.org/f1/entity/1984"/>
+  <competedInSeason rdf:resource="http://example.org/f1/entity/1995"/>
+  <competedInSeason rdf:resource="http://example.org/f1/entity/2012"/>
+  <competedInSeason rdf:resource="http://example.org/f1/entity/2015"/>
+  <competedInSeason rdf:resource="http://example.org/f1/entity/2016"/>
+  <competedInSeason rdf:resource="http://example.org/f1/entity/2017"/>
+  <competedInSeason rdf:resource="http://example.org/f1/entity/2018"/>
+  <competedInSeason rdf:resource="http://example.org/f1/entity/2019"/>
+  <competedInSeason rdf:resource="http://example.org/f1/entity/2022"/>
+  <competedInSeason rdf:resource="http://example.org/f1/entity/2023"/>
+  <competedInSeason rdf:resource="http://example.org/f1/entity/2024"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.org/f1/entity/Lando_Norris">
+  <competedInSeason rdf:resource="http://example.org/f1/entity/2009"/>
+  <competedInSeason rdf:resource="http://example.org/f1/entity/2016"/>
+  <competedInSeason rdf:resource="http://example.org/f1/entity/2017"/>
+  <competedInSeason rdf:resource="http://example.org/f1/entity/2022"/>
+  <competedInSeason rdf:resource="http://example.org/f1/entity/2023"/>
+  <competedInSeason rdf:resource="http://example.org/f1/entity/2025"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.org/f1/entity/Lewis_Hamilton">
+  <competedInSeason rdf:resource="http://example.org/f1/entity/2009"/>
+  <competedInSeason rdf:resource="http://example.org/f1/entity/2016"/>
+  <competedInSeason rdf:resource="http://example.org/f1/entity/2017"/>
+  <competedInSeason rdf:resource="http://example.org/f1/entity/2022"/>
+  <competedInSeason rdf:resource="http://example.org/f1/entity/2023"/>
+  <competedInSeason rdf:resource="http://example.org/f1/entity/2025"/>
+  <competedInSeason rdf:resource="http://example.org/f1/entity/2018"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.org/f1/entity/Felipe_Massa">
+  <competedInSeason rdf:resource="http://example.org/f1/entity/1950"/>
+  <competedInSeason rdf:resource="http://example.org/f1/entity/1954"/>
+  <competedInSeason rdf:resource="http://example.org/f1/entity/1970"/>
+  <competedInSeason rdf:resource="http://example.org/f1/entity/2008"/>
+  <competedInSeason rdf:resource="http://example.org/f1/entity/2014"/>
+  <competedInSeason rdf:resource="http://example.org/f1/entity/2019"/>
+  <competedInSeason rdf:resource="http://example.org/f1/entity/2021"/>
+  <competedInSeason rdf:resource="http://example.org/f1/entity/2022"/>
+  <competedInSeason rdf:resource="http://example.org/f1/entity/2023"/>
+  <competedInSeason rdf:resource="http://example.org/f1/entity/2024"/>
+  <competedInSeason rdf:resource="http://example.org/f1/entity/2026"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.org/f1/entity/Sebastian_Vettel">
+  <competedInSeason rdf:resource="http://example.org/f1/entity/1931"/>
+  <competedInSeason rdf:resource="http://example.org/f1/entity/1952"/>
+  <competedInSeason rdf:resource="http://example.org/f1/entity/1968"/>
+  <competedInSeason rdf:resource="http://example.org/f1/entity/1988"/>
+  <competedInSeason rdf:resource="http://example.org/f1/entity/2006"/>
+  <competedInSeason rdf:resource="http://example.org/f1/entity/2019"/>
+  <competedInSeason rdf:resource="http://example.org/f1/entity/2022"/>
+  <competedInSeason rdf:resource="http://example.org/f1/entity/2024"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.org/f1/entity/Max_Verstappen">
+  <competedInSeason rdf:resource="http://example.org/f1/entity/2009"/>
+  <competedInSeason rdf:resource="http://example.org/f1/entity/2016"/>
+  <competedInSeason rdf:resource="http://example.org/f1/entity/2017"/>
+  <competedInSeason rdf:resource="http://example.org/f1/entity/2022"/>
+  <competedInSeason rdf:resource="http://example.org/f1/entity/2023"/>
+  <competedInSeason rdf:resource="http://example.org/f1/entity/2025"/>
+  <competedInSeason rdf:resource="http://example.org/f1/entity/1950"/>
+  <competedInSeason rdf:resource="http://example.org/f1/entity/1961"/>
+  <competedInSeason rdf:resource="http://example.org/f1/entity/1963"/>
+  <competedInSeason rdf:resource="http://example.org/f1/entity/1968"/>
+  <competedInSeason rdf:resource="http://example.org/f1/entity/1974"/>
+  <competedInSeason rdf:resource="http://example.org/f1/entity/1997"/>
+  <competedInSeason rdf:resource="http://example.org/f1/entity/1998"/>
+  <competedInSeason rdf:resource="http://example.org/f1/entity/2003"/>
+  <competedInSeason rdf:resource="http://example.org/f1/entity/2007"/>
+  <competedInSeason rdf:resource="http://example.org/f1/entity/2010"/>
+  <competedInSeason rdf:resource="http://example.org/f1/entity/2021"/>
+  <competedInSeason rdf:resource="http://example.org/f1/entity/2024"/>
+  <competedInSeason rdf:resource="http://example.org/f1/entity/2019"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.org/f1/entity/Monegasque_Charles_Leclerc">
+  <competedInSeason rdf:resource="http://example.org/f1/entity/2017"/>
+  <competedInSeason rdf:resource="http://example.org/f1/entity/2019"/>
+  <competedInSeason rdf:resource="http://example.org/f1/entity/2022"/>
+  <competedInSeason rdf:resource="http://example.org/f1/entity/2023"/>
+  <competedInSeason rdf:resource="http://example.org/f1/entity/2024"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.org/f1/entity/Bruce_McLaren">
+  <competedInSeason rdf:resource="http://example.org/f1/entity/1950"/>
+  <competedInSeason rdf:resource="http://example.org/f1/entity/1961"/>
+  <competedInSeason rdf:resource="http://example.org/f1/entity/1963"/>
+  <competedInSeason rdf:resource="http://example.org/f1/entity/1968"/>
+  <competedInSeason rdf:resource="http://example.org/f1/entity/1974"/>
+  <competedInSeason rdf:resource="http://example.org/f1/entity/1997"/>
+  <competedInSeason rdf:resource="http://example.org/f1/entity/1998"/>
+  <competedInSeason rdf:resource="http://example.org/f1/entity/2003"/>
+  <competedInSeason rdf:resource="http://example.org/f1/entity/2007"/>
+  <competedInSeason rdf:resource="http://example.org/f1/entity/2010"/>
+  <competedInSeason rdf:resource="http://example.org/f1/entity/2021"/>
+  <competedInSeason rdf:resource="http://example.org/f1/entity/2023"/>
+  <competedInSeason rdf:resource="http://example.org/f1/entity/2024"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.org/f1/entity/Nick_Heidfeld">
+  <competedInSeason rdf:resource="http://example.org/f1/entity/1950"/>
+  <competedInSeason rdf:resource="http://example.org/f1/entity/1954"/>
+  <competedInSeason rdf:resource="http://example.org/f1/entity/1970"/>
+  <competedInSeason rdf:resource="http://example.org/f1/entity/2008"/>
+  <competedInSeason rdf:resource="http://example.org/f1/entity/2014"/>
+  <competedInSeason rdf:resource="http://example.org/f1/entity/2019"/>
+  <competedInSeason rdf:resource="http://example.org/f1/entity/2021"/>
+  <competedInSeason rdf:resource="http://example.org/f1/entity/2022"/>
+  <competedInSeason rdf:resource="http://example.org/f1/entity/2023"/>
+  <competedInSeason rdf:resource="http://example.org/f1/entity/2024"/>
+  <competedInSeason rdf:resource="http://example.org/f1/entity/2026"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.org/f1/entity/McLaren_During">
+  <competedInSeason rdf:resource="http://example.org/f1/entity/1973"/>
+  <competedInSeason rdf:resource="http://example.org/f1/entity/2012"/>
+  <competedInSeason rdf:resource="http://example.org/f1/entity/2016"/>
+  <competedInSeason rdf:resource="http://example.org/f1/entity/2018"/>
+  <competedInSeason rdf:resource="http://example.org/f1/entity/2019"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.org/f1/entity/Carlos_Sainz">
+  <competedInSeason rdf:resource="http://example.org/f1/entity/2017"/>
+  <competedInSeason rdf:resource="http://example.org/f1/entity/2019"/>
+  <competedInSeason rdf:resource="http://example.org/f1/entity/2022"/>
+  <competedInSeason rdf:resource="http://example.org/f1/entity/2023"/>
+  <competedInSeason rdf:resource="http://example.org/f1/entity/2024"/>
+</rdf:Description>
+
+<swrl:Variable rdf:about="urn:swrl#d"/>
+
+<swrl:Variable rdf:about="urn:swrl#gp"/>
+
+<swrl:Variable rdf:about="urn:swrl#s"/>
+
+<swrl:Imp>
+  <swrl:body>
+    <rdf:Description>
+      <rdf:first>
+        <swrl:ClassAtom>
+          <swrl:classPredicate rdf:resource="Driver"/>
+          <swrl:argument1 rdf:resource="urn:swrl#d"/>
+        </swrl:ClassAtom>
+      </rdf:first>
+      <rdf:rest>
+        <rdf:Description>
+          <rdf:first>
+            <swrl:IndividualPropertyAtom>
+              <swrl:propertyPredicate rdf:resource="wonGrandPrix"/>
+              <swrl:argument1 rdf:resource="urn:swrl#d"/>
+              <swrl:argument2 rdf:resource="urn:swrl#gp"/>
+            </swrl:IndividualPropertyAtom>
+          </rdf:first>
+          <rdf:rest>
+            <rdf:Description>
+              <rdf:first>
+                <swrl:IndividualPropertyAtom>
+                  <swrl:propertyPredicate rdf:resource="isPartOfSeason"/>
+                  <swrl:argument1 rdf:resource="urn:swrl#gp"/>
+                  <swrl:argument2 rdf:resource="urn:swrl#s"/>
+                </swrl:IndividualPropertyAtom>
+              </rdf:first>
+              <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+          </rdf:rest>
+        </rdf:Description>
+      </rdf:rest>
+    </rdf:Description>
+  </swrl:body>
+  <swrl:head>
+    <rdf:Description>
+      <rdf:first>
+        <swrl:IndividualPropertyAtom>
+          <swrl:propertyPredicate rdf:resource="competedInSeason"/>
+          <swrl:argument1 rdf:resource="urn:swrl#d"/>
+          <swrl:argument2 rdf:resource="urn:swrl#s"/>
+        </swrl:IndividualPropertyAtom>
+      </rdf:first>
+      <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+    </rdf:Description>
+  </swrl:head>
+</swrl:Imp>
+
+<swrl:Imp>
+  <swrl:body>
+    <rdf:Description>
+      <rdf:first>
+        <swrl:ClassAtom>
+          <swrl:classPredicate rdf:resource="Driver"/>
+          <swrl:argument1 rdf:resource="urn:swrl#d"/>
+        </swrl:ClassAtom>
+      </rdf:first>
+      <rdf:rest>
+        <rdf:Description>
+          <rdf:first>
+            <swrl:IndividualPropertyAtom>
+              <swrl:propertyPredicate rdf:resource="wonGrandPrix"/>
+              <swrl:argument1 rdf:resource="urn:swrl#d"/>
+              <swrl:argument2 rdf:resource="urn:swrl#gp"/>
+            </swrl:IndividualPropertyAtom>
+          </rdf:first>
+          <rdf:rest>
+            <rdf:Description>
+              <rdf:first>
+                <swrl:IndividualPropertyAtom>
+                  <swrl:propertyPredicate rdf:resource="isPartOfSeason"/>
+                  <swrl:argument1 rdf:resource="urn:swrl#gp"/>
+                  <swrl:argument2 rdf:resource="urn:swrl#s"/>
+                </swrl:IndividualPropertyAtom>
+              </rdf:first>
+              <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+          </rdf:rest>
+        </rdf:Description>
+      </rdf:rest>
+    </rdf:Description>
+  </swrl:body>
+  <swrl:head>
+    <rdf:Description>
+      <rdf:first>
+        <swrl:IndividualPropertyAtom>
+          <swrl:propertyPredicate rdf:resource="competedInSeason"/>
+          <swrl:argument1 rdf:resource="urn:swrl#d"/>
+          <swrl:argument2 rdf:resource="urn:swrl#s"/>
+        </swrl:IndividualPropertyAtom>
+      </rdf:first>
+      <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+    </rdf:Description>
+  </swrl:head>
+</swrl:Imp>
+
+<swrl:Imp>
+  <swrl:body>
+    <rdf:Description>
+      <rdf:first>
+        <swrl:ClassAtom>
+          <swrl:classPredicate rdf:resource="Driver"/>
+          <swrl:argument1 rdf:resource="urn:swrl#d"/>
+        </swrl:ClassAtom>
+      </rdf:first>
+      <rdf:rest>
+        <rdf:Description>
+          <rdf:first>
+            <swrl:IndividualPropertyAtom>
+              <swrl:propertyPredicate rdf:resource="wonGrandPrix"/>
+              <swrl:argument1 rdf:resource="urn:swrl#d"/>
+              <swrl:argument2 rdf:resource="urn:swrl#gp"/>
+            </swrl:IndividualPropertyAtom>
+          </rdf:first>
+          <rdf:rest>
+            <rdf:Description>
+              <rdf:first>
+                <swrl:IndividualPropertyAtom>
+                  <swrl:propertyPredicate rdf:resource="isPartOfSeason"/>
+                  <swrl:argument1 rdf:resource="urn:swrl#gp"/>
+                  <swrl:argument2 rdf:resource="urn:swrl#s"/>
+                </swrl:IndividualPropertyAtom>
+              </rdf:first>
+              <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+          </rdf:rest>
+        </rdf:Description>
+      </rdf:rest>
+    </rdf:Description>
+  </swrl:body>
+  <swrl:head>
+    <rdf:Description>
+      <rdf:first>
+        <swrl:IndividualPropertyAtom>
+          <swrl:propertyPredicate rdf:resource="competedInSeason"/>
+          <swrl:argument1 rdf:resource="urn:swrl#d"/>
+          <swrl:argument2 rdf:resource="urn:swrl#s"/>
+        </swrl:IndividualPropertyAtom>
+      </rdf:first>
+      <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+    </rdf:Description>
+  </swrl:head>
+</swrl:Imp>
+
+
+</rdf:RDF>

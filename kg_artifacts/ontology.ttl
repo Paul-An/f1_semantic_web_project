@@ -1,0 +1,72 @@
+@prefix owl:  <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+@prefix f1:   <http://example.org/f1/ontology/> .
+@prefix wdt:  <http://www.wikidata.org/prop/direct/> .
+@prefix wd:   <http://www.wikidata.org/entity/> .
+
+<http://example.org/f1/ontology/>
+    rdf:type owl:Ontology ;
+    rdfs:label "Formula 1 Knowledge Graph Ontology" .
+
+# Classes
+f1:Driver
+    rdf:type owl:Class ;
+    rdfs:label "Driver" ;
+    rdfs:comment "A Formula 1 racing driver." ;
+    owl:equivalentClass wd:Q10843402 .
+
+f1:Team
+    rdf:type owl:Class ;
+    rdfs:subClassOf f1:TeamOrOrganization ;
+    rdfs:label "Team" ;
+    rdfs:comment "A Formula 1 constructor / team." .
+
+f1:TeamOrOrganization
+    rdf:type owl:Class ;
+    rdfs:label "Team or Organization" .
+
+f1:GrandPrix
+    rdf:type owl:Class ;
+    rdfs:label "Grand Prix" ;
+    rdfs:comment "A Formula 1 Grand Prix race event." ;
+    owl:equivalentClass wd:Q9102 .
+
+f1:Season
+    rdf:type owl:Class ;
+    rdfs:label "Season" ;
+    rdfs:comment "A Formula 1 championship season." ;
+    owl:equivalentClass wd:Q1539532 .
+
+f1:CountryOrPlace
+    rdf:type owl:Class ;
+    rdfs:label "Country or Place" .
+
+# Object Properties
+f1:wonGrandPrix
+    rdf:type owl:ObjectProperty ;
+    rdfs:label "won Grand Prix" ;
+    rdfs:domain f1:Driver ;
+    rdfs:range f1:GrandPrix ;
+    owl:equivalentProperty wdt:P1346 .
+
+f1:wonConstructorsChampionshipIn
+    rdf:type owl:ObjectProperty ;
+    rdfs:label "won Constructors Championship in" ;
+    rdfs:domain f1:Team ;
+    rdfs:range f1:Season ;
+    owl:equivalentProperty wdt:P2522 .
+
+f1:isPartOfSeason
+    rdf:type owl:ObjectProperty ;
+    rdfs:label "is part of season" ;
+    rdfs:domain f1:GrandPrix ;
+    rdfs:range f1:Season ;
+    owl:equivalentProperty wdt:P361 .
+
+# Datatype Property
+f1:alignmentConfidence
+    rdf:type owl:DatatypeProperty ;
+    rdfs:label "alignment confidence" ;
+    rdfs:range xsd:decimal .
