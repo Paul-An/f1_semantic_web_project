@@ -1,0 +1,1430 @@
+@prefix f1entity: <http://example.org/f1/entity/> .
+@prefix f1onto: <http://example.org/f1/ontology/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+f1entity:AF_Corse f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q1988831 .
+
+f1entity:ART_Grand_Prix f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q296934 .
+
+f1entity:Abu_Dhabi_Grand_Prix f1onto:alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q7849 .
+
+f1entity:Achille_Varzi f1onto:alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q340261 .
+
+f1entity:Adrian_Newey f1onto:alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q173380 .
+
+f1entity:Al_Hamad f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q20299841 .
+
+f1entity:Alan_Jones f1onto:alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q172753 .
+
+f1entity:Alberto_Ascari f1onto:alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q2086 .
+
+f1entity:Alberto_Massimino f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q173564 .
+
+f1entity:Alessandro_Pier_Guidi f1onto:alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q505538 .
+
+f1entity:Alex_Albon f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q16149172 .
+
+f1entity:Alex_Lloyd f1onto:alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q1361899 .
+
+f1entity:Alexander_Albon f1onto:alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q16149172 .
+
+f1entity:Alexander_Rossi f1onto:alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q559962 .
+
+f1entity:Alfa_Corse f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q3933157 .
+
+f1entity:Alfa_Romeo f1onto:alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q61467970 .
+
+f1entity:Alfred_Neubauer f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q105566244 .
+
+f1entity:Alfredo_Caniato f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q112753838 .
+
+f1entity:Algemeen_Dagblad f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q290764 .
+
+f1entity:Ali_G f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q1751029 .
+
+f1entity:Alpine f1onto:alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q98930155 .
+
+f1entity:Alpine_F1 f1onto:alignmentConfidence 0.8 ;
+    owl:sameAs wd:Q98930155 .
+
+f1entity:Andre_Figueiredo f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q21290171 .
+
+f1entity:Andrea_Kimi_Antonelli f1onto:alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q112073790 .
+
+f1entity:Andrea_Stella f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q3616058 .
+
+f1entity:Andrea_de_Adamich f1onto:alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q173250 .
+
+f1entity:Andreas_Seidl f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q24175797 .
+
+f1entity:Andretti_Autosport f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q503406 .
+
+f1entity:Andrew_Benson f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q112406366 .
+
+f1entity:Andrew_Lawrence f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q108875776 .
+
+f1entity:Anthony_Hamilton f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q573323 .
+
+f1entity:Anthony_Kumpen f1onto:alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q2852883 .
+
+f1entity:Antonio_Brivio f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q601003 .
+
+f1entity:Antonio_Fuoco f1onto:alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q15550466 .
+
+f1entity:Antonio_Giovinazzi f1onto:alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q7084843 .
+
+f1entity:Appendix_2 f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q104433224 .
+
+f1entity:Arrow_McLaren f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q2646582 .
+
+f1entity:Arthur_Leclerc f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q116953135 .
+
+f1entity:Aston_Martin f1onto:alignmentConfidence 0.8 ;
+    owl:sameAs wd:Q104620704 .
+
+f1entity:Aston_Martin_F1 f1onto:alignmentConfidence 0.8 ;
+    owl:sameAs wd:Q104620704 .
+
+f1entity:Audi f1onto:alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q120756696 .
+
+f1entity:Australian_Grand_Prix f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q60853029 .
+
+f1entity:Austrian_Grand_Prix f1onto:alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q7876 .
+
+f1entity:Autosport_Awards f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q4034624 .
+
+f1entity:Ayrton_Senna f1onto:alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q10490 .
+
+f1entity:Azerbaijan f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q227 .
+
+f1entity:Azerbaijan_Grand_Prix f1onto:alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q27940843 .
+
+f1entity:BBC_Sport f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q552359 .
+
+f1entity:Bahrain_Grand_Prix f1onto:alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q7885 .
+
+f1entity:Barcelona-Catalunya_Grand_Prix f1onto:alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q134915019 .
+
+f1entity:Belfast_Telegraph f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q3985843 .
+
+f1entity:Belgian_Grand_Prix f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q29060347 .
+
+f1entity:Belgian_Grand_Prix_2020 f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q67123917 .
+
+f1entity:Benedetto_Vigna f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q3638113 .
+
+f1entity:Brad_Pitt f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q35332 .
+
+f1entity:Brands_Hatch f1onto:alignmentConfidence 0.8 ;
+    owl:sameAs wd:Q10434745 .
+
+f1entity:Brawn f1onto:alignmentConfidence 0.8 ;
+    owl:sameAs wd:Q17596 .
+
+f1entity:Brazilian_Grand_Prix f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q7961 .
+
+f1entity:Brendon_Leigh f1onto:alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q110143710 .
+
+f1entity:Breonna_Taylor f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q96075512 .
+
+f1entity:Brian_Barnhart f1onto:alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q4963058 .
+
+f1entity:British_Grand_Prix f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q111333135 .
+
+f1entity:Bruce_McLaren f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q172030 .
+
+f1entity:Bruno_Giacomelli f1onto:alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q173112 .
+
+f1entity:Bruno_Senna f1onto:alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q82864 .
+
+f1entity:Bryant_Gumbel f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q4980575 .
+
+f1entity:Cadillac f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q131323328 .
+
+f1entity:Caesars_Palace_Grand_Prix f1onto:alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q8039 .
+
+f1entity:Canadian_Grand_Prix f1onto:alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q7965 .
+
+f1entity:Carl_Williams f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q116739359 .
+
+f1entity:Carlo_Maria_Pintacuda f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q1042293 .
+
+f1entity:Carlos_Reutemann f1onto:alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q173238 .
+
+f1entity:Carlos_Sainz f1onto:alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q211204 .
+
+f1entity:Carlos_Sainz_Jr f1onto:alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q544856 .
+
+f1entity:Carrera_Panamericana f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q1044949 .
+
+f1entity:Cavallino_Rampante f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q169898 .
+
+f1entity:Charles_Cooper f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q111325010 .
+
+f1entity:Charles_Leclerc f1onto:alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q17541912 .
+
+f1entity:Charlie_Whiting f1onto:alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q173538 .
+
+f1entity:Chase_Carey f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q5087105 .
+
+f1entity:Checo_Perez f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q82805 .
+
+f1entity:Chinese_Grand_Prix f1onto:alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q7980 .
+
+f1entity:Chris_Amon f1onto:alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q171469 .
+
+f1entity:Chris_Lulham f1onto:alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q134506456 .
+
+f1entity:Christian_Aid f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q5109265 .
+
+f1entity:Christian_Horner f1onto:alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q173472 .
+
+f1entity:Christian_Lundgaard f1onto:alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q28037411 .
+
+f1entity:Christopher_Haase f1onto:alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q91017 .
+
+f1entity:Claudio_Lombardi f1onto:alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q173868 .
+
+f1entity:Clay_Regazzoni f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q173284 .
+
+f1entity:Come_Ledogar f1onto:alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q16538533 .
+
+f1entity:Comic_Relief f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q1114459 .
+
+f1entity:Cristina_Gutierrez f1onto:alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q19817503 .
+
+f1entity:DAVID_MALU f1onto:alignmentConfidence 0.8 ;
+    owl:sameAs wd:Q56690547 .
+
+f1entity:Dan_Gurney f1onto:alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q171466 .
+
+f1entity:Dani_Moreno f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q123102441 .
+
+f1entity:Daniel_Abt f1onto:alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q70928 .
+
+f1entity:Daniel_Juncadella f1onto:alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q256914 .
+
+f1entity:Daniel_Ricciardo f1onto:alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q82816 .
+
+f1entity:Daniel_Serra f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q112485405 .
+
+f1entity:Daniele_Audetto f1onto:alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q3014933 .
+
+f1entity:Daniil_Kvyat f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q979668 .
+
+f1entity:Dario_Mitidieri f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q21557602 .
+
+f1entity:David_Coulthard f1onto:alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q172832 .
+
+f1entity:David_Hobbs f1onto:alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q173466 .
+
+f1entity:David_Malukas f1onto:alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q56690547 .
+
+f1entity:David_Sanchez f1onto:alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q110317087 .
+
+f1entity:David_Tremayne f1onto:alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q5240496 .
+
+f1entity:De_Vries f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q1180481 .
+
+f1entity:Dennis_Olsen f1onto:alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q16539560 .
+
+f1entity:Denny_Hulme f1onto:alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q3166 .
+
+f1entity:Derek_Bell f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q111045277 .
+
+f1entity:Di_Grassi f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q172783 .
+
+f1entity:Didier_Pironi f1onto:alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q171432 .
+
+f1entity:Driver_Database f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q19587362 .
+
+f1entity:Dutch f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q7411 .
+
+f1entity:Dutch_Grand_Prix f1onto:alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q9109 .
+
+f1entity:Ed_Hardy f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q108050308 .
+
+f1entity:Eddie_Irvine f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q171397 .
+
+f1entity:Eddie_Jordan f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q1134403 .
+
+f1entity:Eifel_Grand_Prix f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q97651788 .
+
+f1entity:Eifel_Grand_Prix_2020 f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q97651788 .
+
+f1entity:Emerson_Fittipaldi f1onto:alignmentConfidence 0.8 ;
+    owl:sameAs wd:Q108878276 .
+
+f1entity:Emilia-Romagna_Grand_Prix f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q100953125 .
+
+f1entity:Emilia_Romagna_Grand_Prix f1onto:alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q100953125 .
+
+f1entity:Emma_Gilmour f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q110584432 .
+
+f1entity:Enzo_Ferrari f1onto:alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q181282 .
+
+f1entity:Eric_Boullier f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q172767 .
+
+f1entity:Estrella_Galicia f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q3394030 .
+
+f1entity:Ethan_Jeff-Hall f1onto:alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q137856653 .
+
+f1entity:Eugenio_Dragoni f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q1373306 .
+
+f1entity:European_Grand_Prix f1onto:alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q7994 .
+
+f1entity:Evening_Standard f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q666494 .
+
+f1entity:F1_Grand_Prix f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q1120846 .
+
+f1entity:Federico_Giberti f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q88430333 .
+
+f1entity:Felipe_Massa f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q82652 .
+
+f1entity:Felipe_Nasr f1onto:alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q777319 .
+
+f1entity:Felix_Rosenqvist f1onto:alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q1403778 .
+
+f1entity:Fernando_Alonso f1onto:alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q10514 .
+
+f1entity:Ferrari f1onto:alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q169898 .
+
+f1entity:Formel_1 f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q108886227 .
+
+f1entity:Formula_1 f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q48311119 .
+
+f1entity:Formula_1_Grand_Prix_de_Monaco f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q48311119 .
+
+f1entity:Formula_2 f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q16556890 .
+
+f1entity:Formula_3_Euro_Series f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q1003026 .
+
+f1entity:Formula_E_Gen3 f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q115524715 .
+
+f1entity:Formula_Renault f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q548230 .
+
+f1entity:Formula_Three f1onto:alignmentConfidence 0.8 ;
+    owl:sameAs wd:Q105748930 .
+
+f1entity:Franco_Lini f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q1442603 .
+
+f1entity:Franz_Hermann f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q91295 .
+
+f1entity:Franz_Tost f1onto:alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q112133 .
+
+f1entity:Fred_Smith f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q5496300 .
+
+f1entity:French_Grand_Prix f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q7997 .
+
+f1entity:Frikadelli_Racing f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q1464891 .
+
+f1entity:Gary_Anderson f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q12348135 .
+
+f1entity:Gary_Rose f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q40479305 .
+
+f1entity:George_Floyd f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q95677819 .
+
+f1entity:George_Follmer f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q172096 .
+
+f1entity:George_Kurtz f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q50082669 .
+
+f1entity:George_Lucas f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q38222 .
+
+f1entity:George_Russell f1onto:alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q17319645 .
+
+f1entity:Gerald_Donaldson f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q123692630 .
+
+f1entity:Gerhard_Berger f1onto:alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q78502 .
+
+f1entity:German_Grand_Prix f1onto:alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q7998 .
+
+f1entity:Giancarlo_Baghetti f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q171478 .
+
+f1entity:Giancarlo_Fisichella f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q172712 .
+
+f1entity:Gianmaria_Bruni f1onto:alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q173190 .
+
+f1entity:Gil_de_Ferran f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q705516 .
+
+f1entity:Giles_Richards f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q131746679 .
+
+f1entity:Gilles_Villeneuve f1onto:alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q172845 .
+
+f1entity:Giorgio_Pantano f1onto:alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q61917 .
+
+f1entity:Giuseppe_Campari f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q1385724 .
+
+f1entity:Giuseppe_Farina f1onto:alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q108898480 .
+
+f1entity:Gordon_Coppuck f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q5585030 .
+
+f1entity:Gordon_Murray f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q42883581 .
+
+f1entity:Graham_Hill f1onto:alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q3128 .
+
+f1entity:Gran_Turismo f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q652928 .
+
+f1entity:Grand_Prix f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q10290923 .
+
+f1entity:Grand_Prix_Motor f1onto:alignmentConfidence 0.8 ;
+    owl:sameAs wd:Q109678900 .
+
+f1entity:Greg_Stuart f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q67179719 .
+
+f1entity:Guanyu_Zhou f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q17327107 .
+
+f1entity:Guy_Moll f1onto:alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q1373877 .
+
+f1entity:Haas_F1_Team f1onto:alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q16300222 .
+
+f1entity:Hajime_Sorayama f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q276692 .
+
+f1entity:Hans_Herrmann f1onto:alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q65915 .
+
+f1entity:Harry_King f1onto:alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q104839572 .
+
+f1entity:Hart_van_Nederland f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q2199100 .
+
+f1entity:Hawthorn_Memorial f1onto:alignmentConfidence 0.8 ;
+    owl:sameAs wd:Q19978796 .
+
+f1entity:Hawthorn_Memorial_Trophy f1onto:alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q19978796 .
+
+f1entity:Heikki_Kovalainen f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q82891 .
+
+f1entity:Helmut_Marko f1onto:alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q78545 .
+
+f1entity:Honorary_Fellows f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q94420485 .
+
+f1entity:Hungarian_Grand_Prix f1onto:alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q9233 .
+
+f1entity:Igora_Drive f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q69825171 .
+
+f1entity:Irish_Examiner f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q1520619 .
+
+f1entity:Italian_Grand_Prix f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q23045185 .
+
+f1entity:Jack_Brabham f1onto:alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q2125 .
+
+f1entity:Jack_Doohan f1onto:alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q81453998 .
+
+f1entity:Jackie_Oliver f1onto:alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q171720 .
+
+f1entity:Jackie_Stewart f1onto:alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q3188 .
+
+f1entity:Jacky_Ickx f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q173123 .
+
+f1entity:Jacques_Villeneuve f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q374813 .
+
+f1entity:Jake_Hughes f1onto:alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q17541830 .
+
+f1entity:James_Allen f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q6128627 .
+
+f1entity:James_Allison f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q3913494 .
+
+f1entity:James_Baldwin f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q273210 .
+
+f1entity:James_Barclay f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q108525874 .
+
+f1entity:James_Calado f1onto:alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q1680121 .
+
+f1entity:James_Elson f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q94295616 .
+
+f1entity:James_Galloway f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q108284640 .
+
+f1entity:James_Hunt f1onto:alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q140393 .
+
+f1entity:James_Key f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q30624 .
+
+f1entity:James_Vowles f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q708167 .
+
+f1entity:Japanese_Grand_Prix f1onto:alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q8000 .
+
+f1entity:Jean-Eric_Vergne f1onto:alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q82829 .
+
+f1entity:Jean_Todt f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q171998 .
+
+f1entity:Jenson_Button f1onto:alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q10510 .
+
+f1entity:Jim_Clark f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q3137 .
+
+f1entity:Jim_Hall f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q433054 .
+
+f1entity:Jim_Holden f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q28031233 .
+
+f1entity:Jim_Ratcliffe f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q1440023 .
+
+f1entity:Jochen_Mass f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q57459 .
+
+f1entity:Jock_Clear f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q173232 .
+
+f1entity:Jody_Scheckter f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q172775 .
+
+f1entity:Joe_Saward f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q6212197 .
+
+f1entity:John_Barnard f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q6220744 .
+
+f1entity:John_Blake_Publishing f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q129560756 .
+
+f1entity:John_Elkann f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q284011 .
+
+f1entity:John_Hogan f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q1268342 .
+
+f1entity:John_Surtees f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q3153 .
+
+f1entity:John_Watson f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q108162337 .
+
+f1entity:Johnnie_Walker f1onto:alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q6266126 .
+
+f1entity:Johnny_Herbert f1onto:alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q172751 .
+
+f1entity:Johnny_Rutherford f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q980888 .
+
+f1entity:Jolyon_Palmer f1onto:alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q714365 .
+
+f1entity:Jordan_Grand_Prix f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q171367 .
+
+f1entity:Jos_Verstappen f1onto:alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q173145 .
+
+f1entity:Josef_Kaufmann_Racing f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q11867060 .
+
+f1entity:Joseph_Harker f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q18732718 .
+
+f1entity:Joseph_Kosinski f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q2444076 .
+
+f1entity:Juan_Manuel_Fangio f1onto:alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q2069 .
+
+f1entity:Juan_Pablo_Montoya f1onto:alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q172744 .
+
+f1entity:Jules_Gounon f1onto:alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q17541789 .
+
+f1entity:Kaia_Gerber f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q22673974 .
+
+f1entity:Karl_Kling f1onto:alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q63713 .
+
+f1entity:Karlie_Kloss f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q292749 .
+
+f1entity:Kaspersky_Lab f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q489943 .
+
+f1entity:Keke_Rosberg f1onto:alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q171381 .
+
+f1entity:Kelly_Piquet f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q21290333 .
+
+f1entity:Kessel_Racing f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q30743988 .
+
+f1entity:Kevin_Magnussen f1onto:alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q1740212 .
+
+f1entity:Kick_Sauber f1onto:alignmentConfidence 0.8 ;
+    owl:sameAs wd:Q132554259 .
+
+f1entity:Kim_Kardashian f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q186304 .
+
+f1entity:Kimi_Antonelli f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q112073790 .
+
+f1entity:Kimi_Raikkonen f1onto:alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q11192 .
+
+f1entity:Lance_Stroll f1onto:alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q16238921 .
+
+f1entity:Lando_Norris f1onto:alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q22007193 .
+
+f1entity:Las_Vegas_Grand_Prix f1onto:alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q111443584 .
+
+f1entity:Leigh_Diffey f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q16207168 .
+
+f1entity:Leonardo_DiCaprio f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q38111 .
+
+f1entity:Lewis_Carl_Davidson_Hamilton f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q9673 .
+
+f1entity:Lewis_Hamilton f1onto:alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q9673 .
+
+f1entity:Liam_Lawson f1onto:alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q59180330 .
+
+f1entity:Lionel_Messi f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q615 .
+
+f1entity:Logan_Sargeant f1onto:alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q28037494 .
+
+f1entity:Loic_Serra f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q105080406 .
+
+f1entity:Lorenzo_Bandini f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q173006 .
+
+f1entity:Louis_Chiron f1onto:alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q173226 .
+
+f1entity:Lucas_Blakeley f1onto:alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q136419521 .
+
+f1entity:Luigi_Bazzi f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q18222735 .
+
+f1entity:Luke_Browning f1onto:alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q108545692 .
+
+f1entity:Luke_Slater f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q100923586 .
+
+f1entity:Luna_Fluxa f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q132858119 .
+
+f1entity:Magneti_Marelli f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q1884343 .
+
+f1entity:Malaysian_Grand_Prix f1onto:alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q8082 .
+
+f1entity:Mansour_Ojjeh f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q173646 .
+
+f1entity:Marc_Marquez f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q40615 .
+
+f1entity:Marco_Piccinini f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q85648347 .
+
+f1entity:Mario_Andretti f1onto:alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q171312 .
+
+f1entity:Mario_Kart f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q188196 .
+
+f1entity:Mario_Tadini f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q110611415 .
+
+f1entity:Mark_Blundell f1onto:alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q171553 .
+
+f1entity:Mark_Donohue f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q58148295 .
+
+f1entity:Mark_Hughes f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q214513 .
+
+f1entity:Mark_Temple f1onto:alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q128496015 .
+
+f1entity:Mark_Webber f1onto:alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q82667 .
+
+f1entity:Martin_Brundle f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q172854 .
+
+f1entity:Martin_Whitmarsh f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q173376 .
+
+f1entity:Martina_Navratilova f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q54545 .
+
+f1entity:Mary_McGee f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q27677142 .
+
+f1entity:Masashi_Yamamoto f1onto:alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q66365074 .
+
+f1entity:Matt_Dickinson f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q6788558 .
+
+f1entity:Mattias_Ekstrom f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q506045 .
+
+f1entity:Mauro_Forghieri f1onto:alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q173658 .
+
+f1entity:Max_Emilian_Verstappen f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q2239218 .
+
+f1entity:Max_Verstappen f1onto:alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q2239218 .
+
+f1entity:McLaren f1onto:alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q172030 .
+
+f1entity:McLaren_Artura f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q102562479 .
+
+f1entity:McLaren_Automotive f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q1351854 .
+
+f1entity:McLaren_F1 f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q172030 .
+
+f1entity:McLaren_Formula f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q172030 .
+
+f1entity:McLaren_Formula_1 f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q172030 .
+
+f1entity:McLaren_Formula_1_Team f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q172030 .
+
+f1entity:McLaren_Formula_E_Team f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q113034048 .
+
+f1entity:McLaren_Honda f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q172030 .
+
+f1entity:McLaren_M12 f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q3853384 .
+
+f1entity:McLaren_M23 f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q172468 .
+
+f1entity:McLaren_MP44 f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q172621 .
+
+f1entity:McLaren_Mercedes f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q172030 .
+
+f1entity:McLaren_Racing f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q172030 .
+
+f1entity:McLaren_Racing_Limited f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q172030 .
+
+f1entity:Mercedes f1onto:alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q172721 .
+
+f1entity:Mercedes_Grand_Prix f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q3855051 .
+
+f1entity:Mexican_Grand_Prix f1onto:alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q8109 .
+
+f1entity:Mexico_City_Grand_Prix f1onto:alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q106856346 .
+
+f1entity:Miami_Grand_Prix f1onto:alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q106545547 .
+
+f1entity:Michael_Andretti f1onto:alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q171519 .
+
+f1entity:Michael_Gove f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q333937 .
+
+f1entity:Michael_Masi f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q107123924 .
+
+f1entity:Michael_Schumacher f1onto:alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q9671 .
+
+f1entity:Mick_Schumacher f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q18119599 .
+
+f1entity:Miguel_Molina f1onto:alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q1401610 .
+
+f1entity:Mika_Hakkinen f1onto:alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q172842 .
+
+f1entity:Mike_Coughlan f1onto:alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q173550 .
+
+f1entity:Mike_Elliott f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q6846686 .
+
+f1entity:Mike_Hailwood f1onto:alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q173147 .
+
+f1entity:Mike_Hawthorn f1onto:alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q2104 .
+
+f1entity:Mike_Seymour f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q83214377 .
+
+f1entity:Milton_Keynes f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q204234 .
+
+f1entity:Monaco_Grand_Prix f1onto:alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q9102 .
+
+f1entity:Monte_Carlo f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q550248 .
+
+f1entity:Motor_Sport f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q3866340 .
+
+f1entity:Motorsport_Network f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q27150138 .
+
+f1entity:Murray_Walker f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q443495 .
+
+f1entity:My_Story f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q12581576 .
+
+f1entity:Nanni_Galli f1onto:alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q173349 .
+
+f1entity:Neil_Houldey f1onto:alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q117774065 .
+
+f1entity:Nelson_Piquet f1onto:alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q171346 .
+
+f1entity:Neue_Zurcher_Zeitung f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q658945 .
+
+f1entity:Nicholas_Latifi f1onto:alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q8898994 .
+
+f1entity:Nick_Heidfeld f1onto:alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q75810 .
+
+f1entity:Nicklas_Nielsen f1onto:alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q28465219 .
+
+f1entity:Nico_Hulkenberg f1onto:alignmentConfidence 0.6,
+        1.0 ;
+    owl:sameAs wd:Q76547 .
+
+f1entity:Nico_Rosberg f1onto:alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q75820 .
+
+f1entity:Nicole_Scherzinger f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q167696 .
+
+f1entity:Nigel_Mansell f1onto:alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q10501 .
+
+f1entity:Niki_Lauda f1onto:alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q78489 .
+
+f1entity:Norbert_Haug f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q60674 .
+
+f1entity:Ola_Kallenius f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q19297571 .
+
+f1entity:Oliver_Bearman f1onto:alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q107023292 .
+
+f1entity:Olivier_Gendebien f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q172142 .
+
+f1entity:Oscar_Piastri f1onto:alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q28741262 .
+
+f1entity:Paddy_Lowe f1onto:alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q394925 .
+
+f1entity:Pascal_Wehrlein f1onto:alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q85762 .
+
+f1entity:Patrick_Tambay f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q173020 .
+
+f1entity:Paul_Aron f1onto:alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q93973312 .
+
+f1entity:Paul_Weaver f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q112319844 .
+
+f1entity:Pedro_de_la_Rosa f1onto:alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q82924 .
+
+f1entity:Pernod_Ricard f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q837049 .
+
+f1entity:Peter_Gethin f1onto:alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q171511 .
+
+f1entity:Peter_Prodromou f1onto:alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q3280576 .
+
+f1entity:Peter_Revson f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q171535 .
+
+f1entity:Peter_Schetty f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q119828 .
+
+f1entity:Peter_Whitehead f1onto:alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q173049 .
+
+f1entity:Peter_Windsor f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q42638446 .
+
+f1entity:Peugeot_Sport f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q2055791 .
+
+f1entity:Phil_Hanson f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q55629847 .
+
+f1entity:Phil_Hill f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q20070468 .
+
+f1entity:Phillip_Morris f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q42292357 .
+
+f1entity:Pier_Guidi f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q505538 .
+
+f1entity:Pierre_Gasly f1onto:alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q11816647 .
+
+f1entity:Pierre_Levegh f1onto:alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q171742 .
+
+f1entity:Portuguese_Grand_Prix f1onto:alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q9117 .
+
+f1entity:Qatar_Grand_Prix f1onto:alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q108750321 .
+
+f1entity:Raymond_Sommer f1onto:alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q108906167 .
+
+f1entity:Red_Bull_Racing f1onto:alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q173663 .
+
+f1entity:Reg_Parnell f1onto:alignmentConfidence 0.8 ;
+    owl:sameAs wd:Q7307836 .
+
+f1entity:Richard_Mille f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q56308714 .
+
+f1entity:Richard_Williams f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q1999598 .
+
+f1entity:Richie_Ginther f1onto:alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q171460 .
+
+f1entity:Risi_Competizione f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q2497959 .
+
+f1entity:Rob_Burrow f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q3434158 .
+
+f1entity:Rob_Marshall f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q353501 .
+
+f1entity:Robert_Kubica f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q160359 .
+
+f1entity:Robin_Herd f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q173850 .
+
+f1entity:Rode_Duivel f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q28091423 .
+
+f1entity:Roger_Penske f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q172155 .
+
+f1entity:Romain_Grosjean f1onto:alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q82742 .
+
+f1entity:Romolo_Tavoni f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q1701423 .
+
+f1entity:Ron_Dennis f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q173208 .
+
+f1entity:Ronnie_Peterson f1onto:alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q173280 .
+
+f1entity:Ross_Brawn f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q173140 .
+
+f1entity:Rubens_Barrichello f1onto:alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q169846 .
+
+f1entity:Rudolf_Caracciola f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q57365 .
+
+f1entity:Russian_Grand_Prix f1onto:alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q173271 .
+
+f1entity:Sacha_Fenestraz f1onto:alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q24940344 .
+
+f1entity:Sakhir f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q98754976 .
+
+f1entity:Sam_Bird f1onto:alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q153242 .
+
+f1entity:Samuel_L_Jackson f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q172678 .
+
+f1entity:San_Marino_Grand_Prix f1onto:alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q9122 .
+
+f1entity:Sao_Paulo f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q175 .
+
+f1entity:Sao_Paulo_ePrix f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q113128749 .
+
+f1entity:Sara_Moonves f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q88616674 .
+
+f1entity:Saudi_Arabian_Grand_Prix f1onto:alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q101206065 .
+
+f1entity:Save_the_Children f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q215934 .
+
+f1entity:Scott_Mitchell f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q8992456 .
+
+f1entity:Scuderia_Ferrari f1onto:alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q169898 .
+
+f1entity:Scuderia_Toro_Rosso f1onto:alignmentConfidence 0.8 ;
+    owl:sameAs wd:Q61657577 .
+
+f1entity:Sebastian_Vettel f1onto:alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q42311 .
+
+f1entity:Sergio_Perez f1onto:alignmentConfidence 0.6,
+        1.0 ;
+    owl:sameAs wd:Q82805 .
+
+f1entity:Sifan_Hassan f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q14855644 .
+
+f1entity:Simon_Pagenaud f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q983621 .
+
+f1entity:Singapore_Grand_Prix f1onto:alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q9137 .
+
+f1entity:Sophie_Kumpen f1onto:alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q17986878 .
+
+f1entity:South_African_Grand_Prix f1onto:alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q9227 .
+
+f1entity:Spanish_Grand_Prix f1onto:alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q9208 .
+
+f1entity:Stats_F1 f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q115688838 .
+
+f1entity:Stefan_Johansson f1onto:alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q171474 .
+
+f1entity:Stefano_Domenicali f1onto:alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q173168 .
+
+f1entity:Steffi_Graf f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q11662 .
+
+f1entity:Steijn_Schothorst f1onto:alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q1906430 .
+
+f1entity:Stephen_South f1onto:alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q657158 .
+
+f1entity:Steve_Matchett f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q7613294 .
+
+f1entity:Steve_Nichols f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q173539 .
+
+f1entity:Stirling_Moss f1onto:alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q172728 .
+
+f1entity:Stoffel_Vandoorne f1onto:alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q1344577 .
+
+f1entity:Takashi_Murakami f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q352437 .
+
+f1entity:Tamara_Molinaro f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q111017863 .
+
+f1entity:Taylor_Barnard f1onto:alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q114413758 .
+
+f1entity:Team_Penske f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q174144 .
+
+f1entity:Team_X44 f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q115805780 .
+
+f1entity:Teddy_Mayer f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q173547 .
+
+f1entity:The_Grand_Prix f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q66011042 .
+
+f1entity:Thierry_Vermeulen f1onto:alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q117210352 .
+
+f1entity:Thomas_Maher f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q76233543 .
+
+f1entity:Timmy_Mayer f1onto:alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q172268 .
+
+f1entity:Timo_Glock f1onto:alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q76719 .
+
+f1entity:Tom_Cruise f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q37079 .
+
+f1entity:Tom_Ilube f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q27804582 .
+
+f1entity:Tommy_Hilfiger f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q125145313 .
+
+f1entity:Toni_Vilander f1onto:alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q931316 .
+
+f1entity:Top_Gear f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q33162 .
+
+f1entity:Toro_Rosso f1onto:alignmentConfidence 0.8 ;
+    owl:sameAs wd:Q15651503 .
+
+f1entity:Toto_Wolff f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q90005 .
+
+f1entity:Turkish_Grand_Prix f1onto:alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q9229 .
+
+f1entity:Tuscan_Grand_Prix f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q97120595 .
+
+f1entity:Tyrrell_Racing f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q171992 .
+
+f1entity:United_States_Grand_Prix f1onto:alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q9209 .
+
+f1entity:United_States_Grand_Prix_West f1onto:alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q9220 .
+
+f1entity:Valterri_Bottas f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q138745 .
+
+f1entity:Valtteri_Bottas f1onto:alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q138745 .
+
+f1entity:Vauxhall_Cavalier f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q1472285 .
+
+f1entity:Verstappen_Sim_Racing f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q134543288 .
+
+f1entity:Virgin_Books f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q3138589 .
+
+f1entity:Virgin_Media f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q1199764 .
+
+f1entity:Visa_Cash_App_RB_Formula f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q124350606 .
+
+f1entity:Vitaly_Petrov f1onto:alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q82901 .
+
+f1entity:Vitantonio_Liuzzi f1onto:alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q171294 .
+
+f1entity:Vodafone_McLaren f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q172030 .
+
+f1entity:WGSBN_Bulletin f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q126120280 .
+
+f1entity:West_McLaren f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q172030 .
+
+f1entity:Will_Buxton f1onto:alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q64759135 .
+
+f1entity:Williams f1onto:alignmentConfidence 0.8 ;
+    owl:sameAs wd:Q171337 .
+
+f1entity:Williams_F1 f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q171337 .
+
+f1entity:Williams_Racing f1onto:alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q171337 .
+
+f1entity:Winnie_Harlow f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q19791141 .
+
+f1entity:Winward_Racing f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q16040490 .
+
+f1entity:Wolfgang_von_Trips f1onto:alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q57451 .
+
+f1entity:Yifei_Ye f1onto:alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q99571059 .
+
+f1entity:Yuki_Tsunoda f1onto:alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q59209579 .
+
+f1entity:Zak_Brown f1onto:alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q8064960 .
+
+f1entity:Zhou_Guanyu f1onto:alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q17327107 .
+
+f1onto:isPartOfSeason owl:equivalentProperty <http://www.wikidata.org/prop/direct/P361> .
+
+f1onto:wonConstructorsChampionshipIn owl:equivalentProperty <http://www.wikidata.org/prop/direct/P2522> .
+
+f1onto:wonGrandPrix owl:equivalentProperty <http://www.wikidata.org/prop/direct/P1346> .
+

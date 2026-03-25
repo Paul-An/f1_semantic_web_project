@@ -1,0 +1,4515 @@
+@prefix ns1: <http://example.org/f1/ontology/> .
+
+<http://example.org/f1/entity/-_Codling> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/-_van_de_Burgt> a ns1:Driver .
+
+<http://example.org/f1/entity/1000th_Grand_Prix> a ns1:GrandPrix ;
+    ns1:isPartOfSeason <http://example.org/f1/entity/2020>,
+        <http://example.org/f1/entity/2026> .
+
+<http://example.org/f1/entity/100th_F1> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/1351> a ns1:Season .
+
+<http://example.org/f1/entity/1892> a ns1:Season .
+
+<http://example.org/f1/entity/1929> a ns1:Season .
+
+<http://example.org/f1/entity/1932> a ns1:Season .
+
+<http://example.org/f1/entity/1933> a ns1:Season .
+
+<http://example.org/f1/entity/1935> a ns1:Season .
+
+<http://example.org/f1/entity/1937> a ns1:Season .
+
+<http://example.org/f1/entity/1938> a ns1:Season .
+
+<http://example.org/f1/entity/1940> a ns1:Season .
+
+<http://example.org/f1/entity/1943> a ns1:Season .
+
+<http://example.org/f1/entity/1944> a ns1:Season .
+
+<http://example.org/f1/entity/1945> a ns1:Season .
+
+<http://example.org/f1/entity/1947> a ns1:Season .
+
+<http://example.org/f1/entity/1949> a ns1:Season .
+
+<http://example.org/f1/entity/1951> a ns1:Season .
+
+<http://example.org/f1/entity/1953> a ns1:Season .
+
+<http://example.org/f1/entity/1956> a ns1:Season .
+
+<http://example.org/f1/entity/1960> a ns1:Season .
+
+<http://example.org/f1/entity/1972> a ns1:Season .
+
+<http://example.org/f1/entity/1975> a ns1:Season .
+
+<http://example.org/f1/entity/1978> a ns1:Season .
+
+<http://example.org/f1/entity/1986> a ns1:Season .
+
+<http://example.org/f1/entity/1987> a ns1:Season .
+
+<http://example.org/f1/entity/1989> a ns1:Season .
+
+<http://example.org/f1/entity/1990> a ns1:Season .
+
+<http://example.org/f1/entity/1992> a ns1:Season .
+
+<http://example.org/f1/entity/1993> a ns1:Season .
+
+<http://example.org/f1/entity/1994> a ns1:Season .
+
+<http://example.org/f1/entity/1996> a ns1:Season .
+
+<http://example.org/f1/entity/2000> a ns1:Season .
+
+<http://example.org/f1/entity/2001> a ns1:Season .
+
+<http://example.org/f1/entity/2002> a ns1:Season .
+
+<http://example.org/f1/entity/2030> a ns1:Season .
+
+<http://example.org/f1/entity/2_Seas_Motorsport> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/300th_start162> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/365_Media_Group> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/400th_Grand_Prix> a ns1:GrandPrix .
+
+<http://example.org/f1/entity/44> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/5th> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/ABC_News> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/ABU_DHABI_SEASON_FIN> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/ADAC_GT_Masters> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/AF_Corse> a ns1:Driver,
+        ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/AMX_Global_League_at_Imola> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/AP_News> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Aabar> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Aabar_Investments> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Abhay> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Abu> a ns1:CountryOrPlace .
+
+<http://example.org/f1/entity/Abu_Dhabi> a ns1:CountryOrPlace,
+        ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Abu_Dhabi_2023_-_Result> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Abu_Dhabi_F1> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Abu_Dhabi_Grand> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Abu_Dhabi_Grand_Prix_2019> a ns1:GrandPrix .
+
+<http://example.org/f1/entity/Abu_Dhabi_Grand_Prix_Vuse> a ns1:GrandPrix .
+
+<http://example.org/f1/entity/Abu_Dhabi_Grands> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Abu_Dhabi_Grands_Prix> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Academy_of_Motion_Picture_Arts_and_Sciences> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Acciona_Sainz> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Acer> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Achille_Varzi> a ns1:Driver .
+
+<http://example.org/f1/entity/Acura> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Adedokun_Naomi> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Adelaide> a ns1:CountryOrPlace .
+
+<http://example.org/f1/entity/Adrian_Newey> a ns1:Driver,
+        ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Advanced_Micro_Devices> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Aerodynamics> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Agencia_Cubana_de_Noticias> a ns1:Driver .
+
+<http://example.org/f1/entity/Aggarwal> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Agip> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Al_Hamad> a ns1:Driver .
+
+<http://example.org/f1/entity/Al_Hashmi> a ns1:Driver .
+
+<http://example.org/f1/entity/Alabdali> a ns1:CountryOrPlace .
+
+<http://example.org/f1/entity/Alain> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Alain_Prost> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Alan_Jones> a ns1:Driver .
+
+<http://example.org/f1/entity/Alberto_Ascari> a ns1:Driver ;
+    ns1:wonGrandPrix <http://example.org/f1/entity/Grand_Prix> .
+
+<http://example.org/f1/entity/Alberto_Massimino> a ns1:Driver .
+
+<http://example.org/f1/entity/Alessandro_Pier_Guidi> a ns1:Driver .
+
+<http://example.org/f1/entity/Alex> a ns1:CountryOrPlace,
+        ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Alex_Albon> a ns1:Driver .
+
+<http://example.org/f1/entity/Alex_Lloyd> a ns1:Driver .
+
+<http://example.org/f1/entity/Alexander_Albon> a ns1:Driver .
+
+<http://example.org/f1/entity/Alexander_Rossi> a ns1:Driver .
+
+<http://example.org/f1/entity/Alfa_Corse> a ns1:Driver .
+
+<http://example.org/f1/entity/Alfa_Romeo> a ns1:Driver,
+        ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Alfred_Neubauer> a ns1:Driver .
+
+<http://example.org/f1/entity/Alfredo_Caniato> a ns1:Driver .
+
+<http://example.org/f1/entity/Algemeen_Dagblad> a ns1:Driver .
+
+<http://example.org/f1/entity/Ali_G> a ns1:Driver .
+
+<http://example.org/f1/entity/Allied> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Allsop> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Almave> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Alonso> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Alperton_Community_School> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Alpine> a ns1:Team .
+
+<http://example.org/f1/entity/Alpine_F1> a ns1:Driver .
+
+<http://example.org/f1/entity/Alpine_F1_Team> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Alpines> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Amazing_Save> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Amazon> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Amazon_Web_Services> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/American_F1> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Andre_Figueiredo> a ns1:Driver .
+
+<http://example.org/f1/entity/Andrea_Kimi_Antonelli> a ns1:Driver .
+
+<http://example.org/f1/entity/Andrea_Margutti_Trophy_-_OKJclarification> a ns1:Driver .
+
+<http://example.org/f1/entity/Andrea_Stella> a ns1:Driver .
+
+<http://example.org/f1/entity/Andrea_de_Adamich> a ns1:Driver .
+
+<http://example.org/f1/entity/Andrea_de_Cesaris5354> a ns1:Driver .
+
+<http://example.org/f1/entity/Andreas_Seidl> a ns1:Driver .
+
+<http://example.org/f1/entity/Andretti> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Andretti_Autosport> a ns1:CountryOrPlace,
+        ns1:Driver .
+
+<http://example.org/f1/entity/Andrew_Benson> a ns1:Driver .
+
+<http://example.org/f1/entity/Andrew_Lawrence> a ns1:Driver .
+
+<http://example.org/f1/entity/Android_Central> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Annabal> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Anthony_Hamilton> a ns1:Driver .
+
+<http://example.org/f1/entity/Anthony_Kumpen> a ns1:Driver .
+
+<http://example.org/f1/entity/Antonio_Brivio> a ns1:Driver .
+
+<http://example.org/f1/entity/Antonio_Fuoco> a ns1:Driver .
+
+<http://example.org/f1/entity/Antonio_Fuoco2728> a ns1:Driver .
+
+<http://example.org/f1/entity/Antonio_Giovinazzi> a ns1:Driver .
+
+<http://example.org/f1/entity/Appendix_1_-_> a ns1:Driver .
+
+<http://example.org/f1/entity/Appendix_2> a ns1:Driver .
+
+<http://example.org/f1/entity/Apple> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Archer_Bruce_> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Archived> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Arrow> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Arrow_McLaren> a ns1:Driver .
+
+<http://example.org/f1/entity/Arrow_McLaren_Rounds> a ns1:Driver .
+
+<http://example.org/f1/entity/Arrow_Schmidt_Peterson> a ns1:Driver .
+
+<http://example.org/f1/entity/Arrow_Schmidt_Peterson_Motorsports> a ns1:Driver .
+
+<http://example.org/f1/entity/Arsenal> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Arthur_Leclerc> a ns1:Driver .
+
+<http://example.org/f1/entity/Article_324c_The_Grand_Prix> a ns1:GrandPrix .
+
+<http://example.org/f1/entity/Ascari> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Associated_Press> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Aston> a ns1:CountryOrPlace .
+
+<http://example.org/f1/entity/Aston_Martin> a ns1:Team .
+
+<http://example.org/f1/entity/Aston_Martin_F1> a ns1:Driver .
+
+<http://example.org/f1/entity/Aston_Martin_F1_Team> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Aston_Martin_F1com> a ns1:Driver .
+
+<http://example.org/f1/entity/Athletic> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Atlas_F1> a ns1:Driver .
+
+<http://example.org/f1/entity/Audi> a ns1:Team .
+
+<http://example.org/f1/entity/Audi_Sport_ABT_Schaeffler> a ns1:Driver .
+
+<http://example.org/f1/entity/Austin> a ns1:CountryOrPlace .
+
+<http://example.org/f1/entity/Australia> a ns1:CountryOrPlace .
+
+<http://example.org/f1/entity/Australian_Broadcasting_Corporation> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Australian_Grand_Prix> a ns1:GrandPrix ;
+    ns1:isPartOfSeason <http://example.org/f1/entity/1997>,
+        <http://example.org/f1/entity/1998>,
+        <http://example.org/f1/entity/2003>,
+        <http://example.org/f1/entity/2010>,
+        <http://example.org/f1/entity/2016>,
+        <http://example.org/f1/entity/2017>,
+        <http://example.org/f1/entity/2023>,
+        <http://example.org/f1/entity/2025> .
+
+<http://example.org/f1/entity/Australian_Grand_Prix43> a ns1:GrandPrix .
+
+<http://example.org/f1/entity/Australian_Grand_Prix_Information> a ns1:GrandPrix ;
+    ns1:isPartOfSeason <http://example.org/f1/entity/2024> .
+
+<http://example.org/f1/entity/Austria> a ns1:CountryOrPlace .
+
+<http://example.org/f1/entity/Austria_2023_-_Championship> a ns1:Driver .
+
+<http://example.org/f1/entity/Austria_Sprint> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Austrian_Grand_Prix148> a ns1:GrandPrix ;
+    ns1:isPartOfSeason <http://example.org/f1/entity/2022> .
+
+<http://example.org/f1/entity/Austrian_Grand_Prix_Entry> a ns1:GrandPrix ;
+    ns1:isPartOfSeason <http://example.org/f1/entity/1970> .
+
+<http://example.org/f1/entity/Austrian_Grand_Prix_F1_Sprint> a ns1:GrandPrix ;
+    ns1:isPartOfSeason <http://example.org/f1/entity/2023> .
+
+<http://example.org/f1/entity/Austrian_Grand_Prix_Race_Highlights> a ns1:GrandPrix ;
+    ns1:isPartOfSeason <http://example.org/f1/entity/2018> .
+
+<http://example.org/f1/entity/Auto_Motor> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Auto_Union> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Autoblog> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Autocar> a ns1:CountryOrPlace .
+
+<http://example.org/f1/entity/Autodrom_Igora_Drive> a ns1:Driver .
+
+<http://example.org/f1/entity/Automobile_Club_de_lOuest> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Autosport> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Autosport_Awards> a ns1:Driver .
+
+<http://example.org/f1/entity/Autosport_Magazine> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Autosportcom> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Avio_Costruzioni_Ferrari> a ns1:Driver .
+
+<http://example.org/f1/entity/Axalta_Racing> a ns1:Driver .
+
+<http://example.org/f1/entity/Ayrton_Senna> a ns1:Driver .
+
+<http://example.org/f1/entity/Ayrton_Senna257258259_Prior> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Ayrton_Senna_Alain> a ns1:Driver .
+
+<http://example.org/f1/entity/Azerbaijan> a ns1:CountryOrPlace,
+        ns1:Driver .
+
+<http://example.org/f1/entity/Azerbaijan_Grand> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Azerbaijan_Grand_Prix> a ns1:GrandPrix ;
+    ns1:isPartOfSeason <http://example.org/f1/entity/2017>,
+        <http://example.org/f1/entity/2018>,
+        <http://example.org/f1/entity/2019>,
+        <http://example.org/f1/entity/2021> .
+
+<http://example.org/f1/entity/Azerbaijan_Grand_Prix_Entry_List> a ns1:GrandPrix ;
+    ns1:isPartOfSeason <http://example.org/f1/entity/2023> .
+
+<http://example.org/f1/entity/Azerbaijan_Grand_Prix_Entry_List_Corrected> a ns1:GrandPrix ;
+    ns1:isPartOfSeason <http://example.org/f1/entity/2024> .
+
+<http://example.org/f1/entity/Azerbaijan_Grands> a ns1:Driver .
+
+<http://example.org/f1/entity/BBC_News> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/BBC_Panorama> a ns1:Driver,
+        ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/BBC_Radio_4> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/BBC_Radio_Five_Live> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/BBC_SP> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/BBC_Southern_Counties> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/BBC_Sport> a ns1:Driver,
+        ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/BBC_Sports_Personality> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/BBC_Sports_Personality_of> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/BBC_Television> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/BBCcom> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/BGC_Partners> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/BMW_M1> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/BOL_News> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/BQual> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/BRM_P56> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/BRM_V8> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Bacquelaine> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Badenhausen_Kurt> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Baghetti> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Bahamas> a ns1:CountryOrPlace .
+
+<http://example.org/f1/entity/Bahrain> a ns1:CountryOrPlace .
+
+<http://example.org/f1/entity/Bahrain_Grand_Prix> a ns1:GrandPrix ;
+    ns1:isPartOfSeason <http://example.org/f1/entity/2005>,
+        <http://example.org/f1/entity/2012>,
+        <http://example.org/f1/entity/2013>,
+        <http://example.org/f1/entity/2014>,
+        <http://example.org/f1/entity/2017>,
+        <http://example.org/f1/entity/2024> .
+
+<http://example.org/f1/entity/Bahrain_Grand_Prix_Lewis_Hamilton> a ns1:GrandPrix .
+
+<http://example.org/f1/entity/Bailiwick_Express> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Baku> a ns1:CountryOrPlace .
+
+<http://example.org/f1/entity/Baldwin> a ns1:CountryOrPlace .
+
+<http://example.org/f1/entity/Barazi-Epsilon_FR20104041> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Barcelona-Catalunya_Grand_Prix> a ns1:GrandPrix ;
+    ns1:isPartOfSeason <http://example.org/f1/entity/1991>,
+        <http://example.org/f1/entity/2026> .
+
+<http://example.org/f1/entity/Bari_Broumand> a ns1:Driver .
+
+<http://example.org/f1/entity/Barnard> a ns1:CountryOrPlace .
+
+<http://example.org/f1/entity/Barnes_Joey> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Barnhart> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Barretto> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Barretto_Lawrence> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Base> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Batchelor> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Bathurst> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Beano> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Beano_Studios> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Bearman> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Becketts> a ns1:CountryOrPlace .
+
+<http://example.org/f1/entity/Belfast_Telegraph> a ns1:Driver .
+
+<http://example.org/f1/entity/Belgian> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Belgian_Grand_Prix_2020> a ns1:GrandPrix .
+
+<http://example.org/f1/entity/Belgian_Twitch> a ns1:Driver .
+
+<http://example.org/f1/entity/Belgie> a ns1:CountryOrPlace .
+
+<http://example.org/f1/entity/Belgisch> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Belgische> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Belgischer_dan_de_gemiddelde> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Belgium> a ns1:CountryOrPlace .
+
+<http://example.org/f1/entity/Bell> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Bell_Sports> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Benedetto_Vigna> a ns1:Driver .
+
+<http://example.org/f1/entity/Benson> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Benson_Andrew> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Benson_Andrew_> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Bernie_Ecclestone> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Bethania_Nunes> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Bethonie> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Better_Tomorrow> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Bianca> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Bielderman> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Bird> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Birmingham6> a ns1:CountryOrPlace .
+
+<http://example.org/f1/entity/Bishop> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Black_Briton> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Black_Britons> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Black_Lives_Matter> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Blackstock> a ns1:CountryOrPlace .
+
+<http://example.org/f1/entity/Blanchimont> a ns1:CountryOrPlace .
+
+<http://example.org/f1/entity/Bleacher_Report> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Bleachers_News> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Bloomberg> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Bloombergcom> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Bologna> a ns1:CountryOrPlace .
+
+<http://example.org/f1/entity/Bonito_Allert_van_der_Wal> a ns1:Driver .
+
+<http://example.org/f1/entity/Bonito_Olli> a ns1:Driver .
+
+<http://example.org/f1/entity/Bono_Huis_Enzo> a ns1:Driver .
+
+<http://example.org/f1/entity/Boost_Vuse> a ns1:CountryOrPlace .
+
+<http://example.org/f1/entity/Bottas> a ns1:CountryOrPlace,
+        ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Boxall-Legge> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Brabham> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Brackley> a ns1:CountryOrPlace,
+        ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Brackley_-_Formula_One_World_Constructors_Champions_-_British> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Brad_Pitt> a ns1:Driver .
+
+<http://example.org/f1/entity/Bradley> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Brandon> a ns1:CountryOrPlace .
+
+<http://example.org/f1/entity/Brands_Hatch> a ns1:Driver,
+        ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Brawn> a ns1:CountryOrPlace,
+        ns1:Driver,
+        ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Brawn_F1> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Brazil> a ns1:CountryOrPlace .
+
+<http://example.org/f1/entity/Brazilian_Grand> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Brazilian_Grand_Prix_Race_Highlights> a ns1:GrandPrix ;
+    ns1:isPartOfSeason <http://example.org/f1/entity/2019> .
+
+<http://example.org/f1/entity/Brembo> a ns1:CountryOrPlace .
+
+<http://example.org/f1/entity/Brendon_Leigh> a ns1:Driver .
+
+<http://example.org/f1/entity/Brendon_Leigh_Bono> a ns1:Driver .
+
+<http://example.org/f1/entity/Brendon_Leigh_Patryk_Krutyi> a ns1:Driver .
+
+<http://example.org/f1/entity/Breonna_Taylor> a ns1:Driver .
+
+<http://example.org/f1/entity/Brian_Barnhart> a ns1:Driver .
+
+<http://example.org/f1/entity/Bridgestone> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Bristol> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Britain> a ns1:CountryOrPlace .
+
+<http://example.org/f1/entity/British_American_Tobacco> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/British_Film_Institute_Film_TV_Database> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/British_Grand_Prix_2019> a ns1:GrandPrix .
+
+<http://example.org/f1/entity/British_Grand_Prix_victory160161> a ns1:GrandPrix .
+
+<http://example.org/f1/entity/British_Racing_Drivers_Club> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/British_Racing_Motors> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Britton> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Brixworth> a ns1:CountryOrPlace .
+
+<http://example.org/f1/entity/Bruce_McLaren> a ns1:Driver ;
+    ns1:wonGrandPrix <http://example.org/f1/entity/Belgian_Grand_Prix> .
+
+<http://example.org/f1/entity/Bruce_McLaren_Motor_Racing> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Bruce_McLaren_Motor_Racing_Limited> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Bruce_McLaren_Trust> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Bruno_Giacomelli> a ns1:Driver .
+
+<http://example.org/f1/entity/Bruno_Giacomelli_Gilles_Villeneuve> a ns1:Driver .
+
+<http://example.org/f1/entity/Bruno_Senna> a ns1:Driver .
+
+<http://example.org/f1/entity/Bryant_Gumbel> a ns1:Driver .
+
+<http://example.org/f1/entity/Buckland> a ns1:CountryOrPlace .
+
+<http://example.org/f1/entity/Bunce> a ns1:CountryOrPlace .
+
+<http://example.org/f1/entity/Button> a ns1:CountryOrPlace .
+
+<http://example.org/f1/entity/C> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/CAR_Magazine> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/CEO68_Going> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/CL> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/CNA_Lifestyle> a ns1:Driver .
+
+<http://example.org/f1/entity/CNN_Sport> a ns1:Driver .
+
+<http://example.org/f1/entity/COVID-19> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/COVID-19120> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/CRG_kart23_However> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/CRS_Racing> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Cadillac> a ns1:Team ;
+    ns1:wonConstructorsChampionshipIn <http://example.org/f1/entity/1950>,
+        <http://example.org/f1/entity/2026> .
+
+<http://example.org/f1/entity/Caesars_Palace_Grand_Prix> a ns1:GrandPrix ;
+    ns1:isPartOfSeason <http://example.org/f1/entity/1982> .
+
+<http://example.org/f1/entity/Calado> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Cambridge> a ns1:CountryOrPlace .
+
+<http://example.org/f1/entity/Cambridge_Arts_and_Sciences> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Canada> a ns1:CountryOrPlace .
+
+<http://example.org/f1/entity/Canada243> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Canadian_Broadcasting_Corporation> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Canadian_Grand_Prix> a ns1:GrandPrix ;
+    ns1:isPartOfSeason <http://example.org/f1/entity/2010>,
+        <http://example.org/f1/entity/2018>,
+        <http://example.org/f1/entity/2019>,
+        <http://example.org/f1/entity/2023> .
+
+<http://example.org/f1/entity/CarNext> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/CarScoops> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Carl_Williams> a ns1:Driver .
+
+<http://example.org/f1/entity/Carlin> a ns1:CountryOrPlace .
+
+<http://example.org/f1/entity/Carlo_Maria_Pintacuda> a ns1:Driver .
+
+<http://example.org/f1/entity/Carlos_Reutemann> a ns1:Driver .
+
+<http://example.org/f1/entity/Carlos_Sainz> a ns1:Driver ;
+    ns1:wonGrandPrix <http://example.org/f1/entity/Austrian_Grand_Prix> .
+
+<http://example.org/f1/entity/Carlos_Sainz_Jr> a ns1:Driver ;
+    ns1:wonGrandPrix <http://example.org/f1/entity/Dutch_Grand_Prix> .
+
+<http://example.org/f1/entity/Carlos_Sainz_Jr87> a ns1:Driver .
+
+<http://example.org/f1/entity/Carlton_Books_Ltd> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Carmen_Larbalestier> a ns1:Driver .
+
+<http://example.org/f1/entity/Carrera_Panamericana> a ns1:Driver .
+
+<http://example.org/f1/entity/Cavallino> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Cavallino_Rampante> a ns1:Driver .
+
+<http://example.org/f1/entity/Cavin> a ns1:CountryOrPlace .
+
+<http://example.org/f1/entity/Central_Intelligence_Agency> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Centre_Woking> a ns1:Driver .
+
+<http://example.org/f1/entity/Cerasoli> a ns1:CountryOrPlace .
+
+<http://example.org/f1/entity/Champion> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Champions_Denny_Hulme> a ns1:Driver .
+
+<http://example.org/f1/entity/Championship> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Chandhok> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Charles_Cooper> a ns1:Driver .
+
+<http://example.org/f1/entity/Charles_Leclerc> a ns1:Driver .
+
+<http://example.org/f1/entity/Charles_Leclerc171_Hamilton> a ns1:Driver .
+
+<http://example.org/f1/entity/Charles_Leclerc71> a ns1:Driver .
+
+<http://example.org/f1/entity/Charlie_Whiting> a ns1:Driver .
+
+<http://example.org/f1/entity/Charlotte> a ns1:CountryOrPlace .
+
+<http://example.org/f1/entity/Chase_Carey> a ns1:Driver .
+
+<http://example.org/f1/entity/Chassis> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Checo_Perez> a ns1:Driver .
+
+<http://example.org/f1/entity/Chelsea> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Chevrolet> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/China> a ns1:CountryOrPlace .
+
+<http://example.org/f1/entity/Chinese_Grand_Prix> a ns1:GrandPrix ;
+    ns1:isPartOfSeason <http://example.org/f1/entity/2007>,
+        <http://example.org/f1/entity/2012>,
+        <http://example.org/f1/entity/2018>,
+        <http://example.org/f1/entity/2019>,
+        <http://example.org/f1/entity/2023>,
+        <http://example.org/f1/entity/2024>,
+        <http://example.org/f1/entity/2025> .
+
+<http://example.org/f1/entity/Chinese_Grand_Prix_2026> a ns1:GrandPrix .
+
+<http://example.org/f1/entity/Chinese_Grand_Prix_Race_Highlights> a ns1:GrandPrix ;
+    ns1:isPartOfSeason <http://example.org/f1/entity/2018> .
+
+<http://example.org/f1/entity/Chinese_Grand_Prix_Ricciardo> a ns1:GrandPrix .
+
+<http://example.org/f1/entity/Chris_Amon> a ns1:Driver .
+
+<http://example.org/f1/entity/Chris_Lulham> a ns1:Driver .
+
+<http://example.org/f1/entity/Christian_Aid> a ns1:Driver .
+
+<http://example.org/f1/entity/Christian_Horner> a ns1:Driver .
+
+<http://example.org/f1/entity/Christian_Lundgaard> a ns1:Driver .
+
+<http://example.org/f1/entity/Christina> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Christina_Aguilera> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Christopher_Haase> a ns1:Driver .
+
+<http://example.org/f1/entity/Chrysler> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Circuit_de_Barcelona-Catalunya> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Circuito_de_Jerez> a ns1:Driver .
+
+<http://example.org/f1/entity/Circuito_di_Garda> a ns1:Driver .
+
+<http://example.org/f1/entity/City_Research_Online> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Classen> a ns1:CountryOrPlace .
+
+<http://example.org/f1/entity/Claudio_Lombardi> a ns1:Driver .
+
+<http://example.org/f1/entity/Clay_Regazzoni> a ns1:Driver .
+
+<http://example.org/f1/entity/Cleeren> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Cleeren_Filip> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Co-Chair> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Colapinto> a ns1:CountryOrPlace,
+        ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Coleman_Madeline> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Coleman_Madeline_> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Coleman_Madeline_2_February_2024> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Coleman_Madeline_8_September_2025> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Collantine_Publishing> a ns1:Driver .
+
+<http://example.org/f1/entity/Colorado> a ns1:CountryOrPlace .
+
+<http://example.org/f1/entity/Come_Ledogar> a ns1:Driver .
+
+<http://example.org/f1/entity/Comic_Relief> a ns1:Driver .
+
+<http://example.org/f1/entity/Comic_Relief402> a ns1:Driver .
+
+<http://example.org/f1/entity/Comicreliefcom> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Complete_CIK-FIA_Karting_European_Championship> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Complete_CIK-FIA_Karting_World_Championship> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Complete_CIK-FIA_Karting_World_Cup> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Complete_Extreme> a ns1:Driver .
+
+<http://example.org/f1/entity/Complete_F1_Esports_Series> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Complete_GP2_Series> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Complete_Macau_Grand_Prix> a ns1:GrandPrix .
+
+<http://example.org/f1/entity/Connecticut> a ns1:CountryOrPlace .
+
+<http://example.org/f1/entity/Consecutive_Drivers> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Constructors_Champions> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Constructors_Championship> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Constructors_Championships> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Continental> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Coop> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Cooper> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Costruzioni_Meccaniche_Nazionali> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Cottingham> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Coulthard> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Coulthard_David> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Coventry> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Cowan> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Cozens> a ns1:CountryOrPlace .
+
+<http://example.org/f1/entity/Crash_Media_Group> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Crashnet> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Crebolder_Finley> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Creighton> a ns1:CountryOrPlace .
+
+<http://example.org/f1/entity/Cristina_Gutierrez> a ns1:Driver .
+
+<http://example.org/f1/entity/Crocodile> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Crothall> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Crown> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Cuba> a ns1:CountryOrPlace .
+
+<http://example.org/f1/entity/Cushnan> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Customer_Mercedes> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/D> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/DAVID_MALU> a ns1:Driver .
+
+<http://example.org/f1/entity/DES2> a ns1:CountryOrPlace .
+
+<http://example.org/f1/entity/DHL_Awards> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/DRIVETR> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Daily_Express> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Daily_Front_Row> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Daimler> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Daimler-Benz> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Dale_Coyne_Racing227228> a ns1:Driver ;
+    ns1:wonGrandPrix <http://example.org/f1/entity/Monaco_Grand_Prix> .
+
+<http://example.org/f1/entity/Dan_Gurney> a ns1:Driver .
+
+<http://example.org/f1/entity/Dani_Moreno> a ns1:Driver .
+
+<http://example.org/f1/entity/Daniel_Abt> a ns1:Driver .
+
+<http://example.org/f1/entity/Daniel_Berezmay> a ns1:Driver .
+
+<http://example.org/f1/entity/Daniel_Bereznay> a ns1:Driver .
+
+<http://example.org/f1/entity/Daniel_Bereznay_Istvan_Puki_Jake_Benham> a ns1:Driver .
+
+<http://example.org/f1/entity/Daniel_Guinchard> a ns1:Driver .
+
+<http://example.org/f1/entity/Daniel_Juncadella> a ns1:Driver .
+
+<http://example.org/f1/entity/Daniel_Ricciardo> a ns1:Driver .
+
+<http://example.org/f1/entity/Daniel_Ricciardo334_Marko> a ns1:Driver .
+
+<http://example.org/f1/entity/Daniel_Ricciardo_Lando_Norris> a ns1:Driver .
+
+<http://example.org/f1/entity/Daniel_Serra> a ns1:Driver .
+
+<http://example.org/f1/entity/Daniel_Shields> a ns1:Driver .
+
+<http://example.org/f1/entity/Daniele_Audetto> a ns1:Driver .
+
+<http://example.org/f1/entity/Daniil_Kvyat> a ns1:Driver .
+
+<http://example.org/f1/entity/Dario_Mitidieri> a ns1:Driver .
+
+<http://example.org/f1/entity/Dassault_Falcon_900> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Date> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/David_Coulthard> a ns1:Driver .
+
+<http://example.org/f1/entity/David_Coulthard_Mika_Hakkinen> a ns1:Driver .
+
+<http://example.org/f1/entity/David_Hobbs> a ns1:Driver .
+
+<http://example.org/f1/entity/David_Malukas> a ns1:Driver ;
+    ns1:wonGrandPrix <http://example.org/f1/entity/Monaco_Grand_Prix> .
+
+<http://example.org/f1/entity/David_Sanchez> a ns1:Driver .
+
+<http://example.org/f1/entity/David_Tremayne> a ns1:Driver .
+
+<http://example.org/f1/entity/Davies> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Dawn_Apollo_Films> a ns1:Driver .
+
+<http://example.org/f1/entity/De_Vries> a ns1:Driver .
+
+<http://example.org/f1/entity/Deccan_Chronicle> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Deepti> a ns1:CountryOrPlace .
+
+<http://example.org/f1/entity/Defending_Drivers> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Dempsey_Parr> a ns1:Driver .
+
+<http://example.org/f1/entity/Dennis> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Dennis_Olsen> a ns1:Driver .
+
+<http://example.org/f1/entity/Denny_Hulme> a ns1:Driver .
+
+<http://example.org/f1/entity/Denny_Hulme_Bruce_McLaren> a ns1:Driver .
+
+<http://example.org/f1/entity/Denny_Hulme_Mike_Hailwood> a ns1:Driver .
+
+<http://example.org/f1/entity/Denny_Hulme_Peter_Revson_Brian_Redman> a ns1:Driver .
+
+<http://example.org/f1/entity/Denver> a ns1:CountryOrPlace .
+
+<http://example.org/f1/entity/Derek_Bell> a ns1:Driver .
+
+<http://example.org/f1/entity/Design172> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Deutsche_Tourenwagen_Masters> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Di_Grassi> a ns1:Driver .
+
+<http://example.org/f1/entity/Dick_Dastardly> a ns1:Driver .
+
+<http://example.org/f1/entity/Dick_Dastardly357> a ns1:Driver .
+
+<http://example.org/f1/entity/Didier_Pironi> a ns1:Driver .
+
+<http://example.org/f1/entity/Diepraam> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Diffey> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Digital_Spy> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Dino_Chiesa> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Diriyah> a ns1:CountryOrPlace .
+
+<http://example.org/f1/entity/Disney_Pixar> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Doha> a ns1:CountryOrPlace .
+
+<http://example.org/f1/entity/Dominant_Dennis> a ns1:Driver .
+
+<http://example.org/f1/entity/Dominik> a ns1:CountryOrPlace .
+
+<http://example.org/f1/entity/Donaldson> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Donohue> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Door_al_dat_karten> a ns1:Driver .
+
+<http://example.org/f1/entity/Driver-Team_Partnership_In> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Driver_Database> a ns1:Driver .
+
+<http://example.org/f1/entity/Driver_Nyck_de_Vries> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Drivers> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Drivers_Champion> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Drivers_Champions> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Drivers_Championship> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Duell_von_Max_Verstappen> a ns1:Driver .
+
+<http://example.org/f1/entity/Dunan> a ns1:CountryOrPlace .
+
+<http://example.org/f1/entity/Dunlop> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Dutch> a ns1:Driver .
+
+<http://example.org/f1/entity/Dutchman> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/E> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/ESPN_F1> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/ESPN_Inc> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/ESPN_Press_Room_US_Retrieved> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/EU> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/EV_powertrain250251_Rene_Rast> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/EXPLAI> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Ed_Hardy> a ns1:Driver .
+
+<http://example.org/f1/entity/Eddie_Cheever_III45> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Eddie_Irvine> a ns1:Driver .
+
+<http://example.org/f1/entity/Eddie_Jordan> a ns1:Driver .
+
+<http://example.org/f1/entity/Edinburgh_Ltd> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Edmondson_Laurence> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Ehospicecom> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Eifel_Grand_Prix> a ns1:GrandPrix ;
+    ns1:isPartOfSeason <http://example.org/f1/entity/2020> .
+
+<http://example.org/f1/entity/Eifel_Grand_Prix_2020> a ns1:GrandPrix .
+
+<http://example.org/f1/entity/Elf_Aquitaine> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Elliott_becoming_Chief_Technical_Officer> a ns1:Driver .
+
+<http://example.org/f1/entity/Elson> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Elva> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Emerson_Fittipaldi> a ns1:Driver,
+        ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Emilia-Romagna> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Emilia-Romagna_F1> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Emilia-Romagna_Grand_Prix> a ns1:GrandPrix .
+
+<http://example.org/f1/entity/Emilia_Romagna_Grand_Prix> a ns1:GrandPrix .
+
+<http://example.org/f1/entity/Emily_McNally> a ns1:Driver .
+
+<http://example.org/f1/entity/Emma_Gilmour> a ns1:Driver .
+
+<http://example.org/f1/entity/Engine> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/England> a ns1:CountryOrPlace .
+
+<http://example.org/f1/entity/England_Bicester_Motion_Bicester> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Enterprise_Society> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Enters_F1_Academy> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Enzo_Ferrari> a ns1:Driver .
+
+<http://example.org/f1/entity/Eraldo_Sculati> a ns1:Driver .
+
+<http://example.org/f1/entity/Eric_Boullier> a ns1:Driver .
+
+<http://example.org/f1/entity/Esports_Drivers_Champions> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Esports_Esports_Drivers_Champions> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Esteban> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Esteban_Gutierrez> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Esteban_Ocon> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Estrella_Galicia> a ns1:Driver .
+
+<http://example.org/f1/entity/Ethan_Jeff-Hall> a ns1:Driver .
+
+<http://example.org/f1/entity/Eugenio_Dragoni> a ns1:Driver .
+
+<http://example.org/f1/entity/European_Champion> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/European_Grand_Prix> a ns1:GrandPrix ;
+    ns1:isPartOfSeason <http://example.org/f1/entity/1997>,
+        <http://example.org/f1/entity/1998>,
+        <http://example.org/f1/entity/2003>,
+        <http://example.org/f1/entity/2010> .
+
+<http://example.org/f1/entity/European_Union> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/European_World_Champions> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Euwema> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Evening_Standard> a ns1:Driver .
+
+<http://example.org/f1/entity/Ewan> a ns1:CountryOrPlace .
+
+<http://example.org/f1/entity/Express> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Expressandstarcom> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Extreme_E_17> a ns1:Driver .
+
+<http://example.org/f1/entity/Extreme_E_6> a ns1:Driver .
+
+<http://example.org/f1/entity/Extreme_E_Sustainability> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Extreme_H> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/F> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/F1_Academy> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/F1_Australian> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/F1_Australian_Grand_Prix> a ns1:GrandPrix .
+
+<http://example.org/f1/entity/F1_Bahrain_Grand_Prix> a ns1:GrandPrix .
+
+<http://example.org/f1/entity/F1_Bahrain_Grand_Prix_Max_Verstappen> a ns1:GrandPrix .
+
+<http://example.org/f1/entity/F1_Briefings> a ns1:Driver .
+
+<http://example.org/f1/entity/F1_British_Grand_Prix> a ns1:GrandPrix ;
+    ns1:isPartOfSeason <http://example.org/f1/entity/2019> .
+
+<http://example.org/f1/entity/F1_COVID_vaccination> a ns1:Driver .
+
+<http://example.org/f1/entity/F1_Canadian_Grand_Prix> a ns1:GrandPrix ;
+    ns1:isPartOfSeason <http://example.org/f1/entity/2019> .
+
+<http://example.org/f1/entity/F1_Chronicle> a ns1:Driver .
+
+<http://example.org/f1/entity/F1_Commission> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/F1_Constructors_Championship_at_Emilia> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/F1_Fanatic> a ns1:Driver .
+
+<http://example.org/f1/entity/F1_Fanaticcouk> a ns1:Driver .
+
+<http://example.org/f1/entity/F1_Grand_Prix> a ns1:GrandPrix .
+
+<http://example.org/f1/entity/F1_History> a ns1:Driver .
+
+<http://example.org/f1/entity/F1_Japanese_Grand_Prix> a ns1:GrandPrix .
+
+<http://example.org/f1/entity/F1_News> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/F1_Oversteer> a ns1:Driver .
+
+<http://example.org/f1/entity/F1_Racing> a ns1:Driver,
+        ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/F1_Turkish_Grand_Prix_Drive> a ns1:GrandPrix .
+
+<http://example.org/f1/entity/F1icom> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/FIA> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/FIA_European_Formula> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/FIA_F2> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/FIA_Formula_One_World_Championship_Entry_List> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/FIA_Formula_One_World_Championship_Limited> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/FIA_Formula_One_World_Championship_Ltd> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/FIA_Personality_of> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/FIA_Platinum> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/FIA_Prize_Giving> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/FIA_Prize_Giving_Ceremony> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/FIA_World_Motor_Sport_Council> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/FP3> a ns1:CountryOrPlace .
+
+<http://example.org/f1/entity/Falcon> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Fangio> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Fashion_Week_Daily> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Federation_Internationale_de_lAutomobile> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Federico_Giberti> a ns1:Driver .
+
+<http://example.org/f1/entity/Felipe> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Felipe_Massa> a ns1:Driver ;
+    ns1:wonGrandPrix <http://example.org/f1/entity/British_Grand_Prix> .
+
+<http://example.org/f1/entity/Felipe_Nasr> a ns1:Driver .
+
+<http://example.org/f1/entity/Felix_Rosenqvist> a ns1:Driver .
+
+<http://example.org/f1/entity/Fellowships_Recognition_-_Lewis_Hamilton> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Feltham> a ns1:CountryOrPlace .
+
+<http://example.org/f1/entity/Female_Academy> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Fergal> a ns1:CountryOrPlace .
+
+<http://example.org/f1/entity/Fernando_Alonso> a ns1:Driver .
+
+<http://example.org/f1/entity/Ferrari> a ns1:Team ;
+    ns1:wonConstructorsChampionshipIn <http://example.org/f1/entity/1950>,
+        <http://example.org/f1/entity/1958>,
+        <http://example.org/f1/entity/1961>,
+        <http://example.org/f1/entity/1964>,
+        <http://example.org/f1/entity/1966>,
+        <http://example.org/f1/entity/1967>,
+        <http://example.org/f1/entity/1973>,
+        <http://example.org/f1/entity/1976>,
+        <http://example.org/f1/entity/1977>,
+        <http://example.org/f1/entity/1979>,
+        <http://example.org/f1/entity/1982>,
+        <http://example.org/f1/entity/1983>,
+        <http://example.org/f1/entity/1991>,
+        <http://example.org/f1/entity/2007>,
+        <http://example.org/f1/entity/2008>,
+        <http://example.org/f1/entity/2012>,
+        <http://example.org/f1/entity/2014>,
+        <http://example.org/f1/entity/2016>,
+        <http://example.org/f1/entity/2017>,
+        <http://example.org/f1/entity/2018>,
+        <http://example.org/f1/entity/2019>,
+        <http://example.org/f1/entity/2020>,
+        <http://example.org/f1/entity/2021>,
+        <http://example.org/f1/entity/2022>,
+        <http://example.org/f1/entity/2023>,
+        <http://example.org/f1/entity/2025>,
+        <http://example.org/f1/entity/2026> .
+
+<http://example.org/f1/entity/FerrariAF_Corse> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Ferrari_Competizioni> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Ferrari_Drops_Marlboro_From> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Ferrari_F1> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Ferrari_F1_Team> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Ferrari_Ferrari_Sp> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Ferrari_Formula_1_Car> a ns1:Driver .
+
+<http://example.org/f1/entity/Ferrari_SpA> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Ferrari_Team> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Ferrari_Team_Principal> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Ferrari_reserve> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Ferraris> a ns1:CountryOrPlace .
+
+<http://example.org/f1/entity/Fiat> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Financial_Express> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Finland> a ns1:CountryOrPlace .
+
+<http://example.org/f1/entity/Firestone> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/First_Monegasque> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/First_Sportz> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Fittipaldi> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/FittipaldiCopersucar_team39_With> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Florida> a ns1:CountryOrPlace .
+
+<http://example.org/f1/entity/Forbes> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Force_India> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Ford> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Ford-Cosworth> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Forix> a ns1:CountryOrPlace .
+
+<http://example.org/f1/entity/Formel_1> a ns1:Driver .
+
+<http://example.org/f1/entity/Formula_1> a ns1:Driver,
+        ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Formula_1_Engine_Suppliers> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Formula_1_Grand_Prix_de_Monaco> a ns1:GrandPrix .
+
+<http://example.org/f1/entity/Formula_1_Grand_Prix_de_Monaco_2024> a ns1:GrandPrix .
+
+<http://example.org/f1/entity/Formula_1_Hungarian_Grand_Prix_2024> a ns1:GrandPrix .
+
+<http://example.org/f1/entity/Formula_1_Max_Verstappen> a ns1:Driver .
+
+<http://example.org/f1/entity/Formula_1_News> a ns1:Driver,
+        ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Formula_1_Qatar_Airways_Austrian_Grand_Prix_2024> a ns1:GrandPrix .
+
+<http://example.org/f1/entity/Formula_1_Racing_Team> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Formula_1_Rolex_Belgian_Grand_Prix_2024> a ns1:GrandPrix .
+
+<http://example.org/f1/entity/Formula_1_Season> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Formula_1_Statistics> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Formula_1_stewards> a ns1:Driver .
+
+<http://example.org/f1/entity/Formula_2> a ns1:Driver,
+        ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Formula_2_Champion_Nyck_de_Vries4041> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Formula_2_Champion_and> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Formula_3_Euro_Series> a ns1:Driver .
+
+<http://example.org/f1/entity/Formula_3_Grand_Prix_Circuto_de_Guia> a ns1:GrandPrix .
+
+<http://example.org/f1/entity/Formula_3_Macau_Grand_Prix_2014> a ns1:GrandPrix .
+
+<http://example.org/f1/entity/Formula_A> a ns1:Driver,
+        ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Formula_E_2> a ns1:Driver .
+
+<http://example.org/f1/entity/Formula_E_29_July_2024> a ns1:Driver .
+
+<http://example.org/f1/entity/Formula_E_Gen3> a ns1:Driver .
+
+<http://example.org/f1/entity/Formula_E_McLaren> a ns1:Driver .
+
+<http://example.org/f1/entity/Formula_E_and_Extreme> a ns1:Driver .
+
+<http://example.org/f1/entity/Formula_One85> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Formula_One_-_Formula> a ns1:Driver .
+
+<http://example.org/f1/entity/Formula_One_-_Honda> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Formula_One_-_List_of_Formula> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Formula_One_-_Porsche> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Formula_One_-_Renault> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Formula_One_1930s> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Formula_One_Administration> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Formula_One_Constructors> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Formula_One_Constructors_Championship> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Formula_One_Drivers_championships7_Drivers> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Formula_One_Grands_Prix> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Formula_One_Group> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Formula_One_M19> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Formula_One_Management> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Formula_One_Mercedes-Benz> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Formula_One_Official> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Formula_One_Promotions_and_Administration> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Formula_One_Sporting_Regulations> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Formula_One_Team> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Formula_One_World_Champion> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Formula_One_World_Champion_Nico_Rosberg> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Formula_One_World_Championship> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Formula_One_World_Championship_Limited> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Formula_One_World_Championship_Ltd> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Formula_One_World_Championship_The_2023> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Formula_One_World_Championship_The_2024> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Formula_One_World_Championship_history4041_In> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Formula_One_World_Constructors> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Formula_One_World_Drivers_Championship> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Formula_One_debut43> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Formula_One_drive27> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Formula_One_history13_Mercedes-> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Formula_Rapida> a ns1:Driver .
+
+<http://example.org/f1/entity/Formula_Renault> a ns1:Driver .
+
+<http://example.org/f1/entity/Formula_Scout> a ns1:Driver .
+
+<http://example.org/f1/entity/Formula_Spy> a ns1:Driver .
+
+<http://example.org/f1/entity/Formula_Super> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Formula_Three> a ns1:Driver,
+        ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Formule_Renault> a ns1:Driver .
+
+<http://example.org/f1/entity/Fortnite> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Foster_Michelle> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Foust> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Fox_Sport> a ns1:Driver .
+
+<http://example.org/f1/entity/Fox_Sports> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/France> a ns1:CountryOrPlace .
+
+<http://example.org/f1/entity/Franco_Colapinto> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Franco_Lini> a ns1:Driver .
+
+<http://example.org/f1/entity/Franklin_Watts_Ltd> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Franz_Hermann> a ns1:Driver .
+
+<http://example.org/f1/entity/Franz_Tost> a ns1:Driver .
+
+<http://example.org/f1/entity/Franz_Tost_> a ns1:Driver .
+
+<http://example.org/f1/entity/Fred_Smith> a ns1:Driver .
+
+<http://example.org/f1/entity/Frederic_Vasseur> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Frederik_Vesti_-_Junior_Drivers> a ns1:Driver .
+
+<http://example.org/f1/entity/French_Grand_Prix_2019> a ns1:GrandPrix .
+
+<http://example.org/f1/entity/Frentzen> a ns1:CountryOrPlace .
+
+<http://example.org/f1/entity/Frikadelli_Racing> a ns1:Driver .
+
+<http://example.org/f1/entity/Frustrated_Verstappen> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/G> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/GOAT> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/GPBlog> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/GPUpdate> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/GP_F1> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/GP_Fans> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/GP_Update> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/GRANDPRIX20> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/GT2> a ns1:CountryOrPlace .
+
+<http://example.org/f1/entity/GTE_ProGTLM_competitions> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/GT_World_Challenge_Europe> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/GT_World_Challenge_Europe_Sprint_Cup> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Gale_Ewan> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Gary_Anderson> a ns1:Driver .
+
+<http://example.org/f1/entity/Gary_Rose> a ns1:Driver .
+
+<http://example.org/f1/entity/Gavin_Ward224> a ns1:Driver .
+
+<http://example.org/f1/entity/Gazzetta_World_Sportsman> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/George_Floyd> a ns1:Driver .
+
+<http://example.org/f1/entity/George_Follmer> a ns1:Driver .
+
+<http://example.org/f1/entity/George_Kurtz> a ns1:Driver .
+
+<http://example.org/f1/entity/George_Lucas> a ns1:Driver .
+
+<http://example.org/f1/entity/George_Russell> a ns1:Driver .
+
+<http://example.org/f1/entity/Gerald_Donaldson> a ns1:Driver .
+
+<http://example.org/f1/entity/Gerhard> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Gerhard_Berger> a ns1:Driver .
+
+<http://example.org/f1/entity/German_F1_Race> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/German_Grand_Prix> a ns1:GrandPrix ;
+    ns1:isPartOfSeason <http://example.org/f1/entity/1939>,
+        <http://example.org/f1/entity/1997>,
+        <http://example.org/f1/entity/1998>,
+        <http://example.org/f1/entity/2003>,
+        <http://example.org/f1/entity/2008>,
+        <http://example.org/f1/entity/2010>,
+        <http://example.org/f1/entity/2014>,
+        <http://example.org/f1/entity/2018>,
+        <http://example.org/f1/entity/2019> .
+
+<http://example.org/f1/entity/German_Grand_Prix_Race_Highlights> a ns1:GrandPrix ;
+    ns1:isPartOfSeason <http://example.org/f1/entity/2018>,
+        <http://example.org/f1/entity/2019> .
+
+<http://example.org/f1/entity/Germany> a ns1:CountryOrPlace .
+
+<http://example.org/f1/entity/Giancarlo_Baghetti> a ns1:Driver .
+
+<http://example.org/f1/entity/Giancarlo_Fisichella> a ns1:Driver .
+
+<http://example.org/f1/entity/Gianmaria_Bruni> a ns1:Driver .
+
+<http://example.org/f1/entity/Gil_de_Ferran> a ns1:Driver .
+
+<http://example.org/f1/entity/Giles_Richards> a ns1:Driver .
+
+<http://example.org/f1/entity/Gilles_Villeneuve> a ns1:Driver .
+
+<http://example.org/f1/entity/Giorgio_Pantano> a ns1:Driver .
+
+<http://example.org/f1/entity/Giuseppe_Campari> a ns1:Driver .
+
+<http://example.org/f1/entity/Giuseppe_Farina> a ns1:Driver .
+
+<http://example.org/f1/entity/Global_Education> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Gods_a_Python> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Goodwood> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Goodwood_Road_Racing> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Google> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Goolistan> a ns1:CountryOrPlace .
+
+<http://example.org/f1/entity/Gopal_Srivastava> a ns1:Driver .
+
+<http://example.org/f1/entity/Gordon_Coppuck> a ns1:Driver .
+
+<http://example.org/f1/entity/Gordon_Murray> a ns1:Driver .
+
+<http://example.org/f1/entity/Graham_Hill> a ns1:Driver .
+
+<http://example.org/f1/entity/Gran_Turismo> a ns1:Driver .
+
+<http://example.org/f1/entity/Grand_Prix16> a ns1:GrandPrix ;
+    ns1:isPartOfSeason <http://example.org/f1/entity/1965>,
+        <http://example.org/f1/entity/1966> .
+
+<http://example.org/f1/entity/Grand_Prix366> a ns1:GrandPrix ;
+    ns1:isPartOfSeason <http://example.org/f1/entity/1966> .
+
+<http://example.org/f1/entity/Grand_Prix_Motor> a ns1:GrandPrix .
+
+<http://example.org/f1/entity/Grandprixcom> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Grands> a ns1:CountryOrPlace .
+
+<http://example.org/f1/entity/Grands_Prix60> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Great_Britain> a ns1:CountryOrPlace .
+
+<http://example.org/f1/entity/Greg_Stuart> a ns1:Driver .
+
+<http://example.org/f1/entity/Gregory> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Grenada> a ns1:CountryOrPlace .
+
+<http://example.org/f1/entity/Grenfell> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Grenfell_United> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Group> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Group_C> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Gruner> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Guanyu_Zhou> a ns1:Driver .
+
+<http://example.org/f1/entity/Guardian> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Guardian_News> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Guardian_Newspapers> a ns1:Driver .
+
+<http://example.org/f1/entity/Guerrini> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Guild_Publishing> a ns1:Driver .
+
+<http://example.org/f1/entity/Guinness_World_Records> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Gulf_Oil> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Gulf_Oil_International> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Guy_Moll> a ns1:Driver .
+
+<http://example.org/f1/entity/HP_Announce_a_Title_Partnership> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/HP_Inc> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Haas> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Haas_Automation> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Haas_Automation_Partners> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Haas_F1_Team> a ns1:Team .
+
+<http://example.org/f1/entity/Haidinger_Sven> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Hailey> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Haiti> a ns1:CountryOrPlace .
+
+<http://example.org/f1/entity/Hajime_Sorayama> a ns1:Driver .
+
+<http://example.org/f1/entity/Hakkinen> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Hamilton> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Hamilton_Lewis> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Hamilton_Mercedes_F1> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Hamilton_Verstappen> a ns1:Driver .
+
+<http://example.org/f1/entity/Hamilton_Vettel> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Hans_Herrmann> a ns1:Driver .
+
+<http://example.org/f1/entity/Hardy> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Harley> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Harrington> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Harry_King> a ns1:Driver .
+
+<http://example.org/f1/entity/Hart_van_Nederland> a ns1:Driver .
+
+<http://example.org/f1/entity/Hartmut> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Hasselt> a ns1:CountryOrPlace .
+
+<http://example.org/f1/entity/Hasselt_-_Toro> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Havana> a ns1:CountryOrPlace .
+
+<http://example.org/f1/entity/Hawthorn_Memorial> a ns1:Driver .
+
+<http://example.org/f1/entity/Hawthorn_Memorial_Trophy> a ns1:Driver .
+
+<http://example.org/f1/entity/Hawthorn_Trophy> a ns1:Driver .
+
+<http://example.org/f1/entity/Haymarket_Publications> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Haynes_Publishing_Group> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Hearst_Autos> a ns1:Driver .
+
+<http://example.org/f1/entity/Hedda_Hosas> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Heikki_Kovalainen> a ns1:Driver .
+
+<http://example.org/f1/entity/Helmut_Marko> a ns1:Driver .
+
+<http://example.org/f1/entity/Hendrick_Motorsports_Race> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Hendrix_Niels> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Henry_1999> a ns1:Driver .
+
+<http://example.org/f1/entity/Herbert> a ns1:CountryOrPlace .
+
+<http://example.org/f1/entity/Herd> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Hertfordshire45> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Heublein_Stephan> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/High_Court> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Highest-Paid_Drivers> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Hindustan_Times> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/History> a ns1:CountryOrPlace .
+
+<http://example.org/f1/entity/Hockenheim> a ns1:CountryOrPlace .
+
+<http://example.org/f1/entity/Hockenheim_European_F3> a ns1:Driver .
+
+<http://example.org/f1/entity/Hodder_Stoughton> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Holder> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Homestead> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Honda> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Honda_Racing_Corporation> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Honghai> a ns1:CountryOrPlace .
+
+<http://example.org/f1/entity/Honorary_Fellows> a ns1:Driver .
+
+<http://example.org/f1/entity/Hooper_Alasdair> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Horton> a ns1:CountryOrPlace .
+
+<http://example.org/f1/entity/Hospice> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Hough> a ns1:CountryOrPlace .
+
+<http://example.org/f1/entity/Hughes> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Huis_Enzo> a ns1:Driver .
+
+<http://example.org/f1/entity/Hulkenberg> a ns1:CountryOrPlace .
+
+<http://example.org/f1/entity/Hungarian_Grand_Prix> a ns1:GrandPrix ;
+    ns1:isPartOfSeason <http://example.org/f1/entity/2007>,
+        <http://example.org/f1/entity/2015>,
+        <http://example.org/f1/entity/2019>,
+        <http://example.org/f1/entity/2020>,
+        <http://example.org/f1/entity/2023> .
+
+<http://example.org/f1/entity/Hungarian_Grand_Prix_2015> a ns1:GrandPrix .
+
+<http://example.org/f1/entity/Hungarian_Grand_Prix_2023> a ns1:GrandPrix .
+
+<http://example.org/f1/entity/Hungary> a ns1:CountryOrPlace .
+
+<http://example.org/f1/entity/Hydro_X-Prix238> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Hypercar> a ns1:CountryOrPlace .
+
+<http://example.org/f1/entity/I> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/IMDb_-_Lewis_Hamilton_-_1985> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/IN> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/ISL-I2> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/ISSN_0362-4331> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Icon_Books_Ltd> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Igora_Drive> a ns1:Driver .
+
+<http://example.org/f1/entity/Ilmor> a ns1:CountryOrPlace,
+        ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Ilmor_Engineering> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Imola> a ns1:CountryOrPlace .
+
+<http://example.org/f1/entity/Incognitio_Max_Verstappen> a ns1:Driver .
+
+<http://example.org/f1/entity/Independent_Print_Limited> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/India> a ns1:CountryOrPlace .
+
+<http://example.org/f1/entity/India_Grand_Prix> a ns1:GrandPrix .
+
+<http://example.org/f1/entity/Indianapolis> a ns1:CountryOrPlace .
+
+<http://example.org/f1/entity/Indicates> a ns1:CountryOrPlace .
+
+<http://example.org/f1/entity/Indy_Cars> a ns1:Driver .
+
+<http://example.org/f1/entity/Indycar_Group> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Indycarcom> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Ineos> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Inside_F1> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Instagram> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Interlagos> a ns1:CountryOrPlace .
+
+<http://example.org/f1/entity/International_Astronomical_Union> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Intrepid> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Investor_Group> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Invictus_Games_Foundation> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Irish_Examiner> a ns1:Driver .
+
+<http://example.org/f1/entity/Irvine_Eddie> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Isack_Hadjar> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Island_X_Prix> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Istanbul> a ns1:CountryOrPlace .
+
+<http://example.org/f1/entity/Italian_Grand_Prix> a ns1:GrandPrix ;
+    ns1:isPartOfSeason <http://example.org/f1/entity/1948>,
+        <http://example.org/f1/entity/1950>,
+        <http://example.org/f1/entity/1958>,
+        <http://example.org/f1/entity/1961>,
+        <http://example.org/f1/entity/1964>,
+        <http://example.org/f1/entity/1965>,
+        <http://example.org/f1/entity/1966>,
+        <http://example.org/f1/entity/1979>,
+        <http://example.org/f1/entity/1982> .
+
+<http://example.org/f1/entity/Italian_World_War_I> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Italy> a ns1:CountryOrPlace .
+
+<http://example.org/f1/entity/Italy_-_Enzo> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/J_H_Haynes_Co_Ltd> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Jaar_2016> a ns1:Driver .
+
+<http://example.org/f1/entity/Jack_Brabham> a ns1:Driver .
+
+<http://example.org/f1/entity/Jack_Doohan> a ns1:Driver .
+
+<http://example.org/f1/entity/Jackie_Oliver> a ns1:Driver .
+
+<http://example.org/f1/entity/Jackie_Stewart> a ns1:Driver .
+
+<http://example.org/f1/entity/Jackson> a ns1:CountryOrPlace .
+
+<http://example.org/f1/entity/Jacky_Ickx> a ns1:Driver .
+
+<http://example.org/f1/entity/Jacques_Villeneuve> a ns1:Driver .
+
+<http://example.org/f1/entity/Jaguar> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Jake_Hughes> a ns1:Driver .
+
+<http://example.org/f1/entity/James_Allen> a ns1:Driver .
+
+<http://example.org/f1/entity/James_Allison> a ns1:Driver .
+
+<http://example.org/f1/entity/James_Baldwin> a ns1:Driver .
+
+<http://example.org/f1/entity/James_Barclay> a ns1:Driver .
+
+<http://example.org/f1/entity/James_Calado> a ns1:Driver .
+
+<http://example.org/f1/entity/James_Elson> a ns1:Driver .
+
+<http://example.org/f1/entity/James_Galloway> a ns1:Driver .
+
+<http://example.org/f1/entity/James_Hunt> a ns1:Driver .
+
+<http://example.org/f1/entity/James_Hunt_Jochen_Mass> a ns1:Driver .
+
+<http://example.org/f1/entity/James_Hunt_Patrick> a ns1:Driver .
+
+<http://example.org/f1/entity/James_Key> a ns1:Driver .
+
+<http://example.org/f1/entity/James_Vowles> a ns1:Driver .
+
+<http://example.org/f1/entity/Japan> a ns1:CountryOrPlace .
+
+<http://example.org/f1/entity/Japan7172> a ns1:CountryOrPlace .
+
+<http://example.org/f1/entity/Japan79> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Japanese_Grand_Prix_2014> a ns1:GrandPrix .
+
+<http://example.org/f1/entity/Jean-Eric_Vergne> a ns1:Driver .
+
+<http://example.org/f1/entity/Jean-Louis> a ns1:CountryOrPlace .
+
+<http://example.org/f1/entity/Jean_Todt> a ns1:Driver .
+
+<http://example.org/f1/entity/Jeddah> a ns1:CountryOrPlace .
+
+<http://example.org/f1/entity/Jeffrey_Katzenberg_> a ns1:Driver .
+
+<http://example.org/f1/entity/Jenson_Button> a ns1:Driver .
+
+<http://example.org/f1/entity/Jenson_Button_Lewis_Hamilton> a ns1:Driver .
+
+<http://example.org/f1/entity/Jersey_Evening_Post> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Jim_Clark> a ns1:Driver .
+
+<http://example.org/f1/entity/Jim_Hall> a ns1:Driver .
+
+<http://example.org/f1/entity/Jim_Holden> a ns1:Driver .
+
+<http://example.org/f1/entity/Jim_Ratcliffe> a ns1:Driver .
+
+<http://example.org/f1/entity/Jochen_Mass> a ns1:Driver .
+
+<http://example.org/f1/entity/Jock_Clear> a ns1:Driver .
+
+<http://example.org/f1/entity/Jody_Scheckter> a ns1:Driver .
+
+<http://example.org/f1/entity/Joe_Saward> a ns1:Driver .
+
+<http://example.org/f1/entity/Jogia> a ns1:CountryOrPlace .
+
+<http://example.org/f1/entity/John_Barnard> a ns1:Driver .
+
+<http://example.org/f1/entity/John_Blake_Publishing> a ns1:Driver .
+
+<http://example.org/f1/entity/John_Blake_Publishing_Ltd> a ns1:Driver .
+
+<http://example.org/f1/entity/John_Dagys_Media> a ns1:Driver .
+
+<http://example.org/f1/entity/John_Elkann> a ns1:Driver .
+
+<http://example.org/f1/entity/John_Hogan> a ns1:Driver .
+
+<http://example.org/f1/entity/John_Surtees> a ns1:Driver .
+
+<http://example.org/f1/entity/John_Watson> a ns1:Driver .
+
+<http://example.org/f1/entity/John_Watson216> a ns1:Driver .
+
+<http://example.org/f1/entity/John_Watson_Alain> a ns1:Driver .
+
+<http://example.org/f1/entity/John_Watson_Andrea_de_Cesaris> a ns1:Driver .
+
+<http://example.org/f1/entity/John_Watson_Niki_Lauda> a ns1:Driver .
+
+<http://example.org/f1/entity/John_Watson_Patrick_Tambay> a ns1:Driver .
+
+<http://example.org/f1/entity/Johnnie_Walker> a ns1:Driver .
+
+<http://example.org/f1/entity/Johnny_Herbert> a ns1:Driver .
+
+<http://example.org/f1/entity/Johnny_Rutherford> a ns1:Driver .
+
+<http://example.org/f1/entity/Johnston> a ns1:CountryOrPlace .
+
+<http://example.org/f1/entity/Jolyon_Palmer> a ns1:Driver .
+
+<http://example.org/f1/entity/Jordan> a ns1:CountryOrPlace .
+
+<http://example.org/f1/entity/Jordan_Grand_Prix> a ns1:GrandPrix .
+
+<http://example.org/f1/entity/Jordan_Sponsor_Bumped> a ns1:Driver .
+
+<http://example.org/f1/entity/Jos_Verstappen> a ns1:Driver,
+        ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Josef_Kaufmann_Racing> a ns1:Driver .
+
+<http://example.org/f1/entity/Joseph_Harker> a ns1:Driver .
+
+<http://example.org/f1/entity/Joseph_Kosinski> a ns1:Driver .
+
+<http://example.org/f1/entity/Juan_Manuel_Fangio> a ns1:Driver ;
+    ns1:wonGrandPrix <http://example.org/f1/entity/French_Grand_Prix>,
+        <http://example.org/f1/entity/Grand_Prix157168> .
+
+<http://example.org/f1/entity/Juan_Pablo_Montoya> a ns1:Driver .
+
+<http://example.org/f1/entity/Juan_Pablo_Montoya222> a ns1:Driver .
+
+<http://example.org/f1/entity/Jules_Gounon> a ns1:Driver .
+
+<http://example.org/f1/entity/Julianne> a ns1:CountryOrPlace .
+
+<http://example.org/f1/entity/Julius_Baer_Pole_Position_for_Round_3> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Junior_Team> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/KF2> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/KZ1> a ns1:CountryOrPlace .
+
+<http://example.org/f1/entity/KZ2> a ns1:CountryOrPlace .
+
+<http://example.org/f1/entity/KZ_World_Champion> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Kaia_Gerber> a ns1:Driver .
+
+<http://example.org/f1/entity/Kalinauckas> a ns1:CountryOrPlace .
+
+<http://example.org/f1/entity/Kapoor> a ns1:CountryOrPlace .
+
+<http://example.org/f1/entity/Karl_Kling> a ns1:Driver .
+
+<http://example.org/f1/entity/Karlie_Kloss> a ns1:Driver .
+
+<http://example.org/f1/entity/Karpov> a ns1:CountryOrPlace .
+
+<http://example.org/f1/entity/Karting> a ns1:CountryOrPlace .
+
+<http://example.org/f1/entity/Karting_Hamilton> a ns1:Driver .
+
+<http://example.org/f1/entity/Karun> a ns1:CountryOrPlace .
+
+<http://example.org/f1/entity/Karun_Chandhok> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Kaspersky_Lab> a ns1:Driver .
+
+<http://example.org/f1/entity/Kavin_Garside> a ns1:Driver .
+
+<http://example.org/f1/entity/Keech_Hospice_Care_Childrens_Service> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Keith_Collantine> a ns1:Driver .
+
+<http://example.org/f1/entity/Keke_Rosberg> a ns1:Driver .
+
+<http://example.org/f1/entity/Kelly_Piquet> a ns1:Driver .
+
+<http://example.org/f1/entity/Kessel_Racing> a ns1:Driver .
+
+<http://example.org/f1/entity/Kevin_Magnussen> a ns1:Driver .
+
+<http://example.org/f1/entity/Kevin_Magnussen160_Compared> a ns1:Driver .
+
+<http://example.org/f1/entity/Kevin_Magnussen_Jenson_Button> a ns1:Driver .
+
+<http://example.org/f1/entity/Khorounzhiy> a ns1:CountryOrPlace .
+
+<http://example.org/f1/entity/Kick16> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Kick_Sauber> a ns1:Driver .
+
+<http://example.org/f1/entity/Kick_Sauber_F1> a ns1:Driver .
+
+<http://example.org/f1/entity/Kim_Kardashian> a ns1:Driver .
+
+<http://example.org/f1/entity/Kimberley_Grand_Prix_Data> a ns1:GrandPrix .
+
+<http://example.org/f1/entity/Kimi_Antonelli> a ns1:Driver .
+
+<http://example.org/f1/entity/Kimi_Raikkonen> a ns1:Driver .
+
+<http://example.org/f1/entity/Kings_Lynn> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Kingspan> a ns1:CountryOrPlace .
+
+<http://example.org/f1/entity/Kingspan_Group> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Klaas_Prinsloo> a ns1:Driver .
+
+<http://example.org/f1/entity/Klein> a ns1:CountryOrPlace .
+
+<http://example.org/f1/entity/Knight> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Knutson> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Kotaku_Australia> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Kuala_Lumpur> a ns1:CountryOrPlace .
+
+<http://example.org/f1/entity/LEquipe> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/LEquipe_Champion_of_Champions> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/La_Gazzetta> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Ladbrokes> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Lamborghini> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Lance_Stroll> a ns1:Driver,
+        ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Lando> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Lando_Norris> a ns1:Driver,
+        ns1:TeamOrOrganization ;
+    ns1:wonGrandPrix <http://example.org/f1/entity/Abu_Dhabi_Grand_Prix> .
+
+<http://example.org/f1/entity/Lando_Norris316> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Lap_Times> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Laps_Led> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Larbalestier> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Larkam> a ns1:CountryOrPlace .
+
+<http://example.org/f1/entity/Larkham_Lewis> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Las_Vegas> a ns1:CountryOrPlace .
+
+<http://example.org/f1/entity/Las_Vegas_2023> a ns1:CountryOrPlace .
+
+<http://example.org/f1/entity/Las_Vegas_Grand_Prix> a ns1:GrandPrix .
+
+<http://example.org/f1/entity/Las_Vegas_Motor_Speedway> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Laureus_Awards> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Laureus_Sport> a ns1:Driver .
+
+<http://example.org/f1/entity/Laureus_World_Sports_Awards> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/LeBron_Dominate> a ns1:Driver .
+
+<http://example.org/f1/entity/Le_Mans> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Le_Mans_Virtual> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Le_Mans_Virtual_Series> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Leclerc> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Ledger_Emma> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Leigh_Diffey> a ns1:Driver .
+
+<http://example.org/f1/entity/Leonardo_DiCaprio> a ns1:Driver .
+
+<http://example.org/f1/entity/Lerclerc> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Lewis_Carl_Davidson_Hamilton> a ns1:Driver .
+
+<http://example.org/f1/entity/Lewis_Hamilton> a ns1:Driver ;
+    ns1:wonGrandPrix <http://example.org/f1/entity/Abu_Dhabi_Grand_Prix>,
+        <http://example.org/f1/entity/Japanese_Grand_Prix>,
+        <http://example.org/f1/entity/Malaysian_Grand_Prix> .
+
+<http://example.org/f1/entity/Lewis_Hamilton-Nico_Rosberg> a ns1:Driver .
+
+<http://example.org/f1/entity/Lewis_Hamilton102103> a ns1:Driver .
+
+<http://example.org/f1/entity/Lewis_Hamilton_> a ns1:Driver .
+
+<http://example.org/f1/entity/Lewis_Hamilton_Archived> a ns1:Driver .
+
+<http://example.org/f1/entity/Lewis_Hamilton_Biography> a ns1:Driver .
+
+<http://example.org/f1/entity/Lewis_Hamilton_Foundation> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Lewis_Hamilton_George_Russell> a ns1:Driver .
+
+<http://example.org/f1/entity/Lewis_Hamilton_George_Russell_Valtteri_Bottas> a ns1:Driver .
+
+<http://example.org/f1/entity/Lewis_Hamilton_Handed_Special_Award> a ns1:Driver .
+
+<http://example.org/f1/entity/Lewis_Hamilton_Heikki_Kovalainen> a ns1:Driver .
+
+<http://example.org/f1/entity/Lewis_Hamilton_Jenson_Button> a ns1:Driver .
+
+<http://example.org/f1/entity/Lewis_Hamilton_Launches_Film_> a ns1:Driver .
+
+<http://example.org/f1/entity/Lewis_Hamilton_Lewis_Hamilton> a ns1:Driver .
+
+<http://example.org/f1/entity/Lewis_Hamilton_Meets> a ns1:Driver .
+
+<http://example.org/f1/entity/Lewis_Hamilton_Mercedes> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Lewis_Hamilton_Named> a ns1:Driver .
+
+<http://example.org/f1/entity/Lewis_Hamilton_Unveiled> a ns1:Driver .
+
+<http://example.org/f1/entity/Lewis_Hamilton_Urges> a ns1:Driver .
+
+<http://example.org/f1/entity/Lewis_Hamilton_Valtteri_Bottas> a ns1:Driver .
+
+<http://example.org/f1/entity/Liam_Lawson> a ns1:Driver .
+
+<http://example.org/f1/entity/Liam_Lawson52> a ns1:Driver .
+
+<http://example.org/f1/entity/Limburg> a ns1:CountryOrPlace .
+
+<http://example.org/f1/entity/Lionel_Messi> a ns1:Driver .
+
+<http://example.org/f1/entity/Liuzzi> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Liverpool_Echo> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Lloyd_Daniel> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Logan_Sargeant> a ns1:Driver .
+
+<http://example.org/f1/entity/Loic> a ns1:CountryOrPlace .
+
+<http://example.org/f1/entity/Loic_Serra> a ns1:Driver .
+
+<http://example.org/f1/entity/London> a ns1:CountryOrPlace .
+
+<http://example.org/f1/entity/London_Evening_Standard> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Long_Beach_> a ns1:CountryOrPlace .
+
+<http://example.org/f1/entity/Lorenz_Frey-Hilti> a ns1:Driver .
+
+<http://example.org/f1/entity/Lorenzo_Bandini> a ns1:Driver .
+
+<http://example.org/f1/entity/Los_Angeles> a ns1:CountryOrPlace .
+
+<http://example.org/f1/entity/Lotus> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Louis_Chiron> a ns1:Driver .
+
+<http://example.org/f1/entity/Luca_di_Montezemolo> a ns1:Driver .
+
+<http://example.org/f1/entity/Lucas> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Lucas_Blakeley> a ns1:Driver .
+
+<http://example.org/f1/entity/Luigi_Bazzi> a ns1:Driver .
+
+<http://example.org/f1/entity/Luins> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Luke_Browning> a ns1:Driver .
+
+<http://example.org/f1/entity/Luke_Slater> a ns1:Driver .
+
+<http://example.org/f1/entity/Lulu_Press_Inc> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Luna_Fluxa> a ns1:Driver .
+
+<http://example.org/f1/entity/Luxembourg> a ns1:CountryOrPlace .
+
+<http://example.org/f1/entity/Luxembourg_Grands_Prix> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Lynch> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Lyndon-Griffiths> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/M15> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/M16> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/M23> a ns1:CountryOrPlace .
+
+<http://example.org/f1/entity/M26> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/M2647_Hunt> a ns1:Driver .
+
+<http://example.org/f1/entity/M3Bs> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/M7A> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/MCLAREN-HO> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/MGP_W02> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/MP410> a ns1:CountryOrPlace .
+
+<http://example.org/f1/entity/MP49> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/MSN_News> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/MSP_Sports_Capital> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/MST_World> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Mackley> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Magneti_Marelli> a ns1:Driver .
+
+<http://example.org/f1/entity/Maher_Thomas> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Mahim> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Mahindra> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Mahle_GmbH> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Maiden_Win> a ns1:Driver .
+
+<http://example.org/f1/entity/Mainstream_Publishing_Co> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Malaysia> a ns1:CountryOrPlace .
+
+<http://example.org/f1/entity/Malukas> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Mangusta> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Manhattan> a ns1:CountryOrPlace .
+
+<http://example.org/f1/entity/Manila> a ns1:CountryOrPlace .
+
+<http://example.org/f1/entity/Manor_Motorsport> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Mansell> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Mansour_Ojjeh> a ns1:Driver .
+
+<http://example.org/f1/entity/Manufacturer> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Maranello> a ns1:CountryOrPlace .
+
+<http://example.org/f1/entity/Marc_Marquez> a ns1:Driver .
+
+<http://example.org/f1/entity/Marcas_de_coches> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Marco_Piccinini> a ns1:Driver .
+
+<http://example.org/f1/entity/Marcus> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Mario_Andretti> a ns1:Driver .
+
+<http://example.org/f1/entity/Mario_Kart> a ns1:Driver .
+
+<http://example.org/f1/entity/Mario_Tadini> a ns1:Driver .
+
+<http://example.org/f1/entity/Mark_Blundell> a ns1:Driver .
+
+<http://example.org/f1/entity/Mark_Donohue> a ns1:Driver .
+
+<http://example.org/f1/entity/Mark_Hughes> a ns1:Driver .
+
+<http://example.org/f1/entity/Mark_Temple> a ns1:Driver .
+
+<http://example.org/f1/entity/Mark_Webber> a ns1:Driver .
+
+<http://example.org/f1/entity/Marko> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Marlboro> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Marlboro_Project> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Marriott_Bonvoy99> a ns1:Driver .
+
+<http://example.org/f1/entity/Marsh> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Martin_Bruce_> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Martin_Brundle> a ns1:Driver .
+
+<http://example.org/f1/entity/Martin_Vantage_AMR_GT3_Evo> a ns1:Driver .
+
+<http://example.org/f1/entity/Martin_Whitmarsh> a ns1:Driver .
+
+<http://example.org/f1/entity/Martin_Whitmarsh110> a ns1:Driver .
+
+<http://example.org/f1/entity/Martin_Whitmarsh310311> a ns1:Driver .
+
+<http://example.org/f1/entity/Martina_Navratilova> a ns1:Driver .
+
+<http://example.org/f1/entity/Marussia> a ns1:CountryOrPlace .
+
+<http://example.org/f1/entity/Mary_McGee> a ns1:Driver .
+
+<http://example.org/f1/entity/Masashi_Yamamoto> a ns1:Driver .
+
+<http://example.org/f1/entity/Maserati> a ns1:CountryOrPlace,
+        ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Maserati_MSG_Racing> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Mass> a ns1:CountryOrPlace .
+
+<http://example.org/f1/entity/Mastercard> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Matra> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Matra_International> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Matra_Sports_S> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Matt_Dickinson> a ns1:Driver .
+
+<http://example.org/f1/entity/Matteo> a ns1:CountryOrPlace .
+
+<http://example.org/f1/entity/Mattias_Ekstrom> a ns1:Driver .
+
+<http://example.org/f1/entity/Mattijs> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Mauro_Forghieri> a ns1:Driver .
+
+<http://example.org/f1/entity/Maverick_Regret_The_Advice_He_Got> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Max_Emilian_Verstappen> a ns1:Driver .
+
+<http://example.org/f1/entity/Max_Mini_Max> a ns1:Driver .
+
+<http://example.org/f1/entity/Max_Verstappen> a ns1:Driver ;
+    ns1:wonGrandPrix <http://example.org/f1/entity/Abu_Dhabi_Grand_Prix>,
+        <http://example.org/f1/entity/Belgian_Grand_Prix>,
+        <http://example.org/f1/entity/Spanish_Grand_Prix> .
+
+<http://example.org/f1/entity/Max_Verstappen-Kimi_Raikkonen> a ns1:Driver .
+
+<http://example.org/f1/entity/Max_Verstappen198> a ns1:Driver .
+
+<http://example.org/f1/entity/Max_Verstappen_> a ns1:Driver .
+
+<http://example.org/f1/entity/Max_Verstappen_Joins_Team_Redline> a ns1:Driver .
+
+<http://example.org/f1/entity/Max_Verstappen_Max_Verstappen> a ns1:Driver .
+
+<http://example.org/f1/entity/Max_Verstappen_Official_Site> a ns1:Driver .
+
+<http://example.org/f1/entity/Max_Verstappen_Onboard> a ns1:Driver .
+
+<http://example.org/f1/entity/Max_Verstappen_Stole_the_Show> a ns1:Driver .
+
+<http://example.org/f1/entity/Max_Verstappen_Will> a ns1:Driver .
+
+<http://example.org/f1/entity/Max_Verstappen_Zooms_Past_Lewis_Hamilton> a ns1:Driver .
+
+<http://example.org/f1/entity/Max_Verstappen_niet> a ns1:Driver .
+
+<http://example.org/f1/entity/Max_al> a ns1:Driver .
+
+<http://example.org/f1/entity/McDonagh_Connor> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/McLaren> a ns1:Driver,
+        ns1:Team ;
+    ns1:wonConstructorsChampionshipIn <http://example.org/f1/entity/1967>,
+        <http://example.org/f1/entity/1969>,
+        <http://example.org/f1/entity/1971>,
+        <http://example.org/f1/entity/1977>,
+        <http://example.org/f1/entity/1980>,
+        <http://example.org/f1/entity/1983>,
+        <http://example.org/f1/entity/1985>,
+        <http://example.org/f1/entity/1995>,
+        <http://example.org/f1/entity/1998>,
+        <http://example.org/f1/entity/2004>,
+        <http://example.org/f1/entity/2007>,
+        <http://example.org/f1/entity/2008>,
+        <http://example.org/f1/entity/2009>,
+        <http://example.org/f1/entity/2011>,
+        <http://example.org/f1/entity/2012>,
+        <http://example.org/f1/entity/2013>,
+        <http://example.org/f1/entity/2014>,
+        <http://example.org/f1/entity/2015>,
+        <http://example.org/f1/entity/2017>,
+        <http://example.org/f1/entity/2019>,
+        <http://example.org/f1/entity/2020>,
+        <http://example.org/f1/entity/2021>,
+        <http://example.org/f1/entity/2022>,
+        <http://example.org/f1/entity/2023>,
+        <http://example.org/f1/entity/2024>,
+        <http://example.org/f1/entity/2025>,
+        <http://example.org/f1/entity/2026>,
+        <http://example.org/f1/entity/2027> .
+
+<http://example.org/f1/entity/McLaren-Honda> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/McLaren-Mercedes> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/McLaren190_Team> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/McLaren39_Hulme> a ns1:Driver .
+
+<http://example.org/f1/entity/McLaren91_Mercedes> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/McLaren_1-2> a ns1:Driver .
+
+<http://example.org/f1/entity/McLaren_Artura> a ns1:Driver .
+
+<http://example.org/f1/entity/McLaren_Automotive> a ns1:Driver .
+
+<http://example.org/f1/entity/McLaren_Automotive355356> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/McLaren_Cars> a ns1:Driver .
+
+<http://example.org/f1/entity/McLaren_Clarifies_Position> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/McLaren_During> a ns1:Driver ;
+    ns1:wonGrandPrix <http://example.org/f1/entity/Brazilian_Grand_Prix> .
+
+<http://example.org/f1/entity/McLaren_Electric_Racing231_Extreme> a ns1:Driver .
+
+<http://example.org/f1/entity/McLaren_F1> a ns1:Driver,
+        ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/McLaren_Formula> a ns1:Driver .
+
+<http://example.org/f1/entity/McLaren_Formula_1> a ns1:Driver .
+
+<http://example.org/f1/entity/McLaren_Formula_1_Car> a ns1:Driver .
+
+<http://example.org/f1/entity/McLaren_Formula_1_Team> a ns1:Driver .
+
+<http://example.org/f1/entity/McLaren_Formula_E_Team> a ns1:Driver .
+
+<http://example.org/f1/entity/McLaren_Group> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/McLaren_Group_-_Companies> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/McLaren_Honda> a ns1:Driver .
+
+<http://example.org/f1/entity/McLaren_Hypercar> a ns1:Driver .
+
+<http://example.org/f1/entity/McLaren_Livery> a ns1:Driver .
+
+<http://example.org/f1/entity/McLaren_M12> a ns1:Driver .
+
+<http://example.org/f1/entity/McLaren_M23> a ns1:Driver .
+
+<http://example.org/f1/entity/McLaren_MP44> a ns1:Driver .
+
+<http://example.org/f1/entity/McLaren_MP4x> a ns1:Driver .
+
+<http://example.org/f1/entity/McLaren_Mastercard_F1_Team> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/McLaren_Mastercard_Formula_1_Team> a ns1:Driver .
+
+<http://example.org/f1/entity/McLaren_McLaren_Racing_Limited> a ns1:Driver .
+
+<http://example.org/f1/entity/McLaren_Mercedes> a ns1:Driver .
+
+<http://example.org/f1/entity/McLaren_Motor_Racing> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/McLaren_Racing> a ns1:Driver .
+
+<http://example.org/f1/entity/McLaren_Racing_-_2023> a ns1:Driver .
+
+<http://example.org/f1/entity/McLaren_Racing_-_Gulf> a ns1:Driver .
+
+<http://example.org/f1/entity/McLaren_Racing_-_McLaren> a ns1:Driver .
+
+<http://example.org/f1/entity/McLaren_Racing_-_McLaren_Racing> a ns1:Driver .
+
+<http://example.org/f1/entity/McLaren_Racing_-_N> a ns1:Driver .
+
+<http://example.org/f1/entity/McLaren_Racing_Limited> a ns1:Driver .
+
+<http://example.org/f1/entity/McLaren_Racing_Ltd> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/McLaren_Racing_Unveil> a ns1:Driver .
+
+<http://example.org/f1/entity/McLaren_Technology> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/McLaren_Technology_Group> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/McLaren_United> a ns1:Driver .
+
+<http://example.org/f1/entity/McLarens> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/McLarens_of> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/McVeigh> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Mecachrome> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Media> a ns1:CountryOrPlace,
+        ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Medland> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Mee_Lydia> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Meens_Stefan> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Melbourne> a ns1:CountryOrPlace .
+
+<http://example.org/f1/entity/Merc> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Mercedes> a ns1:Team ;
+    ns1:wonConstructorsChampionshipIn <http://example.org/f1/entity/1934>,
+        <http://example.org/f1/entity/1955>,
+        <http://example.org/f1/entity/1958>,
+        <http://example.org/f1/entity/1959>,
+        <http://example.org/f1/entity/1962>,
+        <http://example.org/f1/entity/1981>,
+        <http://example.org/f1/entity/1983>,
+        <http://example.org/f1/entity/1995>,
+        <http://example.org/f1/entity/2009>,
+        <http://example.org/f1/entity/2014>,
+        <http://example.org/f1/entity/2015>,
+        <http://example.org/f1/entity/2016>,
+        <http://example.org/f1/entity/2017>,
+        <http://example.org/f1/entity/2019>,
+        <http://example.org/f1/entity/2020>,
+        <http://example.org/f1/entity/2021>,
+        <http://example.org/f1/entity/2022>,
+        <http://example.org/f1/entity/2023>,
+        <http://example.org/f1/entity/2025> .
+
+<http://example.org/f1/entity/Mercedes-> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Mercedes-AMG_C63> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Mercedes-AMG_F1> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Mercedes-AMG_GT3_Evo> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Mercedes-AMG_Motorsport> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Mercedes-Benz> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Mercedes-Benz-branded> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Mercedes-Benz_Grand_Prix> a ns1:GrandPrix .
+
+<http://example.org/f1/entity/Mercedes-Benz_Grand_Prix_Limited> a ns1:GrandPrix .
+
+<http://example.org/f1/entity/Mercedes-Benz_Grand_Prix_Ltd> a ns1:GrandPrix .
+
+<http://example.org/f1/entity/Mercedes-Benz_High_Performance_Engines> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Mercedes-Benz_W196_Streamliner_-_Images> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Mercedes-Benzs_Formula_One> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Mercedes182176> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Mercedes19> a ns1:CountryOrPlace .
+
+<http://example.org/f1/entity/Mercedes_AMG_F1> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Mercedes_Benz_McLaren> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Mercedes_F1> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Mercedes_F1_Team> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Mercedes_Grand_Prix> a ns1:GrandPrix .
+
+<http://example.org/f1/entity/Mercedes_W15> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Mercedes_of_Lewis_Hamilton> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Merecedes_F1> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Merrcedes> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Mexican_Grand_Prix> a ns1:GrandPrix ;
+    ns1:isPartOfSeason <http://example.org/f1/entity/1964>,
+        <http://example.org/f1/entity/1965>,
+        <http://example.org/f1/entity/1966>,
+        <http://example.org/f1/entity/2018>,
+        <http://example.org/f1/entity/2019> .
+
+<http://example.org/f1/entity/Mexican_Grand_Prix_2018> a ns1:GrandPrix ;
+    ns1:isPartOfSeason <http://example.org/f1/entity/2018> .
+
+<http://example.org/f1/entity/Mexican_Grand_Prix_2019> a ns1:GrandPrix .
+
+<http://example.org/f1/entity/Mexican_Grand_Prix_Qualifying_Highlights> a ns1:GrandPrix ;
+    ns1:isPartOfSeason <http://example.org/f1/entity/2018> .
+
+<http://example.org/f1/entity/Mexican_Grand_Prix_Race_Highlights> a ns1:GrandPrix ;
+    ns1:isPartOfSeason <http://example.org/f1/entity/2018> .
+
+<http://example.org/f1/entity/Mexico> a ns1:CountryOrPlace .
+
+<http://example.org/f1/entity/Mexico_City> a ns1:CountryOrPlace .
+
+<http://example.org/f1/entity/Mexico_City_Grand_Prix> a ns1:GrandPrix ;
+    ns1:isPartOfSeason <http://example.org/f1/entity/2021>,
+        <http://example.org/f1/entity/2022>,
+        <http://example.org/f1/entity/2023> .
+
+<http://example.org/f1/entity/Meyer_Shank_Racing> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Miami> a ns1:CountryOrPlace .
+
+<http://example.org/f1/entity/Miami_F1> a ns1:CountryOrPlace .
+
+<http://example.org/f1/entity/Miami_Grand_Prix> a ns1:GrandPrix ;
+    ns1:isPartOfSeason <http://example.org/f1/entity/2023>,
+        <http://example.org/f1/entity/2024> .
+
+<http://example.org/f1/entity/Miami_Grand_Prix_Entry_List> a ns1:GrandPrix ;
+    ns1:isPartOfSeason <http://example.org/f1/entity/2023> .
+
+<http://example.org/f1/entity/Miami_Grand_Prix_onwards5859_Other> a ns1:GrandPrix ;
+    ns1:isPartOfSeason <http://example.org/f1/entity/2021>,
+        <http://example.org/f1/entity/2024> .
+
+<http://example.org/f1/entity/Michael_Andretti> a ns1:Driver .
+
+<http://example.org/f1/entity/Michael_Andretti_Mika> a ns1:Driver .
+
+<http://example.org/f1/entity/Michael_Gove> a ns1:Driver .
+
+<http://example.org/f1/entity/Michael_Masi> a ns1:Driver .
+
+<http://example.org/f1/entity/Michael_Schumacher> a ns1:Driver .
+
+<http://example.org/f1/entity/Michael_Schumacher22> a ns1:Driver .
+
+<http://example.org/f1/entity/Michael_Schumacher502503_Orders> a ns1:Driver .
+
+<http://example.org/f1/entity/Michael_Schumacher532_Notes> a ns1:Driver .
+
+<http://example.org/f1/entity/Michael_Schumacher_F1> a ns1:Driver .
+
+<http://example.org/f1/entity/Michael_Schumacher_Nico_Rosberg> a ns1:Driver .
+
+<http://example.org/f1/entity/Michalik> a ns1:CountryOrPlace .
+
+<http://example.org/f1/entity/Mick_Schumacher> a ns1:Driver .
+
+<http://example.org/f1/entity/Middle_East_Eye> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Miguel_Molina> a ns1:Driver .
+
+<http://example.org/f1/entity/Mika_Hakkinen> a ns1:Driver .
+
+<http://example.org/f1/entity/Mike_Coughlan> a ns1:Driver .
+
+<http://example.org/f1/entity/Mike_Elliott> a ns1:Driver .
+
+<http://example.org/f1/entity/Mike_Hailwood> a ns1:Driver .
+
+<http://example.org/f1/entity/Mike_Hawthorn> a ns1:Driver .
+
+<http://example.org/f1/entity/Mike_Seymour> a ns1:Driver .
+
+<http://example.org/f1/entity/Milan> a ns1:CountryOrPlace .
+
+<http://example.org/f1/entity/Mille> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Mille_Miglia> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Milton_Keynes> a ns1:Driver .
+
+<http://example.org/f1/entity/Minardi> a ns1:CountryOrPlace .
+
+<http://example.org/f1/entity/Mini_Max> a ns1:Driver .
+
+<http://example.org/f1/entity/Mini_Max_class14> a ns1:Driver .
+
+<http://example.org/f1/entity/Mino_Amorotti> a ns1:Driver .
+
+<http://example.org/f1/entity/Mitchell-Malm> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Modelo_Kelly_Piquet> a ns1:Driver .
+
+<http://example.org/f1/entity/Modena> a ns1:CountryOrPlace .
+
+<http://example.org/f1/entity/Moerman> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Mohammed_Ben_Sulayem> a ns1:Driver .
+
+<http://example.org/f1/entity/Moloney> a ns1:CountryOrPlace .
+
+<http://example.org/f1/entity/Monaco> a ns1:CountryOrPlace,
+        ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Monaco_-_Dutch_Formula> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Monaco_F1> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Monaco_GP_Lauda> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Monaco_Grand_Prix_-_Qualifying_Report> a ns1:GrandPrix ;
+    ns1:isPartOfSeason <http://example.org/f1/entity/2024> .
+
+<http://example.org/f1/entity/Monaco_Grand_Prix_Entry_List> a ns1:GrandPrix ;
+    ns1:isPartOfSeason <http://example.org/f1/entity/2023> .
+
+<http://example.org/f1/entity/Monaco_Grand_Prix_Max_Verstappen> a ns1:GrandPrix .
+
+<http://example.org/f1/entity/Monaco_Grand_Prix_Post-Race_Press_Conference_Transcript> a ns1:GrandPrix ;
+    ns1:isPartOfSeason <http://example.org/f1/entity/2024> .
+
+<http://example.org/f1/entity/Monaco_Grand_Prix_Qualifying_Recap> a ns1:GrandPrix .
+
+<http://example.org/f1/entity/Monaco_Grand_Prix_Race_8> a ns1:GrandPrix ;
+    ns1:isPartOfSeason <http://example.org/f1/entity/2024> .
+
+<http://example.org/f1/entity/Monegasque> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Monegasque_Charles_Leclerc> a ns1:Driver ;
+    ns1:wonGrandPrix <http://example.org/f1/entity/Austrian_Grand_Prix> .
+
+<http://example.org/f1/entity/Monoposto_Tipo_B> a ns1:Driver .
+
+<http://example.org/f1/entity/Monster_Energy> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Monte_Carlo> a ns1:Driver .
+
+<http://example.org/f1/entity/Montoya> a ns1:CountryOrPlace,
+        ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Montreal> a ns1:CountryOrPlace .
+
+<http://example.org/f1/entity/Monza> a ns1:CountryOrPlace .
+
+<http://example.org/f1/entity/Moreno_Jake_Benham> a ns1:Driver .
+
+<http://example.org/f1/entity/Mosport> a ns1:CountryOrPlace .
+
+<http://example.org/f1/entity/Motor_Sport> a ns1:Driver .
+
+<http://example.org/f1/entity/Motor_Sport_Magazine> a ns1:Driver .
+
+<http://example.org/f1/entity/Motor_Sports_Association> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Motorcycle_Mary> a ns1:Driver .
+
+<http://example.org/f1/entity/Motorsport> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Motorsport_Network> a ns1:Driver .
+
+<http://example.org/f1/entity/Motorsportcom> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Motorsportstatscom> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Mount_Lemmon_Survey> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Moxon> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Mr_Finance> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Mumtalakat> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Murray_Walker> a ns1:Driver .
+
+<http://example.org/f1/entity/Museo_Francesco_Baracca> a ns1:Driver .
+
+<http://example.org/f1/entity/Music_Hamilton> a ns1:Driver .
+
+<http://example.org/f1/entity/My_Story> a ns1:Driver .
+
+<http://example.org/f1/entity/N> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/NAS> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/NASCAR_Whelen_Euro_Series> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/NBC_Sports> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/NBC_Sports_Network> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/NLS2> a ns1:CountryOrPlace .
+
+<http://example.org/f1/entity/NL_Times> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Naman> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Nanni_Galli> a ns1:Driver .
+
+<http://example.org/f1/entity/Narwani> a ns1:CountryOrPlace .
+
+<http://example.org/f1/entity/National_Portrait_Gallery> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Neat_Burger> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Neat_Burger425> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Nederlands> a ns1:CountryOrPlace .
+
+<http://example.org/f1/entity/Nederlandse> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Nederlandse_WK-leider> a ns1:Driver .
+
+<http://example.org/f1/entity/Neil_Houdly> a ns1:Driver .
+
+<http://example.org/f1/entity/Neil_Houldey> a ns1:Driver .
+
+<http://example.org/f1/entity/Nelson_Piquet> a ns1:Driver ;
+    ns1:wonGrandPrix <http://example.org/f1/entity/ART_Grand_Prix> .
+
+<http://example.org/f1/entity/Netherlands> a ns1:CountryOrPlace .
+
+<http://example.org/f1/entity/Neue_Zurcher_Zeitung> a ns1:Driver .
+
+<http://example.org/f1/entity/New_Ground_Effect> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/New_Superstar> a ns1:CountryOrPlace .
+
+<http://example.org/f1/entity/New_York> a ns1:CountryOrPlace .
+
+<http://example.org/f1/entity/New_York399400> a ns1:CountryOrPlace .
+
+<http://example.org/f1/entity/New_York_Fashion_Week> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/New_York_Times> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/New_Zealander_Bruce_McLaren10_Bruce> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Newey> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/News_Corp_Australia> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Niall> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Nichol_Jake> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Nichol_Jake_> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Nicholas_Latifi> a ns1:Driver .
+
+<http://example.org/f1/entity/Nick> a ns1:CountryOrPlace .
+
+<http://example.org/f1/entity/Nick_Heidfeld> a ns1:Driver ;
+    ns1:wonGrandPrix <http://example.org/f1/entity/British_Grand_Prix> .
+
+<http://example.org/f1/entity/Nicklas_Nielsen> a ns1:Driver,
+        ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Nico_Hulkenberg> a ns1:Driver .
+
+<http://example.org/f1/entity/Nico_Rosberg> a ns1:Driver .
+
+<http://example.org/f1/entity/Nico_Rosberg_Lewis_Hamilton> a ns1:Driver .
+
+<http://example.org/f1/entity/Nicole_Scherzinger> a ns1:Driver .
+
+<http://example.org/f1/entity/Nicole_Scherzinger_Lewis> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Nielsen_Media_Research> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Nigel_Mansell> a ns1:Driver .
+
+<http://example.org/f1/entity/Niki_Lauda> a ns1:Driver .
+
+<http://example.org/f1/entity/Niki_Lauda_Alain_Prost> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Nissan> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Noble_Jonathon> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Nolan_Siegel_7> a ns1:Driver .
+
+<http://example.org/f1/entity/Non-Alcoholic_Tequila> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Norbert_Haug> a ns1:Driver .
+
+<http://example.org/f1/entity/Nordschleife> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Norris> a ns1:CountryOrPlace,
+        ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Norris_Red_Bull> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Norris_Verstappen> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Norris_and> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Norris_and_Leclerc_as_Verstappen> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Norris_and_Perez> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Norris_and_Verstappen> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Norris_fourth165_Leclerc> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Norris_second> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Norris_third> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Norris_third135_Hamilton> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/North_West_London> a ns1:CountryOrPlace .
+
+<http://example.org/f1/entity/Northamptonshire> a ns1:CountryOrPlace .
+
+<http://example.org/f1/entity/Nottage> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Noud_Bemelen> a ns1:Driver .
+
+<http://example.org/f1/entity/Novozhilovo> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Nurburgring> a ns1:CountryOrPlace .
+
+<http://example.org/f1/entity/Nurburgring_Verstappen> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Nyck_de_Vries> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Nye> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/OWard> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Ocon> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Ocon_Collide> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Official_Primary_Partner> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Officine_Meccaniche> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Ojjeh> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Ola_Kallenius> a ns1:Driver .
+
+<http://example.org/f1/entity/Oldest_Ever_F1_World_Champion> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Oleg> a ns1:CountryOrPlace .
+
+<http://example.org/f1/entity/Oliver_Bearman> a ns1:Driver .
+
+<http://example.org/f1/entity/Olivier_Gendebien> a ns1:Driver .
+
+<http://example.org/f1/entity/Onboard_Pole_Lap> a ns1:Driver .
+
+<http://example.org/f1/entity/Opmeer_Dani> a ns1:Driver .
+
+<http://example.org/f1/entity/Opmeer_Dani_Moreno> a ns1:Driver .
+
+<http://example.org/f1/entity/Opmeer_Jake_Benham> a ns1:Driver .
+
+<http://example.org/f1/entity/Oracle_Red_Bull_Racing> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Orange_Army> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Oscar_Piastri> a ns1:Driver ;
+    ns1:wonGrandPrix <http://example.org/f1/entity/Austrian_Grand_Prix> .
+
+<http://example.org/f1/entity/Ostler> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Owen> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Oxford> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Oxfordshire> a ns1:CountryOrPlace .
+
+<http://example.org/f1/entity/P14> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/PAP_European_Sportsperson> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/PFI> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/PFI_PF1> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/PFI_R1> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/PFI_R2> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Paddy_Lowe> a ns1:Driver .
+
+<http://example.org/f1/entity/Palantir_Technologies> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Paolo> a ns1:CountryOrPlace .
+
+<http://example.org/f1/entity/Paris> a ns1:CountryOrPlace .
+
+<http://example.org/f1/entity/Parkes> a ns1:CountryOrPlace .
+
+<http://example.org/f1/entity/Parragon> a ns1:CountryOrPlace .
+
+<http://example.org/f1/entity/Partridge> a ns1:CountryOrPlace .
+
+<http://example.org/f1/entity/Pascal_Wehrlein> a ns1:Driver .
+
+<http://example.org/f1/entity/Patricio_OWard_Ryo_Hirakawa> a ns1:Driver .
+
+<http://example.org/f1/entity/Patrick_Tambay> a ns1:Driver .
+
+<http://example.org/f1/entity/Paul_Aron> a ns1:Driver .
+
+<http://example.org/f1/entity/Paul_Weaver> a ns1:Driver .
+
+<http://example.org/f1/entity/Pedro_de_la_Rosa> a ns1:Driver .
+
+<http://example.org/f1/entity/Pedro_de_la_Rosa_Alexander_Wurz> a ns1:Driver .
+
+<http://example.org/f1/entity/Pembrey> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Pennant_Publishing_Ltd> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Penske> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Penske_Entertainment> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Percy> a ns1:CountryOrPlace .
+
+<http://example.org/f1/entity/Perez> a ns1:CountryOrPlace,
+        ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Perez_16th131> a ns1:Driver .
+
+<http://example.org/f1/entity/Perez_Magnussen> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Perez_Verstappen> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Perez_finished154> a ns1:Driver .
+
+<http://example.org/f1/entity/Perez_for_Red_Bull> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Perini> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Pernod_Ricard> a ns1:Driver .
+
+<http://example.org/f1/entity/Peter_Gethin> a ns1:Driver .
+
+<http://example.org/f1/entity/Peter_Gethin_Dan_Gurney_Andrea_de_Adamich_Nanni_Galli> a ns1:Driver .
+
+<http://example.org/f1/entity/Peter_Gethin_Jackie_Oliver> a ns1:Driver .
+
+<http://example.org/f1/entity/Peter_Prodomou> a ns1:Driver .
+
+<http://example.org/f1/entity/Peter_Prodromou> a ns1:Driver .
+
+<http://example.org/f1/entity/Peter_Revson> a ns1:Driver .
+
+<http://example.org/f1/entity/Peter_Revson_Jody_Scheckter> a ns1:Driver .
+
+<http://example.org/f1/entity/Peter_Schetty> a ns1:Driver .
+
+<http://example.org/f1/entity/Peter_Whitehead> a ns1:Driver .
+
+<http://example.org/f1/entity/Peter_Windsor> a ns1:Driver .
+
+<http://example.org/f1/entity/Petit_Le_Mans> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Petronas> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Petronas_Formula> a ns1:Driver .
+
+<http://example.org/f1/entity/Petronas_Global> a ns1:Driver .
+
+<http://example.org/f1/entity/Petronas_Power_Towards> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Peugeot> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Peugeot_Sport> a ns1:Driver .
+
+<http://example.org/f1/entity/Pex_Racing> a ns1:Driver .
+
+<http://example.org/f1/entity/Pfaff-McLaren> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Pfaff_Motorsports> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Phelan_Mark> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Phil_Hanson> a ns1:Driver .
+
+<http://example.org/f1/entity/Phil_Hill> a ns1:Driver .
+
+<http://example.org/f1/entity/Philip_Morris> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Philip_Morris5051> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Philip_Morris_International> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Philippines> a ns1:CountryOrPlace .
+
+<http://example.org/f1/entity/Phillip_Morris> a ns1:Driver .
+
+<http://example.org/f1/entity/Phillips> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Phoenix> a ns1:CountryOrPlace .
+
+<http://example.org/f1/entity/Piastri> a ns1:CountryOrPlace .
+
+<http://example.org/f1/entity/Pier_Guidi> a ns1:Driver .
+
+<http://example.org/f1/entity/Pierre_Gasly> a ns1:Driver .
+
+<http://example.org/f1/entity/Pierre_Levegh> a ns1:Driver .
+
+<http://example.org/f1/entity/Pirelli> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Pironi> a ns1:CountryOrPlace .
+
+<http://example.org/f1/entity/Pista> a ns1:CountryOrPlace .
+
+<http://example.org/f1/entity/Plant_Based_News> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/PodBean> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Pointing> a ns1:CountryOrPlace .
+
+<http://example.org/f1/entity/Points> a ns1:CountryOrPlace .
+
+<http://example.org/f1/entity/Porsche> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Portello> a ns1:CountryOrPlace .
+
+<http://example.org/f1/entity/Portier> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Portuguese_Grand_Prix> a ns1:GrandPrix ;
+    ns1:isPartOfSeason <http://example.org/f1/entity/2021> .
+
+<http://example.org/f1/entity/Portuguese_Grand_Prix_Race_Highlights> a ns1:GrandPrix ;
+    ns1:isPartOfSeason <http://example.org/f1/entity/2020> .
+
+<http://example.org/f1/entity/Pos> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Post-Race> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Powerlist> a ns1:CountryOrPlace .
+
+<http://example.org/f1/entity/Practice> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Press_Association> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Presse_Stuttgart> a ns1:Driver .
+
+<http://example.org/f1/entity/Project_Four> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Project_Four_Formula_Two> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Prost> a ns1:CountryOrPlace,
+        ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Prost_Barnard> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Proud_Alonso> a ns1:Driver .
+
+<http://example.org/f1/entity/Pseudonym> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Pullam> a ns1:CountryOrPlace .
+
+<http://example.org/f1/entity/Qatar> a ns1:CountryOrPlace .
+
+<http://example.org/f1/entity/Qatar_Grand_Prix> a ns1:GrandPrix ;
+    ns1:isPartOfSeason <http://example.org/f1/entity/2022>,
+        <http://example.org/f1/entity/2023>,
+        <http://example.org/f1/entity/2024> .
+
+<http://example.org/f1/entity/Qatar_Grand_Prix_Facts_and_Stats> a ns1:GrandPrix ;
+    ns1:isPartOfSeason <http://example.org/f1/entity/2023> .
+
+<http://example.org/f1/entity/Qatar_Grand_Prix_Preview> a ns1:GrandPrix ;
+    ns1:isPartOfSeason <http://example.org/f1/entity/2023> .
+
+<http://example.org/f1/entity/Qatar_Sprint> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Qualifying_Highlights> a ns1:Driver .
+
+<http://example.org/f1/entity/Quick_Guide> a ns1:Driver .
+
+<http://example.org/f1/entity/RA> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/RXR_team430> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Race_Fans> a ns1:Driver .
+
+<http://example.org/f1/entity/Race_Highlights> a ns1:Driver .
+
+<http://example.org/f1/entity/Racecar_New_Media_Services_Ltd> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Racecom> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Racefansnet> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Racing> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Racing_F1_Team> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Racing_Point> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Racing_Sport_Cars> a ns1:Driver .
+
+<http://example.org/f1/entity/Radio_4> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Rahul> a ns1:CountryOrPlace .
+
+<http://example.org/f1/entity/Raikkonen> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Rainer_W> a ns1:Driver .
+
+<http://example.org/f1/entity/Ramsey_Jonathon> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Rast> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Raymond_Sommer> a ns1:Driver .
+
+<http://example.org/f1/entity/Read_Motorsport> a ns1:Driver .
+
+<http://example.org/f1/entity/Real_Sports> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Red_Bull> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Red_Bull91_Red_Bull_Racing> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Red_Bull_> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Red_Bull_F1> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Red_Bull_Junior_Team> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Red_Bull_Racing> a ns1:Team ;
+    ns1:wonConstructorsChampionshipIn <http://example.org/f1/entity/2008>,
+        <http://example.org/f1/entity/2012>,
+        <http://example.org/f1/entity/2014> .
+
+<http://example.org/f1/entity/Red_Bull_Team> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Red_Bull_for_Japan> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Red_Bull_rue_> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Red_Bulls> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Red_Bulls_fifteenth> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Red_Devil> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Reemtsma> a ns1:CountryOrPlace .
+
+<http://example.org/f1/entity/Reg_Parnell> a ns1:Driver .
+
+<http://example.org/f1/entity/Renault> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Rencken_Dieter> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Rene_Berger> a ns1:Driver .
+
+<http://example.org/f1/entity/Residence_Hamilton> a ns1:Driver .
+
+<http://example.org/f1/entity/Ret> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Retaining_Norris> a ns1:Driver .
+
+<http://example.org/f1/entity/Reuters> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Revson> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Rich_List_2020> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Richard_Mille> a ns1:Driver .
+
+<http://example.org/f1/entity/Richard_S> a ns1:Driver .
+
+<http://example.org/f1/entity/Richard_Williams> a ns1:Driver .
+
+<http://example.org/f1/entity/Richards_Giles> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Richie_Ginther> a ns1:Driver .
+
+<http://example.org/f1/entity/Riedel_Communications> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Rika_Volker> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Rindt> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Rio_Ferdinand> a ns1:CountryOrPlace .
+
+<http://example.org/f1/entity/Risi_Competizione> a ns1:Driver .
+
+<http://example.org/f1/entity/Road_Track> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Rob_Burrow> a ns1:Driver .
+
+<http://example.org/f1/entity/Rob_Marshall> a ns1:Driver .
+
+<http://example.org/f1/entity/Robert_Kubica> a ns1:Driver .
+
+<http://example.org/f1/entity/Roberto_Nosetto> a ns1:Driver .
+
+<http://example.org/f1/entity/Robin_Herd> a ns1:Driver .
+
+<http://example.org/f1/entity/Rode_Duivel> a ns1:Driver .
+
+<http://example.org/f1/entity/Roger_Penske> a ns1:Driver .
+
+<http://example.org/f1/entity/Romain_Grosjean> a ns1:Driver .
+
+<http://example.org/f1/entity/Romolo_Tavoni> a ns1:Driver .
+
+<http://example.org/f1/entity/Ron_Dennis> a ns1:Driver .
+
+<http://example.org/f1/entity/Ronnie_Peterson> a ns1:Driver .
+
+<http://example.org/f1/entity/Rookie_Piastri> a ns1:Driver .
+
+<http://example.org/f1/entity/Rosbergs207_Buxton> a ns1:Driver .
+
+<http://example.org/f1/entity/Ross_Brawn> a ns1:Driver .
+
+<http://example.org/f1/entity/Ross_Brawn21> a ns1:Driver .
+
+<http://example.org/f1/entity/Rossi> a ns1:CountryOrPlace .
+
+<http://example.org/f1/entity/Rubens_Barrichello> a ns1:Driver,
+        ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Rudolf_Caracciola> a ns1:Driver .
+
+<http://example.org/f1/entity/Rusell> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Russia> a ns1:CountryOrPlace .
+
+<http://example.org/f1/entity/Russian_Grand_Prix> a ns1:GrandPrix ;
+    ns1:isPartOfSeason <http://example.org/f1/entity/2015>,
+        <http://example.org/f1/entity/2019>,
+        <http://example.org/f1/entity/2021>,
+        <http://example.org/f1/entity/2023>,
+        <http://example.org/f1/entity/2025> .
+
+<http://example.org/f1/entity/Russian_Grand_Prix_2020> a ns1:GrandPrix .
+
+<http://example.org/f1/entity/Rutherford> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/S> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/SA> a ns1:CountryOrPlace .
+
+<http://example.org/f1/entity/SF-24> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/SL_Coupe> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/SRG> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Saajan> a ns1:CountryOrPlace .
+
+<http://example.org/f1/entity/Sacha_Fenestraz> a ns1:Driver .
+
+<http://example.org/f1/entity/Sainte_Devote> a ns1:Driver .
+
+<http://example.org/f1/entity/Sainz> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Sainz_Jr> a ns1:Driver .
+
+<http://example.org/f1/entity/Sainz_XE_Team_respectively244> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Sakhir> a ns1:CountryOrPlace,
+        ns1:Driver .
+
+<http://example.org/f1/entity/Sam_Bird> a ns1:Driver .
+
+<http://example.org/f1/entity/Samantha> a ns1:CountryOrPlace .
+
+<http://example.org/f1/entity/Samuel_L_Jackson> a ns1:Driver .
+
+<http://example.org/f1/entity/San_Marino> a ns1:CountryOrPlace .
+
+<http://example.org/f1/entity/San_Marino_Grand_Prix> a ns1:GrandPrix ;
+    ns1:isPartOfSeason <http://example.org/f1/entity/1982> .
+
+<http://example.org/f1/entity/Sanchez> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Sao_Paulo> a ns1:CountryOrPlace,
+        ns1:Driver .
+
+<http://example.org/f1/entity/Sao_Paulo_Grand_Prix> a ns1:GrandPrix .
+
+<http://example.org/f1/entity/Sao_Paulo_ePrix> a ns1:Driver .
+
+<http://example.org/f1/entity/Sara_Moonves> a ns1:Driver .
+
+<http://example.org/f1/entity/Sardinia> a ns1:CountryOrPlace .
+
+<http://example.org/f1/entity/Saudi_Arabia> a ns1:CountryOrPlace .
+
+<http://example.org/f1/entity/Saudi_Arabian_Grand_Prix> a ns1:GrandPrix ;
+    ns1:isPartOfSeason <http://example.org/f1/entity/2021>,
+        <http://example.org/f1/entity/2023> .
+
+<http://example.org/f1/entity/Saunders> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Save_the_Children> a ns1:Driver,
+        ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Saward_Joe_> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Schmidt_Peterson_Motorsports> a ns1:Driver .
+
+<http://example.org/f1/entity/Schulz> a ns1:CountryOrPlace .
+
+<http://example.org/f1/entity/Schumacher355356> a ns1:CountryOrPlace .
+
+<http://example.org/f1/entity/Scotsmancom> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Scott> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Scott_Mitchell> a ns1:Driver .
+
+<http://example.org/f1/entity/Scuderia> a ns1:CountryOrPlace .
+
+<http://example.org/f1/entity/Scuderia_Ferrari> a ns1:Driver,
+        ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Scuderia_Ferrari_Marlboro> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Scuderia_Ferrari_Mission_Winnow> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Scuderia_Italia> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Scuderia_Toro_Rosso> a ns1:Driver,
+        ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Sebastian_Vettel> a ns1:Driver ;
+    ns1:wonGrandPrix <http://example.org/f1/entity/Grand_Prix> .
+
+<http://example.org/f1/entity/Sebastian_Vettel_Hamilton> a ns1:Driver .
+
+<http://example.org/f1/entity/Selleck_Emily> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Senna> a ns1:CountryOrPlace .
+
+<http://example.org/f1/entity/Senna_Helmet_Design> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Sepang> a ns1:CountryOrPlace .
+
+<http://example.org/f1/entity/Sergio_Perez> a ns1:Driver .
+
+<http://example.org/f1/entity/Shanghai> a ns1:CountryOrPlace .
+
+<http://example.org/f1/entity/Shanghai_Sprint> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Sharan> a ns1:CountryOrPlace .
+
+<http://example.org/f1/entity/Shaw> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Shell> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Shiffrin> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Siddique> a ns1:CountryOrPlace .
+
+<http://example.org/f1/entity/Sifan_Hassan> a ns1:Driver .
+
+<http://example.org/f1/entity/Silverstone> a ns1:CountryOrPlace,
+        ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Silverstone_Circuit> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Silverstone_International> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Simmons> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Simon_Pagenaud> a ns1:Driver .
+
+<http://example.org/f1/entity/Simpson_Menelik> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Singapore> a ns1:CountryOrPlace .
+
+<http://example.org/f1/entity/Singapore_F1> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Singapore_Grand> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Singapore_Grand_Prix> a ns1:GrandPrix ;
+    ns1:isPartOfSeason <http://example.org/f1/entity/2018> .
+
+<http://example.org/f1/entity/Singapore_Grand_Prix_2019> a ns1:GrandPrix .
+
+<http://example.org/f1/entity/Sky_Group> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Sky_News> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Sky_Sports> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Sky_Sports_F1> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Smart_Ryan> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Smith_Adam_> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Smith_David> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Smith_Fred> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Smith_Harry> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Sochi> a ns1:CountryOrPlace .
+
+<http://example.org/f1/entity/Sophie_Kumpen> a ns1:Driver .
+
+<http://example.org/f1/entity/South_Africa> a ns1:CountryOrPlace .
+
+<http://example.org/f1/entity/South_African_Grand_Prix> a ns1:GrandPrix ;
+    ns1:isPartOfSeason <http://example.org/f1/entity/1982> .
+
+<http://example.org/f1/entity/SoyMotor> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Spa-Francorchamps> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Spa_Francorchamps_Grand_Prix> a ns1:GrandPrix .
+
+<http://example.org/f1/entity/Spain> a ns1:CountryOrPlace .
+
+<http://example.org/f1/entity/Spanish_F1> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Spanish_Grand_Prix_2020> a ns1:GrandPrix .
+
+<http://example.org/f1/entity/Spanish_Grand_Prix_Entry_List> a ns1:GrandPrix ;
+    ns1:isPartOfSeason <http://example.org/f1/entity/2023> .
+
+<http://example.org/f1/entity/Spanish_Grand_Prix_Entry_List_Corrected> a ns1:GrandPrix ;
+    ns1:isPartOfSeason <http://example.org/f1/entity/2024> .
+
+<http://example.org/f1/entity/Spanish_Grand_Prix_P1_Classification> a ns1:GrandPrix ;
+    ns1:isPartOfSeason <http://example.org/f1/entity/2024> .
+
+<http://example.org/f1/entity/Spanish_Grand_Prix_Race_Highlights> a ns1:GrandPrix .
+
+<http://example.org/f1/entity/Spark_Odyssey> a ns1:Driver .
+
+<http://example.org/f1/entity/Sparkford> a ns1:CountryOrPlace .
+
+<http://example.org/f1/entity/Speedsport_Magazine> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Speedway> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Sperling_Daniel_> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Sporting> a ns1:CountryOrPlace .
+
+<http://example.org/f1/entity/Sporting_Life> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Sportman_van> a ns1:Driver .
+
+<http://example.org/f1/entity/Sports_Business_Journal> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Sports_Illustrated> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Sportsman_of_the_Year> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Sportspromediacom> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Spotify> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Sprint> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Sprint_Qualifying> a ns1:Driver .
+
+<http://example.org/f1/entity/Sprint_Shootout> a ns1:Driver .
+
+<http://example.org/f1/entity/St_Jovite> a ns1:CountryOrPlace .
+
+<http://example.org/f1/entity/St_Mungo> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/St_Petersburg> a ns1:CountryOrPlace .
+
+<http://example.org/f1/entity/St_Thomas_Hospital> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Stake_F1_Team> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Stats_F1> a ns1:Driver .
+
+<http://example.org/f1/entity/Stefan_Johansson> a ns1:Driver .
+
+<http://example.org/f1/entity/Stefano_Domenicali> a ns1:Driver .
+
+<http://example.org/f1/entity/Steffi_Graf> a ns1:Driver .
+
+<http://example.org/f1/entity/Steijn_Schothorst> a ns1:Driver .
+
+<http://example.org/f1/entity/Stephen_South> a ns1:Driver .
+
+<http://example.org/f1/entity/Steve_Matchett> a ns1:Driver .
+
+<http://example.org/f1/entity/Steve_Nichols> a ns1:Driver .
+
+<http://example.org/f1/entity/Stevenage> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Stevenage_Borough_Council> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Stirling_Moss> a ns1:Driver .
+
+<http://example.org/f1/entity/Stoffel_Vandoorne> a ns1:Driver .
+
+<http://example.org/f1/entity/Stoffel_Vandoorne_Fernando_Alonso> a ns1:Driver .
+
+<http://example.org/f1/entity/Stritzke_Heiko> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Stroll> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Stroll174_Leclerc> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Suhalka> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Super> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Super_Dads> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Super_Max> a ns1:Driver .
+
+<http://example.org/f1/entity/Superfine> a ns1:CountryOrPlace .
+
+<http://example.org/f1/entity/Surrey> a ns1:CountryOrPlace .
+
+<http://example.org/f1/entity/Sutton> a ns1:CountryOrPlace .
+
+<http://example.org/f1/entity/Suzuka> a ns1:CountryOrPlace .
+
+<http://example.org/f1/entity/Swatch_Group> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Sweden> a ns1:CountryOrPlace .
+
+<http://example.org/f1/entity/Swiss_Grands> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Switzerland> a ns1:CountryOrPlace .
+
+<http://example.org/f1/entity/T> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/TAG-Porsche> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/TAG_Group> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/TC> a ns1:CountryOrPlace .
+
+<http://example.org/f1/entity/Takashi_Murakami> a ns1:Driver .
+
+<http://example.org/f1/entity/Tamara_Molinaro> a ns1:Driver .
+
+<http://example.org/f1/entity/Tanner_Foust> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Tasmania> a ns1:CountryOrPlace .
+
+<http://example.org/f1/entity/Taylor_Barnard> a ns1:Driver .
+
+<http://example.org/f1/entity/Taylor_Kiel> a ns1:Driver .
+
+<http://example.org/f1/entity/Tazio_Nuvolari> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Team_McLaren_Mercedes> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Team_Mercedes> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Team_Penske> a ns1:Driver .
+
+<http://example.org/f1/entity/Team_Redline> a ns1:Driver,
+        ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Team_X44> a ns1:Driver .
+
+<http://example.org/f1/entity/Teammate> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Teammate_Ricciardo> a ns1:Driver .
+
+<http://example.org/f1/entity/Technical> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Technical_Executive_Team> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Techniques_dAvant_Garde> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Teddy_Mayer> a ns1:Driver .
+
+<http://example.org/f1/entity/Telegraph> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Telewizja_Polska> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/The_98th_Academy_Awards> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/The_Austrian_Grand_Prix> a ns1:GrandPrix .
+
+<http://example.org/f1/entity/The_Azerbaijan_Grand_Prix> a ns1:GrandPrix .
+
+<http://example.org/f1/entity/The_Biography_Channel> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/The_Bruce_McLaren_Movie> a ns1:Driver .
+
+<http://example.org/f1/entity/The_Checkered_Flag> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/The_Chinese_Grand_Prix> a ns1:GrandPrix .
+
+<http://example.org/f1/entity/The_Daily_Mirror> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/The_Daily_Telegraph> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/The_Economic_Times> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/The_Emilia_Romagna_Grand_Prix> a ns1:GrandPrix ;
+    ns1:isPartOfSeason <http://example.org/f1/entity/2019>,
+        <http://example.org/f1/entity/2024> .
+
+<http://example.org/f1/entity/The_Express> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/The_Ferrari_Formula_One> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/The_French_Grand_Prix> a ns1:GrandPrix ;
+    ns1:isPartOfSeason <http://example.org/f1/entity/2023> .
+
+<http://example.org/f1/entity/The_Grand_Prix> a ns1:GrandPrix ;
+    ns1:isPartOfSeason <http://example.org/f1/entity/2024> .
+
+<http://example.org/f1/entity/The_Grand_Prix_Cars> a ns1:GrandPrix .
+
+<http://example.org/f1/entity/The_Greatest_F1_Race_Ever> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/The_Hamilton_Commission> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/The_History_Press_Ltd> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/The_Hungarian_Grand_Prix> a ns1:GrandPrix ;
+    ns1:isPartOfSeason <http://example.org/f1/entity/2021> .
+
+<http://example.org/f1/entity/The_Indianapolis_Star> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/The_Italian_Grand_Prix_at_Monza> a ns1:GrandPrix .
+
+<http://example.org/f1/entity/The_London_Gazette_Supplement> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/The_Marshall_Pruett_Podcast> a ns1:Driver .
+
+<http://example.org/f1/entity/The_Mercedes-Kingspan_Group> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/The_Mercedes_W17> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/The_Miami_Grand_Prix> a ns1:GrandPrix .
+
+<http://example.org/f1/entity/The_NY_Times> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/The_New_York_Times> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/The_News_Wheel> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/The_Official_Home_of_Formula_E_14> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/The_Official_Home_of_Formula_E_27_April_2024> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/The_Official_Home_of_Formula_E_28> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/The_Oxford_Blue> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/The_Peoples_Champion> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/The_Piranha_Club> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/The_Red_Bull> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/The_Sao_Paulo_Grand_Prix> a ns1:GrandPrix .
+
+<http://example.org/f1/entity/The_Sunday_Times> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/The_United_States_Grand_Prix> a ns1:GrandPrix .
+
+<http://example.org/f1/entity/The_Viale_Trento_e_Trieste> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/The_World_Constructors_Championship> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/The_World_Factbook> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/The_World_Motorsport_Council> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Theo_Pourchaire229230_Electric> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Thierry_Vermeulen> a ns1:Driver .
+
+<http://example.org/f1/entity/Third_Title> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Thomas_Maher> a ns1:Driver .
+
+<http://example.org/f1/entity/Tibco> a ns1:CountryOrPlace .
+
+<http://example.org/f1/entity/Time_Magazine> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Time_Trial_Challenge> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Times> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Times_Newspapers> a ns1:Driver .
+
+<http://example.org/f1/entity/Times_Rich_List> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Timmy_Mayer> a ns1:Driver .
+
+<http://example.org/f1/entity/Timo_Glock> a ns1:Driver ;
+    ns1:wonGrandPrix <http://example.org/f1/entity/Brazilian_Grand_Prix> .
+
+<http://example.org/f1/entity/Titles> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Tom_Cruise> a ns1:Driver .
+
+<http://example.org/f1/entity/Tom_Ilube> a ns1:Driver .
+
+<http://example.org/f1/entity/Tommy_Hilfiger> a ns1:Driver .
+
+<http://example.org/f1/entity/Toni_Vilander> a ns1:Driver .
+
+<http://example.org/f1/entity/Top_Gear> a ns1:Driver .
+
+<http://example.org/f1/entity/Tor> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Toro_Rosso> a ns1:Driver .
+
+<http://example.org/f1/entity/Toro_Rosso_F1> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Tost> a ns1:CountryOrPlace .
+
+<http://example.org/f1/entity/Toto_Wolff> a ns1:Driver .
+
+<http://example.org/f1/entity/Tremayne> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Tremayne_Hughes> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Tremlett_Giles> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Triple_World_Champion> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Tsunoda> a ns1:CountryOrPlace,
+        ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Turkey> a ns1:CountryOrPlace .
+
+<http://example.org/f1/entity/Turkish_Grand_Prix> a ns1:GrandPrix ;
+    ns1:isPartOfSeason <http://example.org/f1/entity/2021> .
+
+<http://example.org/f1/entity/Turner> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Tuscan_Grand_Prix> a ns1:GrandPrix ;
+    ns1:isPartOfSeason <http://example.org/f1/entity/2020> .
+
+<http://example.org/f1/entity/Tuscan_Grand_Prix_Race_Highlights> a ns1:GrandPrix ;
+    ns1:isPartOfSeason <http://example.org/f1/entity/2020> .
+
+<http://example.org/f1/entity/Tutto_McLaren> a ns1:Driver .
+
+<http://example.org/f1/entity/Tyre> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Tyre_Press> a ns1:Driver .
+
+<http://example.org/f1/entity/Tyrrell_Racing> a ns1:Driver .
+
+<http://example.org/f1/entity/Tytler_Ewan> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/U> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/UK_F1> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/UNI> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/US> a ns1:CountryOrPlace .
+
+<http://example.org/f1/entity/US_Grand_Prix> a ns1:GrandPrix .
+
+<http://example.org/f1/entity/Ultimate> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Ultimatecarpagecom> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/United_Autosports> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/United_Autosports302303_Characteristics> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/United_Parcel_Service> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/United_States> a ns1:CountryOrPlace .
+
+<http://example.org/f1/entity/United_States_Grand_Prix> a ns1:GrandPrix ;
+    ns1:isPartOfSeason <http://example.org/f1/entity/1964>,
+        <http://example.org/f1/entity/2021> .
+
+<http://example.org/f1/entity/United_States_Grand_Prix_West> a ns1:GrandPrix ;
+    ns1:isPartOfSeason <http://example.org/f1/entity/1958>,
+        <http://example.org/f1/entity/1961>,
+        <http://example.org/f1/entity/1979>,
+        <http://example.org/f1/entity/1982> .
+
+<http://example.org/f1/entity/United_States_Road_Racing_Championship> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/United_States_Tobacco_Master_Settlement_Agreement> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/University_Medical_Center> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Us_Weekly> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/VF-24_Technical> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Vadja> a ns1:CountryOrPlace .
+
+<http://example.org/f1/entity/Valantine> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Valterri_Bottas> a ns1:Driver .
+
+<http://example.org/f1/entity/Valtteri_Bottas> a ns1:Driver,
+        ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Valtteri_Bottas157_Verstappen> a ns1:Driver .
+
+<http://example.org/f1/entity/Van_Amersfoort> a ns1:Driver .
+
+<http://example.org/f1/entity/Vanwall> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Variante_Tamburello> a ns1:Driver .
+
+<http://example.org/f1/entity/Vasseur> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Vauxhall_Cavalier> a ns1:Driver .
+
+<http://example.org/f1/entity/Vegan_Food_and_Living> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Velo_Brands> a ns1:Driver .
+
+<http://example.org/f1/entity/Verlin_Kurt> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Versappen> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Verstappen> a ns1:CountryOrPlace,
+        ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Verstappen_Bahrain> a ns1:Driver .
+
+<http://example.org/f1/entity/Verstappen_Crash> a ns1:Driver .
+
+<http://example.org/f1/entity/Verstappen_Hamilton_Collide> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Verstappen_Info_Page> a ns1:Driver .
+
+<http://example.org/f1/entity/Verstappen_Max> a ns1:Driver .
+
+<http://example.org/f1/entity/Verstappen_Racing> a ns1:Driver .
+
+<http://example.org/f1/entity/Verstappen_Racing_Mercedes-AMG_Powers> a ns1:Driver .
+
+<http://example.org/f1/entity/Verstappen_Regulation> a ns1:Driver .
+
+<http://example.org/f1/entity/Verstappen_Sim_Racing> a ns1:Driver .
+
+<http://example.org/f1/entity/Verstappen_fourth> a ns1:Driver .
+
+<http://example.org/f1/entity/Verstappen_second305_After> a ns1:Driver .
+
+<http://example.org/f1/entity/Verstappencom> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Vettel> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Viale_Trento_e> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Victoria> a ns1:CountryOrPlace .
+
+<http://example.org/f1/entity/Victoria_Jane_Verstappen> a ns1:Driver .
+
+<http://example.org/f1/entity/Victoria_Police> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Vinel> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Virgin_Books> a ns1:Driver .
+
+<http://example.org/f1/entity/Virgin_Galactic> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Virgin_Group> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Virgin_Media> a ns1:Driver .
+
+<http://example.org/f1/entity/Virtual_Le_Mans> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Visa_Cash_App_RB> a ns1:Driver .
+
+<http://example.org/f1/entity/Visa_Cash_App_RB_Formula> a ns1:Driver .
+
+<http://example.org/f1/entity/Vitaly_Petrov> a ns1:Driver .
+
+<http://example.org/f1/entity/Vitantonio> a ns1:CountryOrPlace,
+        ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Vitantonio_Liuzzi> a ns1:Driver .
+
+<http://example.org/f1/entity/Vodafone> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Vodafone_McLaren> a ns1:Driver .
+
+<http://example.org/f1/entity/Vogue_Business> a ns1:Driver .
+
+<http://example.org/f1/entity/W13> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/W15> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/W17> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/WAC_R1> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/WGSBN_Bulletin> a ns1:Driver .
+
+<http://example.org/f1/entity/Wacky_Races> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Waite> a ns1:CountryOrPlace .
+
+<http://example.org/f1/entity/Walsh> a ns1:CountryOrPlace .
+
+<http://example.org/f1/entity/Ward> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Watchmaker> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Watson> a ns1:CountryOrPlace .
+
+<http://example.org/f1/entity/Wayback_Machine> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Weichai_Group> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/West_Germany_-> a ns1:CountryOrPlace .
+
+<http://example.org/f1/entity/West_McLaren> a ns1:Driver .
+
+<http://example.org/f1/entity/Westcott> a ns1:CountryOrPlace .
+
+<http://example.org/f1/entity/Wihuri> a ns1:CountryOrPlace .
+
+<http://example.org/f1/entity/Wilde> a ns1:CountryOrPlace .
+
+<http://example.org/f1/entity/Will_Buxton> a ns1:Driver .
+
+<http://example.org/f1/entity/Will_Contest_NLS2> a ns1:Driver .
+
+<http://example.org/f1/entity/William_Esler> a ns1:Driver .
+
+<http://example.org/f1/entity/Williams> a ns1:Team ;
+    ns1:wonConstructorsChampionshipIn <http://example.org/f1/entity/1998>,
+        <http://example.org/f1/entity/1999>,
+        <http://example.org/f1/entity/2008>,
+        <http://example.org/f1/entity/2022>,
+        <http://example.org/f1/entity/2023> .
+
+<http://example.org/f1/entity/Williams-Mercedes> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Williams-Smith> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Williams_F1> a ns1:Driver .
+
+<http://example.org/f1/entity/Williams_Mercedes> a ns1:Driver .
+
+<http://example.org/f1/entity/Williams_Racing> a ns1:Driver .
+
+<http://example.org/f1/entity/Willy_T_Ribbs522_References> a ns1:Driver .
+
+<http://example.org/f1/entity/Wilson_Hughes> a ns1:Driver .
+
+<http://example.org/f1/entity/Wilson_Hughes_Lucas> a ns1:Driver .
+
+<http://example.org/f1/entity/Winners_Nominees> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Winnie_Harlow> a ns1:Driver .
+
+<http://example.org/f1/entity/Winward_Racing> a ns1:Driver .
+
+<http://example.org/f1/entity/Wiseman> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Woking> a ns1:CountryOrPlace .
+
+<http://example.org/f1/entity/Wolfgang_von_Trips> a ns1:Driver .
+
+<http://example.org/f1/entity/Wood_Ryan> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Woodhouse> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Wordreferencecom> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/World_Constructors> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/World_Drivers> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/World_Drivers_Champion> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/World_Drivers_Champion_Damon_Hill> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/World_Drivers_Champion_and_World_Constructors_Champion> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/World_Drivers_Championship> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/World_Drivers_Championships> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/X> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/X44_Vida_Carbon_Racing> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/XIX_Entertainment> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Yahoo_Sports> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Yardley_London> a ns1:Driver .
+
+<http://example.org/f1/entity/Yardley_Team> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Yasmin> a ns1:CountryOrPlace .
+
+<http://example.org/f1/entity/Yifei_Ye> a ns1:Driver .
+
+<http://example.org/f1/entity/Yuanpu_Cui> a ns1:Driver .
+
+<http://example.org/f1/entity/Yuki_Tsunoda> a ns1:Driver .
+
+<http://example.org/f1/entity/Zak_Brown> a ns1:Driver,
+        ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Zanardi> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Zandvoort> a ns1:CountryOrPlace .
+
+<http://example.org/f1/entity/Zeltweg_Osterreichring> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Zerex> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/Zhou_Guanyu> a ns1:Driver .
+
+<http://example.org/f1/entity/_-_Emerson_Fittipaldi> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/nan> a ns1:TeamOrOrganization .
+
+<http://example.org/f1/entity/1931> a ns1:Season .
+
+<http://example.org/f1/entity/1934> a ns1:Season .
+
+<http://example.org/f1/entity/1939> a ns1:Season .
+
+<http://example.org/f1/entity/1948> a ns1:Season .
+
+<http://example.org/f1/entity/1952> a ns1:Season .
+
+<http://example.org/f1/entity/1957> a ns1:Season .
+
+<http://example.org/f1/entity/1959> a ns1:Season .
+
+<http://example.org/f1/entity/1962> a ns1:Season .
+
+<http://example.org/f1/entity/1963> a ns1:Season .
+
+<http://example.org/f1/entity/1969> a ns1:Season .
+
+<http://example.org/f1/entity/1971> a ns1:Season .
+
+<http://example.org/f1/entity/1976> a ns1:Season .
+
+<http://example.org/f1/entity/1980> a ns1:Season .
+
+<http://example.org/f1/entity/1981> a ns1:Season .
+
+<http://example.org/f1/entity/1984> a ns1:Season .
+
+<http://example.org/f1/entity/1985> a ns1:Season .
+
+<http://example.org/f1/entity/1988> a ns1:Season .
+
+<http://example.org/f1/entity/1999> a ns1:Season .
+
+<http://example.org/f1/entity/2004> a ns1:Season .
+
+<http://example.org/f1/entity/2005> a ns1:Season .
+
+<http://example.org/f1/entity/2011> a ns1:Season .
+
+<http://example.org/f1/entity/2027> a ns1:Season .
+
+<http://example.org/f1/entity/ART_Grand_Prix> a ns1:GrandPrix ;
+    ns1:isPartOfSeason <http://example.org/f1/entity/2006> .
+
+<http://example.org/f1/entity/Dutch_Grand_Prix> a ns1:GrandPrix .
+
+<http://example.org/f1/entity/French_Grand_Prix> a ns1:GrandPrix ;
+    ns1:isPartOfSeason <http://example.org/f1/entity/1950>,
+        <http://example.org/f1/entity/1954>,
+        <http://example.org/f1/entity/1955>,
+        <http://example.org/f1/entity/1961>,
+        <http://example.org/f1/entity/2010>,
+        <http://example.org/f1/entity/2018>,
+        <http://example.org/f1/entity/2021> .
+
+<http://example.org/f1/entity/Grand_Prix157168> a ns1:GrandPrix ;
+    ns1:isPartOfSeason <http://example.org/f1/entity/1957>,
+        <http://example.org/f1/entity/2026> .
+
+<http://example.org/f1/entity/Japanese_Grand_Prix> a ns1:GrandPrix ;
+    ns1:isPartOfSeason <http://example.org/f1/entity/2018>,
+        <http://example.org/f1/entity/2022>,
+        <http://example.org/f1/entity/2023> .
+
+<http://example.org/f1/entity/Malaysian_Grand_Prix> a ns1:GrandPrix ;
+    ns1:isPartOfSeason <http://example.org/f1/entity/2017> .
+
+<http://example.org/f1/entity/Spanish_Grand_Prix> a ns1:GrandPrix ;
+    ns1:isPartOfSeason <http://example.org/f1/entity/2016>,
+        <http://example.org/f1/entity/2019>,
+        <http://example.org/f1/entity/2021>,
+        <http://example.org/f1/entity/2023>,
+        <http://example.org/f1/entity/2024> .
+
+<http://example.org/f1/entity/1954> a ns1:Season .
+
+<http://example.org/f1/entity/1955> a ns1:Season .
+
+<http://example.org/f1/entity/1967> a ns1:Season .
+
+<http://example.org/f1/entity/1968> a ns1:Season .
+
+<http://example.org/f1/entity/1970> a ns1:Season .
+
+<http://example.org/f1/entity/1973> a ns1:Season .
+
+<http://example.org/f1/entity/1974> a ns1:Season .
+
+<http://example.org/f1/entity/1977> a ns1:Season .
+
+<http://example.org/f1/entity/1991> a ns1:Season .
+
+<http://example.org/f1/entity/2006> a ns1:Season .
+
+<http://example.org/f1/entity/2013> a ns1:Season .
+
+<http://example.org/f1/entity/Belgian_Grand_Prix> a ns1:GrandPrix ;
+    ns1:isPartOfSeason <http://example.org/f1/entity/1950>,
+        <http://example.org/f1/entity/1961>,
+        <http://example.org/f1/entity/1963>,
+        <http://example.org/f1/entity/1968>,
+        <http://example.org/f1/entity/1974>,
+        <http://example.org/f1/entity/1997>,
+        <http://example.org/f1/entity/1998>,
+        <http://example.org/f1/entity/2003>,
+        <http://example.org/f1/entity/2007>,
+        <http://example.org/f1/entity/2010>,
+        <http://example.org/f1/entity/2021>,
+        <http://example.org/f1/entity/2023>,
+        <http://example.org/f1/entity/2024> .
+
+<http://example.org/f1/entity/Brazilian_Grand_Prix> a ns1:GrandPrix ;
+    ns1:isPartOfSeason <http://example.org/f1/entity/1973>,
+        <http://example.org/f1/entity/2012>,
+        <http://example.org/f1/entity/2016>,
+        <http://example.org/f1/entity/2018>,
+        <http://example.org/f1/entity/2019> .
+
+<http://example.org/f1/entity/British_Grand_Prix> a ns1:GrandPrix ;
+    ns1:isPartOfSeason <http://example.org/f1/entity/1950>,
+        <http://example.org/f1/entity/1954>,
+        <http://example.org/f1/entity/1970>,
+        <http://example.org/f1/entity/2008>,
+        <http://example.org/f1/entity/2014>,
+        <http://example.org/f1/entity/2019>,
+        <http://example.org/f1/entity/2021>,
+        <http://example.org/f1/entity/2022>,
+        <http://example.org/f1/entity/2023>,
+        <http://example.org/f1/entity/2024>,
+        <http://example.org/f1/entity/2026> .
+
+<http://example.org/f1/entity/Grand_Prix> a ns1:GrandPrix ;
+    ns1:isPartOfSeason <http://example.org/f1/entity/1931>,
+        <http://example.org/f1/entity/1952>,
+        <http://example.org/f1/entity/1968>,
+        <http://example.org/f1/entity/1988>,
+        <http://example.org/f1/entity/2006>,
+        <http://example.org/f1/entity/2019>,
+        <http://example.org/f1/entity/2022>,
+        <http://example.org/f1/entity/2024> .
+
+<http://example.org/f1/entity/Monaco_Grand_Prix> a ns1:GrandPrix ;
+    ns1:isPartOfSeason <http://example.org/f1/entity/1965>,
+        <http://example.org/f1/entity/1966>,
+        <http://example.org/f1/entity/1974>,
+        <http://example.org/f1/entity/1984>,
+        <http://example.org/f1/entity/1995>,
+        <http://example.org/f1/entity/2012>,
+        <http://example.org/f1/entity/2015>,
+        <http://example.org/f1/entity/2016>,
+        <http://example.org/f1/entity/2017>,
+        <http://example.org/f1/entity/2018>,
+        <http://example.org/f1/entity/2019>,
+        <http://example.org/f1/entity/2022>,
+        <http://example.org/f1/entity/2023>,
+        <http://example.org/f1/entity/2024> .
+
+<http://example.org/f1/entity/1979> a ns1:Season .
+
+<http://example.org/f1/entity/1983> a ns1:Season .
+
+<http://example.org/f1/entity/1995> a ns1:Season .
+
+<http://example.org/f1/entity/2009> a ns1:Season .
+
+<http://example.org/f1/entity/Abu_Dhabi_Grand_Prix> a ns1:GrandPrix ;
+    ns1:isPartOfSeason <http://example.org/f1/entity/2009>,
+        <http://example.org/f1/entity/2016>,
+        <http://example.org/f1/entity/2017>,
+        <http://example.org/f1/entity/2022>,
+        <http://example.org/f1/entity/2023>,
+        <http://example.org/f1/entity/2025> .
+
+<http://example.org/f1/entity/Austrian_Grand_Prix> a ns1:GrandPrix ;
+    ns1:isPartOfSeason <http://example.org/f1/entity/2017>,
+        <http://example.org/f1/entity/2019>,
+        <http://example.org/f1/entity/2022>,
+        <http://example.org/f1/entity/2023>,
+        <http://example.org/f1/entity/2024> .
+
+<http://example.org/f1/entity/1958> a ns1:Season .
+
+<http://example.org/f1/entity/1964> a ns1:Season .
+
+<http://example.org/f1/entity/1965> a ns1:Season .
+
+<http://example.org/f1/entity/1997> a ns1:Season .
+
+<http://example.org/f1/entity/2003> a ns1:Season .
+
+<http://example.org/f1/entity/1961> a ns1:Season .
+
+<http://example.org/f1/entity/2007> a ns1:Season .
+
+<http://example.org/f1/entity/2015> a ns1:Season .
+
+<http://example.org/f1/entity/1950> a ns1:Season .
+
+<http://example.org/f1/entity/1966> a ns1:Season .
+
+<http://example.org/f1/entity/1982> a ns1:Season .
+
+<http://example.org/f1/entity/1998> a ns1:Season .
+
+<http://example.org/f1/entity/2008> a ns1:Season .
+
+<http://example.org/f1/entity/2010> a ns1:Season .
+
+<http://example.org/f1/entity/2012> a ns1:Season .
+
+<http://example.org/f1/entity/2014> a ns1:Season .
+
+<http://example.org/f1/entity/2016> a ns1:Season .
+
+<http://example.org/f1/entity/2025> a ns1:Season .
+
+<http://example.org/f1/entity/2026> a ns1:Season .
+
+<http://example.org/f1/entity/2020> a ns1:Season .
+
+<http://example.org/f1/entity/2017> a ns1:Season .
+
+<http://example.org/f1/entity/2022> a ns1:Season .
+
+<http://example.org/f1/entity/2021> a ns1:Season .
+
+<http://example.org/f1/entity/2018> a ns1:Season .
+
+<http://example.org/f1/entity/2019> a ns1:Season .
+
+<http://example.org/f1/entity/2024> a ns1:Season .
+
+<http://example.org/f1/entity/2023> a ns1:Season .
+
