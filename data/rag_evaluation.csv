@@ -1,0 +1,20 @@
+question,baseline,rag_rows,rag_correct,repaired,error
+Which Grand Prix did Lewis Hamilton win?,"Lewis Hamilton has won **103** Grand Prixs in his career.  
+
+To answer your question more specifically, you'd need to be more specific about which year or years of races. 
+
+For example: 
+
+* ""Which Gra",3,True,False,
+Which season is the Monaco Grand Prix part of?,"The Monaco Grand Prix is part of the **current** Formula 1 season.  
+
+To be more specific, it's the **2023** Formula 1 season. It takes place during the week between May and June, each year. 
+
+
+Let me",14,True,False,
+Which team won the Constructors Championship in 1958?,"The **Ferrari** team won the Constructors' Championship in 1958. 
+",2,True,False,
+Which team won the Constructors Championship in 1961?,"The **Ferrari** team won the Constructors' Championship in 1961. 🏎️🏆 
+",1,True,False,
+Which Grand Prix did Max Verstappen win?,"Max Verstappen won the **Austrian Grand Prix** in 2021. 🏎️ 🏆 
+",3,True,False,
