@@ -28,7 +28,7 @@ project-root/
 
 ### 1. Clone the repository
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/Paul-An/f1_semantic_web_project.git
 cd f1_semantic_web_project
 ```
 
